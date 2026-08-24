@@ -426,12 +426,24 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ results, questions, onRet
                                     <h4 className="incorrect-question">
                                         {index + 1}. {language === 'vi' ? q.question_vi : q.question_zh}
                                     </h4>
-                                    <div className="incorrect-answer">
-                                        <strong>{t('correct_answers')}</strong>
-                                        <ul className="correct-answers-list" style={{ marginTop: '0.5rem', marginBottom: '0.5rem' }}>
-                                            {q.answer_indices.map(idx => (
-                                                <li key={idx} style={{ padding: '0.5rem' }}>{(language === 'vi' ? q.options_vi : q.options_zh)[idx]}</li>
-                                            ))}
+                                    <div className="incorrect-options">
+                                        <ul className="review-options-list" style={{ marginTop: '0.5rem', marginBottom: '0.5rem', listStyleType: 'none', padding: 0 }}>
+                                            {(language === 'vi' ? q.options_vi : q.options_zh).map((opt, idx) => {
+                                                const isCorrect = q.answer_indices.includes(idx);
+                                                return (
+                                                    <li key={idx} style={{ 
+                                                        padding: '0.75rem 1rem', 
+                                                        marginBottom: '0.5rem', 
+                                                        borderRadius: '6px',
+                                                        border: isCorrect ? '1px solid #c3e6cb' : '1px solid #dee2e6',
+                                                        backgroundColor: isCorrect ? '#e9f7ec' : '#fff',
+                                                        color: isCorrect ? '#155724' : '#212529',
+                                                        fontWeight: isCorrect ? '500' : 'normal'
+                                                    }}>
+                                                        {opt} {isCorrect && ' (Đáp án đúng)'}
+                                                    </li>
+                                                );
+                                            })}
                                         </ul>
                                     </div>
                                     <div className="incorrect-explanation">
