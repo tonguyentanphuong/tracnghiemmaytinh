@@ -345,7 +345,7 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onQuizComplete, lang
                 </div>
             </div>
 
-            {showExplanation && (
+            {showExplanation && questionStatus[currentQuestionIndex] !== 'correct' && (
                 <div className="explanation fade-in">
                     <h3 className="explanation-title">{t('explanation')}</h3>
                     <p>{language === 'vi' ? currentQuestion.explanation_vi : currentQuestion.explanation_zh}</p>
