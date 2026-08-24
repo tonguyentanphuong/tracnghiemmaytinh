@@ -512,3 +512,52 @@ html, body {
 }
 .setting-checkbox { font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer; color: var(--text-color); }
 .setting-checkbox input { width: 18px; height: 18px; cursor: pointer; }
+
+/* Incorrect Review Section */
+.incorrect-review-section {
+    margin-top: 3rem;
+    text-align: left;
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+}
+
+.review-title {
+    font-size: 1.5rem;
+    color: var(--incorrect-color);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.incorrect-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.incorrect-item {
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    border-left: 5px solid var(--incorrect-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.incorrect-question {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.incorrect-answer {
+    margin-bottom: 1rem;
+}
+
+.incorrect-explanation {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: var(--secondary-color);
+}

@@ -44,6 +44,7 @@ const translations = {
     'all_questions': { vi: 'Tất cả', zh: '全部' },
     'questions_label': { vi: 'câu', zh: '題' },
     'shuffle_options': { vi: 'Xáo trộn đáp án', zh: '隨機排列選項' },
+    'review_incorrect': { vi: 'Xem lại các câu sai', zh: '查看錯誤題目' },
 };
 
 
@@ -374,12 +375,13 @@ const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onQuizComplete, lang
 
 interface ResultsScreenProps {
     results: ('pending' | 'correct' | 'incorrect')[];
+    questions: Question[];
     onRetry: () => void;
     onBackToHome: () => void;
     language: Language;
 }
 
-const ResultsScreen: React.FC<ResultsScreenProps> = ({ results, onRetry, onBackToHome, language }) => {
+const ResultsScreen: React.FC<ResultsScreenProps> = ({ results, questions, onRetry, onBackToHome, language }) => {
     const correctAnswers = results.filter(r => r === 'correct').length;
     const totalQuestions = results.length;
     const score = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
@@ -390,6 +392,10 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ results, onRetry, onBackT
         if (score >= 60) return t('results_good');
         return t('results_retry');
     }
+
+    const incorrectIndices = results
+        .map((status, index) => status === 'incorrect' ? index : -1)
+        .filter(index => index !== -1);
 
     return (
         <div className="results-screen">
@@ -408,6 +414,35 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ results, onRetry, onBackT
                 <button onClick={onRetry} className="btn btn-secondary">{t('retry_quiz')}</button>
                 <button onClick={onBackToHome} className="btn btn-primary">{t('back_to_home')}</button>
             </div>
+
+            {incorrectIndices.length > 0 && (
+                <div className="incorrect-review-section">
+                    <h3 className="review-title">{t('review_incorrect')}</h3>
+                    <div className="incorrect-list">
+                        {incorrectIndices.map(index => {
+                            const q = questions[index];
+                            return (
+                                <div key={index} className="incorrect-item">
+                                    <h4 className="incorrect-question">
+                                        {index + 1}. {language === 'vi' ? q.question_vi : q.question_zh}
+                                    </h4>
+                                    <div className="incorrect-answer">
+                                        <strong>{t('correct_answers')}</strong>
+                                        <ul className="correct-answers-list" style={{ marginTop: '0.5rem', marginBottom: '0.5rem' }}>
+                                            {q.answer_indices.map(idx => (
+                                                <li key={idx} style={{ padding: '0.5rem' }}>{(language === 'vi' ? q.options_vi : q.options_zh)[idx]}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                    <div className="incorrect-explanation">
+                                        <strong>{t('explanation')}:</strong> {language === 'vi' ? q.explanation_vi : q.explanation_zh}
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
+            )}
         </div>
     );
 };
@@ -491,7 +526,7 @@ const App = () => {
             case 'quiz':
                 return <QuizScreen questions={quizQuestions} onQuizComplete={handleQuizComplete} language={language} setLanguage={setLanguage} />;
             case 'results':
-                return <ResultsScreen results={quizResults} onRetry={handleRetry} onBackToHome={handleBackToHome} language={language} />;
+                return <ResultsScreen results={quizResults} questions={quizQuestions} onRetry={handleRetry} onBackToHome={handleBackToHome} language={language} />;
             case 'home':
             default:
                 return <HomeScreen onStartQuiz={handleStartQuiz} language={language} setLanguage={setLanguage} questionsBySection={questionsBySection}/>;
