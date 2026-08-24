@@ -45,6 +45,7 @@ const translations = {
     'questions_label': { vi: 'câu', zh: '題' },
     'shuffle_options': { vi: 'Xáo trộn đáp án', zh: '隨機排列選項' },
     'review_incorrect': { vi: 'Xem lại các câu sai', zh: '查看錯誤題目' },
+    'retry_incorrect': { vi: 'Làm lại các câu sai', zh: '重做錯題' },
 };
 
 
@@ -377,11 +378,12 @@ interface ResultsScreenProps {
     results: ('pending' | 'correct' | 'incorrect')[];
     questions: Question[];
     onRetry: () => void;
+    onRetryIncorrect: () => void;
     onBackToHome: () => void;
     language: Language;
 }
 
-const ResultsScreen: React.FC<ResultsScreenProps> = ({ results, questions, onRetry, onBackToHome, language }) => {
+const ResultsScreen: React.FC<ResultsScreenProps> = ({ results, questions, onRetry, onRetryIncorrect, onBackToHome, language }) => {
     const correctAnswers = results.filter(r => r === 'correct').length;
     const totalQuestions = results.length;
     const score = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
@@ -412,6 +414,11 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({ results, questions, onRet
             </div>
             <div className="results-actions">
                 <button onClick={onRetry} className="btn btn-secondary">{t('retry_quiz')}</button>
+                {incorrectIndices.length > 0 && (
+                    <button onClick={onRetryIncorrect} className="btn btn-secondary" style={{ backgroundColor: '#ffc107', borderColor: '#ffc107', color: '#000' }}>
+                        {t('retry_incorrect')}
+                    </button>
+                )}
                 <button onClick={onBackToHome} className="btn btn-primary">{t('back_to_home')}</button>
             </div>
 
@@ -529,6 +536,17 @@ const App = () => {
         setGameState('quiz');
     }
 
+    const handleRetryIncorrect = () => {
+        const incorrectQuestions = quizQuestions.filter((_, index) => quizResults[index] === 'incorrect');
+        const newShuffled = shuffleArray(incorrectQuestions);
+        if (isShuffleOptionsGlobal) {
+            setQuizQuestions(newShuffled.map(q => shuffleQuestionOptions(q)));
+        } else {
+            setQuizQuestions([...newShuffled]);
+        }
+        setGameState('quiz');
+    }
+
     const handleBackToHome = () => {
         setGameState('home');
     };
@@ -538,7 +556,7 @@ const App = () => {
             case 'quiz':
                 return <QuizScreen questions={quizQuestions} onQuizComplete={handleQuizComplete} language={language} setLanguage={setLanguage} />;
             case 'results':
-                return <ResultsScreen results={quizResults} questions={quizQuestions} onRetry={handleRetry} onBackToHome={handleBackToHome} language={language} />;
+                return <ResultsScreen results={quizResults} questions={quizQuestions} onRetry={handleRetry} onRetryIncorrect={handleRetryIncorrect} onBackToHome={handleBackToHome} language={language} />;
             case 'home':
             default:
                 return <HomeScreen onStartQuiz={handleStartQuiz} language={language} setLanguage={setLanguage} questionsBySection={questionsBySection}/>;
