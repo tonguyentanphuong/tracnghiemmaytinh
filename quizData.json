@@ -1,0 +1,3812 @@
+[
+  {
+    "id": "01_272",
+    "section": 1,
+    "question_vi": "Thiết bị nào sau đây là thiết bị an ninh mạng?",
+    "question_zh": "下列何者為網路的安全裝置?",
+    "options_vi": [
+      "ATM (Chế độ truyền không đồng bộ)",
+      "LBS (Dịch vụ dựa trên vị trí)",
+      "IDS (Hệ thống phát hiện xâm nhập)",
+      "IPS (Hệ thống ngăn chặn xâm nhập)"
+    ],
+    "options_zh": [
+      "① ATM (Asynchronous Transfer Mode)",
+      "② LBS(Location Based Service)",
+      "③ IDS (Intrusion Detection System)",
+      "④IPS (Intrusion Prevention System)。"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": "IDS (Hệ thống phát hiện xâm nhập) và IPS (Hệ thống ngăn chặn xâm nhập) đều là các thiết bị/hệ thống an ninh mạng chuyên dụng. IDS giám sát và cảnh báo, trong khi IPS chủ động ngăn chặn các mối đe dọa. ATM là công nghệ truyền dữ liệu, LBS là dịch vụ dựa trên vị trí, không phải thiết bị an ninh.",
+    "explanation_zh": "IDS (入侵偵測系統) 和 IPS (入侵預防系統) 都是專門的網路安全裝置/系統。IDS 負責監控和警報，而 IPS 則主動阻止威脅。ATM 是一種資料傳輸技術，LBS 是一種基於位置的服務，兩者都不是安全裝置。"
+  },
+  {
+    "id": "01_273",
+    "section": 1,
+    "question_vi": "Điều nào sau đây có thể bảo vệ tệp cấu hình thiết bị mạng và giảm thiểu các mối đe dọa an ninh mạng từ bên ngoài?",
+    "question_zh": "下列何者可保護網路裝置的組態檔案,可降低外部網路安全威脅?",
+    "options_vi": [
+      "Sử dụng giao thức SSH để truy cập tệp cấu hình thiết bị",
+      "Sử dụng tường lửa để hạn chế truy cập từ bên ngoài vào thiết bị mạng",
+      "Cho phép truy cập không hạn chế từ bảng điều khiển (console)",
+      "Sử dụng chức năng mã hóa tự động của Telnet làm dòng lệnh truy cập thiết bị"
+    ],
+    "options_zh": [
+      "① 使用SSH 傳輸協定來存取裝置組態檔",
+      "②使用防火牆限制外部對網路裝 置的存取",
+      "③允許主控台進行不受限制的存取",
+      "④利用 Telnet 自動加密功 能,作為存取裝置的命令列。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "SSH (Secure Shell) cung cấp một kết nối được mã hóa để truy cập và quản lý thiết bị, an toàn hơn Telnet. Tường lửa (Firewall) giúp lọc và chặn các truy cập không mong muốn từ bên ngoài. Cho phép truy cập không hạn chế (3) là một rủi ro. Telnet (4) vốn dĩ không mã hóa, khiến nó không an toàn.",
+    "explanation_zh": "SSH (安全外殼協定) 提供加密連線來存取和管理裝置，比 Telnet 更安全。防火牆有助於過濾和阻止來自外部的不必要存取。允許不受限制的存取 (3) 是一種風險。Telnet (4) 本身不加密，因此不安全。"
+  },
+  {
+    "id": "01_274",
+    "section": 1,
+    "question_vi": "Địa chỉ nào sau đây thuộc về IP riêng (Private IP)?",
+    "question_zh": "下列何者屬於私有IP?",
+    "options_vi": [
+      "172.20.14.36",
+      "12.0.0.1",
+      "168.172.20.40",
+      "192.168.32.24"
+    ],
+    "options_zh": [
+      "① 172.20.14.36",
+      "② 12.0.0.1",
+      "③168.172.20.40",
+      "④1 92.168.32.24。"
+    ],
+    "answer_indices": [
+      0,
+      3
+    ],
+    "explanation_vi": "Các dải IP riêng được định nghĩa bao gồm: 10.0.0.0 đến 10.255.255.255, 172.16.0.0 đến 172.31.255.255, và 192.168.0.0 đến 192.168.255.255. Do đó, 172.20.14.36 (thuộc dải 172.16) và 192.168.32.24 (thuộc dải 192.168) là IP riêng.",
+    "explanation_zh": "私有 IP 範圍定義為：10.0.0.0 到 10.255.255.255、172.16.0.0 到 172.31.255.255、以及 192.168.0.0 到 192.168.255.255。因此，172.20.14.36 (屬於 172.16 範圍) 和 192.168.32.24 (屬於 192.168 範圍) 是私有 IP。"
+  },
+  {
+    "id": "01_275",
+    "section": 1,
+    "question_vi": "Các giao thức nào sau đây thuộc tầng Ứng dụng (Application Layer) của mô hình OSI?",
+    "question_zh": "下列通訊協定哪些屬於OSI模型的應用層?",
+    "options_vi": [
+      "TFTP (Giao thức truyền tệp đơn giản)",
+      "Telnet",
+      "FTP (Giao thức truyền tệp)",
+      "TCP (Giao thức điều khiển truyền vận)"
+    ],
+    "options_zh": [
+      "①TFTP",
+      "② Telnet",
+      "③FTP",
+      "④ TCP"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "TFTP, Telnet, và FTP đều là các giao thức ở tầng Ứng dụng, cung cấp dịch vụ trực tiếp cho người dùng hoặc ứng dụng. TCP là giao thức thuộc tầng Giao vận (Transport Layer), chịu trách nhiệm truyền dữ liệu một cách tin cậy.",
+    "explanation_zh": "TFTP、Telnet 和 FTP 都是應用層協定，為使用者或應用程式提供直接服務。TCP 屬於傳輸層協定，負責可靠的資料傳輸。"
+  },
+  {
+    "id": "01_276",
+    "section": 1,
+    "question_vi": "Về gói tin ICMP, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關ICMP封包敘述,下列何者正確?",
+    "options_vi": [
+      "ICMP đảm bảo gói dữ liệu có thể được gửi đến một cách đáng tin cậy",
+      "ICMP được đóng gói bên trong gói dữ liệu UDP",
+      "ICMP cung cấp thông tin về các vấn đề mạng cho máy chủ (host)",
+      "ICMP được đóng gói bên trong gói dữ liệu IP"
+    ],
+    "options_zh": [
+      "①ICMP保證資料封包能確實送 達",
+      "②ICMP 封裝在UDP 資料封包內",
+      "③ICMP 提供網路問題的資訊給主 機",
+      "④ICMP 封裝在IP資料封包內。"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": "ICMP (Giao thức tin nhắn điều khiển Internet) được sử dụng để gửi các thông báo lỗi và thông tin vận hành (ví dụ: 'Destination Unreachable'). Nó hoạt động ở tầng Mạng (Network Layer) và được đóng gói trực tiếp trong gói IP, chứ không phải TCP hay UDP. Nó không đảm bảo việc gửi dữ liệu.",
+    "explanation_zh": "ICMP (網際網路控制訊息協定) 用於傳送錯誤訊息和操作資訊（例如「目的地不可達」）。它在網路層運作，並直接封裝在 IP 封包中，而不是 TCP 或 UDP。它不保證資料的傳送。"
+  },
+  {
+    "id": "01_277",
+    "section": 1,
+    "question_vi": "Dịch vụ nào sau đây sử dụng giao thức TCP để truyền dữ liệu?",
+    "question_zh": "下列服務,何者使用TCP協定來傳送?",
+    "options_vi": [
+      "SMTP (Giao thức truyền thư đơn giản)",
+      "FTP (Giao thức truyền tệp)",
+      "SNMP (Giao thức quản lý mạng đơn giản)",
+      "TFTP (Giao thức truyền tệp đơn giản)"
+    ],
+    "options_zh": [
+      "①SMTP",
+      "② FTP",
+      "③ SNMP",
+      "④TF TP."
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "SMTP (cổng 25) và FTP (cổng 21) đều yêu cầu kết nối tin cậy, có trạng thái để đảm bảo dữ liệu (email, tệp) được truyền đi đầy đủ và đúng thứ tự, do đó chúng sử dụng TCP. SNMP (thường dùng UDP) và TFTP (dùng UDP) ưu tiên tốc độ và không yêu cầu độ tin cậy cao như TCP.",
+    "explanation_zh": "SMTP (埠 25) 和 FTP (埠 21) 都需要可靠的、有狀態的連線，以確保資料（電子郵件、檔案）完整且按順序傳輸，因此它們使用 TCP。SNMP (通常使用 UDP) 和 TFTP (使用 UDP) 則優先考慮速度，不需要 TCP 那樣的高可靠性。"
+  },
+  {
+    "id": "01_278",
+    "section": 1,
+    "question_vi": "Dịch vụ nào sau đây sử dụng giao thức UDP để truyền dữ liệu?",
+    "question_zh": "下列服務,何者使用UDP 協定來傳送?",
+    "options_vi": [
+      "DHCP (Giao thức cấu hình máy chủ động)",
+      "TFTP (Giao thức truyền tệp đơn giản)",
+      "HTTP (Giao thức truyền siêu văn bản)",
+      "FTP (Giao thức truyền tệp)"
+    ],
+    "options_zh": [
+      "①DHCP",
+      "② TFTP",
+      "③HTTP",
+      "④F TP."
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "DHCP và TFTP sử dụng UDP vì chúng cần trao đổi thông tin nhanh, gọn (như yêu cầu cấp IP hoặc truyền tệp cấu hình nhỏ) và không yêu cầu quá trình thiết lập kết nối phức tạp của TCP. HTTP và FTP cần đảm bảo truyền dữ liệu lớn một cách tin cậy nên sử dụng TCP.",
+    "explanation_zh": "DHCP 和 TFTP 使用 UDP，因為它們需要快速、簡潔的資訊交換（例如 IP 位址請求或傳輸小設定檔），並且不需要 TCP 複雜的連線建立過程。HTTP 和 FTP 需要可靠地傳輸大量資料，因此使用 TCP。"
+  },
+  {
+    "id": "01_279",
+    "section": 1,
+    "question_vi": "Trường tiêu đề (header) của khung (frame) Ethernet IEEE chứa những trường nào?",
+    "question_zh": "IEEE 乙太網路的訊框標頭中包含哪些欄位?",
+    "options_vi": [
+      "Trường FCS (Kiểm tra trình tự khung)",
+      "Địa chỉ MAC và IP nguồn và đích",
+      "Địa chỉ IP nguồn và đích",
+      "Địa chỉ MAC nguồn và đích"
+    ],
+    "options_zh": [
+      "① FCS欄位",
+      "②來源與目 的MAC及IP位址",
+      "③來源與目的IP位址",
+      "④來源與目的MAC位址。"
+    ],
+    "answer_indices": [
+      0,
+      3
+    ],
+    "explanation_vi": "Khung Ethernet (tầng 2) chứa địa chỉ MAC nguồn và đích để xác định thiết bị trong mạng cục bộ. FCS nằm ở phần đuôi (trailer) chứ không phải tiêu đề, nhưng nó là một phần của khung. Tiêu đề Ethernet không chứa địa chỉ IP (đó là thông tin của tầng 3, được đóng gói bên trong khung). *Lưu ý: Câu hỏi này có thể gây nhầm lẫn vì FCS nằm ở trailer, nhưng trong ngữ cảnh các lựa chọn, (1) và (4) là các thành phần của khung Ethernet, trong khi (2) và (3) sai vì chứa IP.*",
+    "explanation_zh": "乙太網路訊框（第 2 層）包含來源和目的 MAC 位址，用於在區域網路中識別裝置。FCS 位於訊框尾部（trailer）而非標頭，但它是訊框的一部分。乙太網路標頭不包含 IP 位址（這是第 3 層的資訊，封裝在訊框內部）。*注意：這個問題可能有點混淆，因為 FCS 在尾部，但在選項中，(1) 和 (4) 是乙太網路訊框的組成部分，而 (2) 和 (3) 包含 IP 位址是錯誤的。*"
+  },
+  {
+    "id": "01_280",
+    "section": 1,
+    "question_vi": "Sau khi xảy ra va chạm (collision) trên mạng Ethernet, làm thế nào để có thể truyền lại?",
+    "question_zh": "乙太網路在發生碰撞後如何才能再傳送?",
+    "options_vi": [
+      "Trạm làm việc phát hiện va chạm có quyền ưu tiên cao nhất để gửi lại dữ liệu bị mất",
+      "Tất cả các trạm làm việc sẽ thực hiện một thuật toán Backoff ngẫu nhiên; sau khi thời gian trễ Backoff kết thúc, tất cả các trạm có quyền ưu tiên như nhau để truyền dữ liệu",
+      "Trong miền va chạm CSMA/CD, các trạm làm việc phải đợi cho đến khi đường truyền không được sử dụng mới có thể gửi",
+      "Tất cả các trạm làm việc sẽ thực hiện một thuật toán Backoff thống nhất, sau đó phối hợp với nhau mới có thể gửi dữ liệu"
+    ],
+    "options_zh": [
+      "①偵測到碰撞的工作站有最 高優先權重送遺失的資料",
+      "②所有工作站會執行一個隨機的Backoff 演 算法,待 Backoff 的延遲時段終了後,所有工作站均有相等的優先權來 傳送資料",
+      "③在CSMA/CD的碰撞網域中,工作站須待媒介沒在使用時 才能傳送資料",
+      "④所有工作站會執行一致的Backoff 演算法,然後彼此 協調後才能傳送資料。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "Đây là cơ chế cốt lõi của CSMA/CD. (3) Khi một trạm muốn gửi, nó phải 'lắng nghe' (Carrier Sense) xem đường truyền có rảnh không. (2) Nếu xảy ra va chạm (Collision Detection), tất cả các trạm liên quan sẽ ngừng gửi, đợi một khoảng thời gian ngẫu nhiên (Backoff) trước khi cố gắng gửi lại. Việc này tránh va chạm lặp lại ngay lập tức.",
+    "explanation_zh": "這是 CSMA/CD 的核心機制。(3) 當工作站想要傳送時，它必須「載波偵測」(Carrier Sense) 以檢查線路是否空閒。(2) 如果發生「碰撞偵測」(Collision Detection)，所有相關工作站將停止傳送，並等待一個隨機的「退避」(Backoff) 時間，然後再嘗試重新傳送。這避免了立即再次發生碰撞。"
+  },
+  {
+    "id": "01_281",
+    "section": 1,
+    "question_vi": "Chức năng nào sau đây là của router (bộ định tuyến)?",
+    "question_zh": "下列何者為路由器的功能?",
+    "options_vi": [
+      "Trao đổi gói tin (packet switching)",
+      "Lọc gói tin (packet filtering)",
+      "Chuyển tiếp gói tin quảng bá (broadcast packet forwarding)",
+      "Lựa chọn đường đi (path selection)"
+    ],
+    "options_zh": [
+      "①交換封包",
+      "②過濾封包",
+      "③轉送廣播封包",
+      "④選擇路徑。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "Chức năng chính của router là (4) lựa chọn đường đi tốt nhất cho gói tin dựa trên địa chỉ IP đích và bảng định tuyến. Nó cũng (1) trao đổi gói tin giữa các mạng khác nhau và có thể được cấu hình để (2) lọc gói tin (ví dụ: ACL - Access Control Lists). Router thường không chuyển tiếp gói tin quảng bá (broadcast) vì chúng giới hạn miền quảng bá (broadcast domain).",
+    "explanation_zh": "路由器的主要功能是 (4) 根據目的 IP 位址和路由表選擇最佳路徑。它還 (1) 在不同網路之間交換封包，並且可以設定 (2) 過濾封包（例如 ACL - 存取控制列表）。路由器通常不轉送廣播封包 (3)，因為它們用來劃分廣播域。"
+  },
+  {
+    "id": "01_282",
+    "section": 1,
+    "question_vi": "Khi tệp nhật ký (log) của tường lửa hiển thị ai đó đang cố gắng tấn công mạng, phương pháp nào sau đây *không* phải là cách để chặn các cuộc tấn công DoS?",
+    "question_zh": "當防火牆日誌檔顯示有人嘗試攻擊網路時,下列何者不是阻擋 DoS攻 擊的方法?",
+    "options_vi": [
+      "Tăng thêm nhiều bộ định tuyến (router)",
+      "Thiết lập Naggle",
+      "Sử dụng lệnh Auto Secure",
+      "Triển khai IDPS (Hệ thống phát hiện và ngăn chặn xâm nhập)"
+    ],
+    "options_zh": [
+      "①增加更多路由器",
+      "②設定 Naggle",
+      "③ 使用 Auto Secure 命令",
+      "④建置 IDPS(Intrusion Detection and Prevention Systems)"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Triển khai IDPS (4) là một phương pháp phòng chống DoS hiệu quả. Các lựa chọn (1), (2), (3) không phải là các phương pháp trực tiếp hoặc phổ biến để chặn một cuộc tấn công DoS đang diễn ra. 'Naggle' có thể là viết nhầm của 'Nagle's algorithm' (liên quan đến hiệu quả TCP) và 'Auto Secure' là một tính năng cấu hình bảo mật cơ bản trên router Cisco, không phải là một cơ chế phòng thủ DoS động.",
+    "explanation_zh": "部署 IDPS (4) 是防禦 DoS 攻擊的有效方法。選項 (1)、(2)、(3) 並非阻擋正在發生的 DoS 攻擊的直接或常用方法。「Naggle」可能是「Nagle 演算法」（與 TCP 效率相關）的拼寫錯誤，「Auto Secure」是 Cisco 路由器上的一個基本安全設定功能，而不是動態 DoS 防禦機制。"
+  },
+  {
+    "id": "01_283",
+    "section": 1,
+    "question_vi": "Sử dụng bridge (cầu) hoặc switch (bộ chuyển mạch) để phân chia mạng sẽ dẫn đến kết quả nào sau đây?",
+    "question_zh": "以橋接器或交換器來分割網路,將產生下列何種結果?",
+    "options_vi": [
+      "Tăng số lượng máy chủ quảng bá (broadcast host) trong miền mạng",
+      "Giảm xác suất va chạm gói tin",
+      "Tăng số lượng miền mạng (domain)",
+      "Tạo ra các miền mạng nhỏ hơn"
+    ],
+    "options_zh": [
+      "①增加網域內 的廣播主機數目",
+      "②減少封包碰撞的機率",
+      "③增加網域的數目",
+      "④產生較小 的網域。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Switch và bridge hoạt động ở tầng 2. Chức năng chính của chúng là phân chia một miền va chạm (collision domain) lớn thành nhiều miền va chạm nhỏ hơn. Mỗi cổng trên switch là một miền va chạm riêng biệt, do đó (2) giảm va chạm. Điều này cũng có nghĩa là (3) tăng số lượng miền (va chạm) và (4) tạo ra các miền (va chạm) nhỏ hơn. Chúng không phân chia miền quảng bá (broadcast domain).",
+    "explanation_zh": "交換器 (Switch) 和橋接器 (Bridge) 在第 2 層運作。它們的主要功能是將一個大的碰撞域 (collision domain) 分割成多個較小的碰撞域。交換器上的每個埠都是一個獨立的碰撞域，因此 (2) 減少了碰撞機率。這也意味著 (3) 增加了（碰撞）域的數量並 (4) 產生了較小的（碰撞）域。它們不會分割廣播域。"
+  },
+  {
+    "id": "01_284",
+    "section": 1,
+    "question_vi": "Khi switch sử dụng phương thức 'Lưu trữ và Chuyển tiếp' (Store and Forward), nó ảnh hưởng đến hiệu suất mạng như thế nào?",
+    "question_zh": "交換器在轉送訊框到目的地之前先予以儲存再轉送(Store and Forwar d),對於網路效能有何影響?",
+    "options_vi": [
+      "Giảm độ trễ (delay)",
+      "Tăng độ trễ (delay)",
+      "Có thể lọc bỏ tất cả các lỗi khung (frame error)",
+      "Tăng tốc độ hoạt động của switch"
+    ],
+    "options_zh": [
+      "①減少延遲",
+      "②增加延遲",
+      "③可濾掉所有的 訊框錯誤",
+      "④增加交換器的運作速度。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "(2) Tăng độ trễ: Switch phải nhận *toàn bộ* khung tin trước khi bắt đầu chuyển tiếp, điều này gây ra độ trễ lớn hơn so với phương thức 'cut-through'. (3) Lọc lỗi: Lợi ích của việc này là switch có thể đọc trường FCS (Frame Check Sequence) ở cuối khung tin. Nếu phát hiện lỗi (ví dụ: khung bị hỏng), nó sẽ loại bỏ khung đó thay vì chuyển tiếp đi, giúp cải thiện chất lượng mạng.",
+    "explanation_zh": "(2) 增加延遲：交換器必須接收*整個*訊框後才能開始轉送，這會導致比「直通」(cut-through) 模式更大的延遲。(3) 過濾錯誤：這樣做的好處是交換器可以讀取訊框末尾的 FCS (訊框檢查序列)。如果偵測到錯誤（例如訊框損壞），它將丟棄該訊框而不是轉送它，從而提高網路品質。"
+  },
+  {
+    "id": "01_285",
+    "section": 1,
+    "question_vi": "Bộ chuyển mạch Ethernet Lớp 2 (Layer 2 Switch) ưu việt hơn hub ở những điểm nào?",
+    "question_zh": "第二層乙太網路交換器比集線器優越的地方在於?",
+    "options_vi": [
+      "Lọc khung (frame) dựa trên địa chỉ MAC",
+      "Cho phép truyền khung đồng thời",
+      "Giảm số lượng gói tin va chạm",
+      "Giảm quy mô của miền quảng bá (broadcast domain)"
+    ],
+    "options_zh": [
+      "①根據MAC位址來 過濾訊框",
+      "②允許同時的訊框傳輸",
+      "③減少碰撞封包的數目",
+      "④減少廣播網 域的規模。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Hub là thiết bị Lớp 1, chỉ lặp lại tín hiệu đến tất cả các cổng, tạo ra một miền va chạm lớn. Switch là thiết bị Lớp 2, (1) học địa chỉ MAC và chỉ chuyển khung đến cổng đích, (2) cho phép giao tiếp song công (full-duplex) và (3) vì mỗi cổng là một miền va chạm riêng, nó gần như loại bỏ hoàn toàn va chạm. Cả hai đều không giảm quy mô miền quảng bá (đó là chức năng của router).",
+    "explanation_zh": "集線器 (Hub) 是第 1 層裝置，它只是將訊號複製到所有埠，形成一個大的碰撞域。交換器 (Switch) 是第 2 層裝置，它 (1) 學習 MAC 位址並僅將訊框轉送到目的埠，(2) 允許全雙工通訊，並且 (3) 由於每個埠都是一個獨立的碰撞域，它幾乎完全消除了碰撞。兩者都不會減少廣播域的大小（這是路由器的功能）。"
+  },
+  {
+    "id": "01_286",
+    "section": 1,
+    "question_vi": "Chức năng của phần mềm nhắn tin tức thời (IM) bao gồm những gì?",
+    "question_zh": "即時通訊軟體的功能包含哪些?",
+    "options_vi": [
+      "Trò chuyện văn bản (text chat)",
+      "Gửi tệp (file transfer)",
+      "Thoại (voice call)",
+      "Video (video call)"
+    ],
+    "options_zh": [
+      "①文字通訊",
+      "②檔案傳送",
+      "③語音對談",
+      "④視訊交流。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Các phần mềm nhắn tin tức thời hiện đại (như Zalo, Messenger, Teams, v.v.) đều cung cấp đầy đủ các chức năng này: trò chuyện bằng văn bản, gửi tệp, gọi thoại và gọi video.",
+    "explanation_zh": "現代的即時通訊軟體（如 LINE, Messenger, Teams 等）都提供所有這些功能：文字聊天、檔案傳輸、語音通話和視訊通話。"
+  },
+  {
+    "id": "01_287",
+    "section": 1,
+    "question_vi": "Đuôi tệp nào sau đây là của tệp video?",
+    "question_zh": "下列何者為影片檔之副檔名?",
+    "options_vi": [
+      ".wma",
+      ".wmf",
+      ".wmv",
+      ".rm"
+    ],
+    "options_zh": [
+      "①.wma",
+      "②.wmf",
+      "③.wmv",
+      "④.rm"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": ".wmv (Windows Media Video) và .rm (RealMedia) là các định dạng tệp video. .wma (Windows Media Audio) là tệp âm thanh. .wmf (Windows Metafile) là một định dạng tệp hình ảnh vector.",
+    "explanation_zh": ".wmv (Windows Media Video) 和 .rm (RealMedia) 是視訊檔案格式。.wma (Windows Media Audio) 是音訊檔案。.wmf (Windows Metafile) 是一種向量圖形檔案格式。"
+  },
+  {
+    "id": "01_288",
+    "section": 1,
+    "question_vi": "Đuôi tệp nào sau đây là của tệp đồ họa (hình ảnh)?",
+    "question_zh": "下列何者為圖形檔之副檔名?",
+    "options_vi": [
+      ".tif",
+      ".ai",
+      ".pdf",
+      ".raw"
+    ],
+    "options_zh": [
+      "①.tif",
+      "②.ai",
+      "③.pdf",
+      "④.raw。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": ".tif (Tagged Image File Format) và .raw (ảnh thô từ máy ảnh) là các định dạng ảnh raster (bitmap). .ai (Adobe Illustrator) là định dạng ảnh vector. .pdf (Portable Document Format) là định dạng tài liệu, mặc dù nó có thể chứa hình ảnh nhưng bản chất nó là một tệp tài liệu, không phải tệp đồ họa thuần túy.",
+    "explanation_zh": ".tif (標籤影像檔案格式) 和 .raw (相機原始影像檔) 是點陣圖格式。.ai (Adobe Illustrator) 是向量圖形格式。.pdf (可攜式文件格式) 是一種文件格式，雖然它可以包含圖像，但其本質是文件檔，而非純粹的圖形檔。"
+  },
+  {
+    "id": "01_289",
+    "section": 1,
+    "question_vi": "Về việc sử dụng IE9, phát biểu nào sau đây là đúng?",
+    "question_zh": "下列有關IE9之使用敘述,何者正確?",
+    "options_vi": [
+      "Không muốn trẻ em xem các trang web bạo lực hoặc tình dục, có thể sử dụng chức năng 'Tools/Internet Options/Security'",
+      "Để thay đổi số ngày lưu lịch sử duyệt web, có thể thiết lập trong 'Tools/Manage Add-ons'",
+      "Có thể xem các chứng chỉ (certificate) đã cài đặt trong 'Tools/Internet Options/Content'",
+      "Sử dụng trình hướng dẫn xuất (Export Wizard) để xuất 'Favorites' (Mục yêu thích) thành tệp định dạng HTML"
+    ],
+    "options_zh": [
+      "①不想讓小孩上網看到性或暴 力的網站,可使用「工具/網際網路選項/安全性」功能來設定",
+      "②要變更 瀏覽歷程紀錄的保存天數,可在「工具/管理附加元件」中設定",
+      "③可在 「工具/網際網路選項/內容」中查看安裝過的憑證",
+      "④利用匯出精靈將 「我的最愛」匯出成為HTML格式之檔案。"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": "(3) Tab 'Content' (Nội dung) trong Tùy chọn Internet là nơi quản lý chứng chỉ. (4) Chức năng 'Import and Export' (Nhập và Xuất) cho phép người dùng sao lưu (xuất) các mục yêu thích (Favorites) ra tệp HTML. (1) Kiểm soát nội dung (Parental Controls) nằm ở mục riêng hoặc tab 'Content', không phải 'Security'. (2) Số ngày lưu lịch sử được đặt trong tab 'General' (Chung).",
+    "explanation_zh": "(3) 「網際網路選項」中的「內容」標籤頁是用來管理憑證的地方。(4) 「匯入及匯出」功能允許使用者將「我的最愛」備份（匯出）為 HTML 檔案。(1) 內容控制（家長監護）通常在專門的設定或「內容」標籤中，而非「安全性」。(2) 瀏覽歷程記錄的保留天數是在「一般」標籤頁中設定的。"
+  },
+  {
+    "id": "01_290",
+    "section": 1,
+    "question_vi": "Về địa chỉ mạng, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關網路網址敘述,下列何者正確?",
+    "options_vi": [
+      "Máy chủ DHCP có thể cho phép nhiều máy tính chia sẻ chung một số lượng hạn chế IP Public",
+      "Một máy chủ (host) có thể sở hữu nhiều tên miền (Domain Name)",
+      "Về mặt lý thuyết, số lượng địa chỉ IPv6 gấp 2^96 lần số lượng địa chỉ IPv4",
+      "Trong cửa sổ Command Prompt của Windows 7, nhập ipconfig có thể xem địa chỉ IP của máy tính"
+    ],
+    "options_zh": [
+      "①DHCP伺服器可讓多台電腦共 用有限的 Public IP",
+      "②一台主機可以擁有多個網域名稱(Domain Name)",
+      "③理論上,IPv6位址可容許的位址個數是IPv4位址的296倍",
+      "④在 Win dows 7之命令提示字元視窗中輸入ipconfig可檢視電腦的IP位址。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "(1) Đây là mô tả của NAT (Network Address Translation) thường được kết hợp với DHCP, không phải chức năng của DHCP. (2) Một máy chủ web có thể host nhiều trang web với nhiều tên miền khác nhau. (3) IPv6 có 128 bit, IPv4 có 32 bit. Số lượng địa chỉ là 2^128 / 2^32 = 2^96 lần. (4) Lệnh `ipconfig` là lệnh chuẩn để kiểm tra cấu hình IP trên Windows.",
+    "explanation_zh": "(1) 這描述的是 NAT（網路位址轉譯），它經常與 DHCP 結合使用，但並非 DHCP 本身的功能。(2) 一台網頁伺服器可以託管多個具有不同網域名稱的網站。(3) IPv6 有 128 位元，IPv4 有 32 位元。位址數量為 2^128 / 2^32 = 2^96 倍。(4) `ipconfig` 是在 Windows 上檢查 IP 設定的標準命令。"
+  },
+  {
+    "id": "01_291",
+    "section": 1,
+    "question_vi": "So sánh về SATA và IDE, điều nào sau đây là đúng?",
+    "question_zh": "有關SATA 與IDE的比較,下列何者正確?",
+    "options_vi": [
+      "Ổ cứng SATA thuộc giao diện tuần tự (serial), nhưng IDE thì không",
+      "Ổ cứng e-SATA hỗ trợ cắm nóng (hot-plug) nhưng IDE thì không",
+      "Tốc độ quay của ổ cứng SATA tốt hơn IDE, do đó tốc độ truyền cao hơn",
+      "Cáp ổ cứng SATA mỏng hơn cáp ổ cứng IDE"
+    ],
+    "options_zh": [
+      "①SATA硬碟屬於序列介 面,但IDE不是",
+      "②e-SATA硬碟支援熱插拔但IDE不支援",
+      "③ SATA硬 碟轉速優於IDE硬碟,故傳輸速率較高",
+      "④ SATA 硬碟排線較 IDE硬碟 為細。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "(1) SATA là viết tắt của Serial ATA (ATA tuần tự). IDE (còn gọi là PATA) là Parallel ATA (ATA song song). (2) e-SATA (SATA ngoài) và SATA (với cấu hình AHCI) hỗ trợ cắm nóng. (4) Cáp SATA mỏng (7 chân) trong khi cáp IDE rất to (40 hoặc 80 chân). (3) Tốc độ truyền cao hơn là do công nghệ giao diện tuần tự, không phải do tốc độ quay (cả SATA và IDE đều có ổ 7200 RPM).",
+    "explanation_zh": "(1) SATA 代表 Serial ATA（串行 ATA）。IDE（也稱為 PATA）是 Parallel ATA（並行 ATA）。(2) e-SATA（外部 SATA）和 SATA（在 AHCI 設定下）支援熱插拔。(4) SATA 數據線很細（7 針），而 IDE 數據線很寬（40 或 80 針）。(3) 傳輸速率更高是由於串行介面技術，而不是轉速（SATA 和 IDE 都有 7200 RPM 的硬碟）。"
+  },
+  {
+    "id": "01_292",
+    "section": 1,
+    "question_vi": "Phát biểu nào sau đây là đúng?",
+    "question_zh": "下列敘述何者正確?",
+    "options_vi": [
+      "Tờ rơi triển lãm thông tin ghi 'CPU 2.5GHz, 2GB DDR3', có nghĩa là chu kỳ xung nhịp của CPU này là 0.5ns",
+      "BIOS ROM mới nhất cho phép ghi đè dữ liệu",
+      "Ổ cứng SSD được làm bằng Bộ nhớ Flash (Flash Memory)",
+      "Bluetooth được xây dựng trên tiêu chuẩn công nghệ mạng cục bộ không dây IEEE 802.11"
+    ],
+    "options_zh": [
+      "①資訊展DM上寫「CPU 2.5GHz, 2GB DDR 3」,意指此CPU時脈週期為0.5ns",
+      "②最新的BIOS ROM允許資料複寫",
+      "③SSD 硬碟是採用 Flash Memory 製作",
+      "④ 藍芽(Bluetooth)建構於IEEE 802.11 無線區域網路技術標準。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "(2) BIOS hiện đại được lưu trữ trong bộ nhớ Flash ROM (như EEPROM), cho phép cập nhật (ghi đè) firmware. (3) SSD (Ổ đĩa thể rắn) sử dụng các chip nhớ flash NAND. (1) Chu kỳ = 1 / tần số = 1 / (2.5 * 10^9 Hz) = 0.4 * 10^-9 giây = 0.4ns. (4) Bluetooth là tiêu chuẩn IEEE 802.15.1, khác với Wi-Fi (IEEE 802.11).",
+    "explanation_zh": "(2) 現代 BIOS 儲存在 Flash ROM（如 EEPROM）中，允許更新（複寫）韌體。(3) SSD（固態硬碟）使用 NAND 快閃記憶體晶片。(1) 週期 = 1 / 頻率 = 1 / (2.5 * 10^9 Hz) = 0.4 * 10^-9 秒 = 0.4ns。(4) 藍牙是 IEEE 802.15.1 標準，與 Wi-Fi (IEEE 802.11) 不同。"
+  },
+  {
+    "id": "01_293",
+    "section": 1,
+    "question_vi": "Loại chương trình web nào sau đây chạy ở phía máy chủ (server-side)?",
+    "question_zh": "下列何種網頁程式於伺服器端執行?",
+    "options_vi": [
+      "PHP",
+      "Active Server Page (ASP)",
+      "Dynamic HTML (DHTML)",
+      "Common Gateway Interface (CGI)"
+    ],
+    "options_zh": [
+      "① PHP",
+      "② Active Server Page",
+      "③D ynamic HTML",
+      "④ Common Gateway Interface"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "PHP, ASP, và CGI là các công nghệ/ngôn ngữ kịch bản phía máy chủ. Chúng xử lý logic, truy cập cơ sở dữ liệu và tạo ra HTML trước khi gửi về trình duyệt. DHTML là một thuật ngữ chỉ việc sử dụng JavaScript và CSS (chạy phía client) để làm cho trang web động, tương tác.",
+    "explanation_zh": "PHP、ASP 和 CGI 都是伺服器端腳本技術/語言。它們在伺服器上處理邏輯、存取資料庫並產生 HTML，然後再傳送到瀏覽器。DHTML 是一個術語，指使用 JavaScript 和 CSS（在用戶端執行）使網頁具有動態互動性。"
+  },
+  {
+    "id": "01_294",
+    "section": 1,
+    "question_vi": "Loại chương trình web nào sau đây chạy ở phía máy khách (client-side)?",
+    "question_zh": "下列何種網頁程式於用戶端執行?",
+    "options_vi": [
+      "VBScript",
+      "JSP (JavaServer Pages)",
+      "Java Applet",
+      "JavaScript"
+    ],
+    "options_zh": [
+      "① VBScript",
+      "② JSP",
+      "③ Java Applet",
+      "④ JavaScript。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "JavaScript là ngôn ngữ kịch bản phía máy khách phổ biến nhất. VBScript (trong IE cũ) và Java Applet (plugin Java) cũng chạy trong trình duyệt của người dùng (client). JSP là một công nghệ phía máy chủ, tương tự như ASP và PHP.",
+    "explanation_zh": "JavaScript 是最常見的用戶端腳本語言。VBScript（在舊版 IE 中）和 Java Applet（Java 插件）也在使用者的瀏覽器（用戶端）中執行。JSP 是一種伺服器端技術，類似於 ASP 和 PHP。"
+  },
+  {
+    "id": "01_295",
+    "section": 1,
+    "question_vi": "Chu kỳ máy (Machine Cycle) của CPU bao gồm các bước nào sau đây?",
+    "question_zh": "CPU運作的機器週期(Machine Cycle)中,包含下列哪些步驟?",
+    "options_vi": [
+      "Tìm nạp (Fetch)",
+      "Mã hóa (Encode)",
+      "Giải mã (Decode)",
+      "Thực thi (Execute)"
+    ],
+    "options_zh": [
+      "①擷 取(Fetch)",
+      "②編碼(Encode)",
+      "③解碼(Decode)",
+      "④ 執行(Execute)"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Chu kỳ máy cơ bản bao gồm: (1) Tìm nạp lệnh từ bộ nhớ, (3) Giải mã lệnh để hiểu cần làm gì, và (4) Thực thi lệnh (thường liên quan đến ALU). Đôi khi có thêm bước 'Lưu trữ' (Store/Writeback). 'Mã hóa' (Encode) không phải là một bước trong chu kỳ thực thi lệnh.",
+    "explanation_zh": "基本的機器週期包括：(1) 從記憶體中擷取指令，(3) 解碼指令以了解要做什麼，以及 (4) 執行指令（通常涉及 ALU）。有時還會加上「寫回」(Store/Writeback) 步驟。「編碼」(Encode) 不是指令執行週期中的一個步驟。"
+  },
+  {
+    "id": "01_296",
+    "section": 1,
+    "question_vi": "Những bộ nhớ nào sau đây có tốc độ truy cập nhanh hơn ổ cứng (HDD)?",
+    "question_zh": "下列哪些記憶體的存取速度比硬碟快?",
+    "options_vi": [
+      "Ổ đĩa flash USB (USB Flash Drive)",
+      "Bộ nhớ đệm (Cache Memory)",
+      "Ổ đĩa quang (CD/DVD)",
+      "Thanh ghi (Register)"
+    ],
+    "options_zh": [
+      "①隨身碟",
+      "②快取記憶體",
+      "③光碟",
+      "④暫存器。"
+    ],
+    "answer_indices": [
+      1,
+      3
+    ],
+    "explanation_vi": "Thứ tự tốc độ truy cập từ nhanh nhất đến chậm nhất: (4) Thanh ghi > (2) Cache > RAM > Ổ flash (USB/SSD) > Ổ cứng (HDD) > (3) Ổ quang. Thanh ghi và Cache nhanh hơn ổ cứng rất nhiều. *Lưu ý: Ổ USB (1) cũng thường nhanh hơn ổ cứng HDD về thời gian truy cập ngẫu nhiên, nhưng chậm hơn về tốc độ đọc/ghi tuần tự liên tục.*",
+    "explanation_zh": "存取速度由快到慢的順序：(4) 暫存器 > (2) 快取記憶體 > RAM > 快閃記憶體 (USB/SSD) > 硬碟 (HDD) > (3) 光碟機。暫存器和快取記憶體比硬碟快得多。*注意：USB 隨身碟 (1) 的隨機存取時間通常也比 HDD 快，但在連續讀寫速度上可能較慢。*"
+  },
+  {
+    "id": "01_297",
+    "section": 1,
+    "question_vi": "Cấu trúc phần cứng máy tính có thể chia thành năm đơn vị chính. Phát biểu nào sau đây là đúng?",
+    "question_zh": "電腦硬體結構可分為五大單元,下列哪些敘述正確?",
+    "options_vi": [
+      "Đơn vị logic số học (ALU) chịu trách nhiệm cho các phép toán AND, OR, NOT",
+      "Đơn vị bộ nhớ (Memory Unit) chịu trách nhiệm điều phối hoạt động của các đơn vị",
+      "Chuột (Mouse) thuộc đơn vị nhập (Input Unit)",
+      "Bàn phím (Keyboard) thuộc đơn vị điều khiển (Control Unit)"
+    ],
+    "options_zh": [
+      "①算術邏輯單元 負責 AND、OR、NOT運算",
+      "②記憶單元負責協調電腦各單元的運作",
+      "③ 滑鼠屬於輸入單元",
+      "④鍵盤屬於控制單元。"
+    ],
+    "answer_indices": [
+      0,
+      2
+    ],
+    "explanation_vi": "(1) ALU thực hiện các phép toán số học (cộng, trừ) và logic (AND, OR, NOT). (3) Chuột là thiết bị nhập. (2) Đơn vị điều khiển (Control Unit) mới là nơi điều phối, không phải bộ nhớ. (4) Bàn phím là đơn vị nhập, không phải đơn vị điều khiển.",
+    "explanation_zh": "(1) ALU 執行算術運算（加、減）和邏輯運算（AND, OR, NOT）。(3) 滑鼠是輸入裝置。(2) 控制單元 (Control Unit) 負責協調，而不是記憶單元。(4) 鍵盤是輸入單元，不是控制單元。"
+  },
+  {
+    "id": "01_298",
+    "section": 1,
+    "question_vi": "Về cáp quang, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關光纖的敘述,下列哪些正確?",
+    "options_vi": [
+      "Chỉ có thể truyền tín hiệu kỹ thuật số",
+      "Băng thông khả dụng cao hơn cáp đồng trục",
+      "Được cấu tạo từ sợi đồng, không bị nhiễu điện từ",
+      "Tốc độ truyền cao hơn cáp xoắn đôi (twisted pair)"
+    ],
+    "options_zh": [
+      "①只能傳送數位信號",
+      "②可使用的頻 寬比同軸電纜高",
+      "③由銅線所組成,不受電磁干擾",
+      "④傳輸速率比雙絞線 高。"
+    ],
+    "answer_indices": [
+      1,
+      3
+    ],
+    "explanation_vi": "(2) Cáp quang có băng thông cực cao. (4) Tốc độ truyền của cáp quang (Gbps đến Tbps) cao hơn nhiều so với cáp xoắn đôi (Mbps đến Gbps). (1) Cáp quang có thể truyền cả tín hiệu analog và digital. (3) Cáp quang được làm từ thủy tinh hoặc nhựa (sợi quang), không phải đồng, và chính vì vậy nó miễn nhiễm với nhiễu điện từ (EMI).",
+    "explanation_zh": "(2) 光纖具有極高的頻寬。(4) 光纖的傳輸速率（Gbps 到 Tbps）遠高於雙絞線（Mbps 到 Gbps）。(1) 光纖可以傳輸類比和數位訊號。(3) 光纖由玻璃或塑膠（光導纖維）製成，而非銅線，因此它不受電磁干擾 (EMI)。"
+  },
+  {
+    "id": "01_299",
+    "section": 1,
+    "question_vi": "Trong các sản phẩm DVD liên quan, loại nào sau đây có thể đọc và ghi lặp lại (ghi đè)?",
+    "question_zh": "DVD的相關產品中,下列哪些可以重複讀寫?",
+    "options_vi": [
+      "DVD-RAM",
+      "DVD-RW",
+      "DVD+RW",
+      "DVD-ROM"
+    ],
+    "options_zh": [
+      "①DVD-RAM",
+      "②DVD-R W",
+      "③DVD+RW",
+      "④ DVD-ROM."
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Các định dạng có chữ 'RW' (ReWritable) như DVD-RW và DVD+RW đều cho phép ghi đè nhiều lần. DVD-RAM cũng là một định dạng ghi lặp lại, tương tự như ổ đĩa cứng. DVD-ROM (Read-Only Memory) là đĩa đã được dập sẵn nội dung và không thể ghi.",
+    "explanation_zh": "帶有「RW」(ReWritable) 的格式，如 DVD-RW 和 DVD+RW，都允許多次複寫。DVD-RAM 也是一種可重複讀寫的格式，類似於硬碟。DVD-ROM (Read-Only Memory) 是預先壓製好內容的光碟，無法寫入。"
+  },
+  {
+    "id": "01_300",
+    "section": 1,
+    "question_vi": "Về RAM (Bộ nhớ truy cập ngẫu nhiên), phát biểu nào sau đây là đúng?",
+    "question_zh": "有關RAM的敘述,下列哪些正確?",
+    "options_vi": [
+      "Còn được gọi là bộ nhớ bất biến (non-volatile memory)",
+      "Tốc độ chậm hơn ROM",
+      "Có thể được chia thành SRAM (RAM tĩnh) và DRAM (RAM động)",
+      "Dữ liệu sẽ bị mất sau khi tắt nguồn"
+    ],
+    "options_zh": [
+      "①又稱為非揮發性記憶體",
+      "②速度 比ROM慢",
+      "③可分為SRAM 與DRAM兩種",
+      "④電源關閉後資料會消失"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": "(3) RAM chính được chia thành SRAM (thường dùng cho cache, rất nhanh) và DRAM (dùng cho bộ nhớ chính). (4) RAM là bộ nhớ khả biến (volatile), nghĩa là nó cần nguồn điện để duy trì dữ liệu; tắt nguồn sẽ mất dữ liệu. (1) Bộ nhớ bất biến là ROM. (2) RAM (đặc biệt là SRAM) nhanh hơn nhiều so với ROM.",
+    "explanation_zh": "(3) 主要的 RAM 分為 SRAM（通常用於快取，非常快）和 DRAM（用於主記憶體）。(4) RAM 是揮發性記憶體 (volatile)，意味著它需要電力來維持資料；電源關閉後資料會遺失。(1) 非揮發性記憶體是 ROM。(2) RAM（尤其是 SRAM）比 ROM 快得多。"
+  },
+  {
+    "id": "01_301",
+    "section": 1,
+    "question_vi": "Về phương tiện truyền thông, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關通訊媒體的敘述,下列哪些正確?",
+    "options_vi": [
+      "Wi-Fi là truyền không dây dựa trên giao thức 802.11x",
+      "Hồng ngoại (Infrared) truyền dữ liệu theo đường thẳng (line-of-sight)",
+      "Vi sóng (Microwave) khi truyền dữ liệu có thể uốn cong theo đường cong của bề mặt Trái Đất",
+      "Vi sóng (Microwave) truyền không dây bằng công nghệ Bluetooth"
+    ],
+    "options_zh": [
+      "①Wi-Fi是以802.11x協定進行 無線傳輸",
+      "②紅外線是以直線傳輸的方式傳送資料",
+      "③微波(Microwav e)在傳送資料時,可以隨著地表曲線而彎曲進行",
+      "④微波(Microwav e)是以藍芽技術(Bluetooth)進行無線傳輸。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "(1) Wi-Fi là tên thương hiệu của các chuẩn IEEE 802.11 (a, b, g, n, ac, ax...). (2) Hồng ngoại yêu cầu truyền thẳng, không vật cản. (3) Vi sóng truyền thẳng, nó không uốn cong theo bề mặt Trái Đất (đó là lý do cần các trạm lặp). (4) Bluetooth sử dụng sóng radio ở tần số 2.4 GHz, là một dải tần của vi sóng, nhưng nó là một công nghệ riêng biệt (IEEE 802.15.1).",
+    "explanation_zh": "(1) Wi-Fi 是 IEEE 802.11 (a, b, g, n, ac, ax...) 標準的商業名稱。(2) 紅外線需要直線、無阻礙的傳輸。(3) 微波是直線傳播的，它不會沿著地球表面彎曲（這就是為什麼需要中繼站）。(4) 藍牙使用 2.4 GHz 的無線電頻率，這屬於微波的一個頻段，但它是一個獨立的技術 (IEEE 802.15.1)。"
+  },
+  {
+    "id": "01_302",
+    "section": 1,
+    "question_vi": "Về các thiết bị truyền dẫn mạng, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關網路傳輸設備的敘述,下列哪些正確?",
+    "options_vi": [
+      "Hub (bộ chia) có thể kết nối nhiều nút mạng (network node)",
+      "Repeater (bộ lặp) chủ yếu dùng để kết nối hai mạng LAN",
+      "Router (bộ định tuyến) có thể kết nối nhiều mạng",
+      "Firewall (tường lửa) chủ yếu dùng để tăng cường tín hiệu truyền và mở rộng khoảng cách truyền"
+    ],
+    "options_zh": [
+      "①集線器(Hub)可連接多 個網路節點",
+      "②中繼器(Repeater)主要用於連接兩個區域網路",
+      "③路由 器(Router)可連接多個網路",
+      "④防火牆(Firewall)主要是用於增強傳 輸訊號,延伸訊號的傳輸距離。"
+    ],
+    "answer_indices": [
+      0,
+      2
+    ],
+    "explanation_vi": "(1) Hub là một điểm kết nối trung tâm cho các thiết bị trong mạng. (3) Router được thiết kế để kết nối các mạng logic khác nhau (ví dụ: LAN và WAN). (2) Repeater dùng để khuếch đại tín hiệu để mở rộng *một* phân đoạn mạng (segment), không phải kết nối hai mạng. (4) Tường lửa là thiết bị an ninh, không phải thiết bị khuếch đại tín hiệu (đó là chức năng của Repeater).",
+    "explanation_zh": "(1) 集線器 (Hub) 是網路中裝置的中央連接點。(3) 路由器 (Router) 設計用於連接不同的邏輯網路（例如 LAN 和 WAN）。(2) 中繼器 (Repeater) 用於放大訊號以擴展*單個*網路區段，而不是連接兩個網路。(4) 防火牆是安全設備，不是訊號放大設備（那是中繼器的功能）。"
+  },
+  {
+    "id": "01_303",
+    "section": 1,
+    "question_vi": "Về thanh ghi (Register), phát biểu nào sau đây là đúng?",
+    "question_zh": "有關暫存器(Register)的敘述,下列哪些正確?",
+    "options_vi": [
+      "Thanh ghi là nơi CPU lưu trữ dữ liệu tạm thời",
+      "Tốc độ truy cập của CPU vào thanh ghi chậm hơn bộ nhớ chính (RAM)",
+      "Dung lượng của thanh ghi là vô hạn",
+      "Trong CPU có nhiều loại thanh ghi, mỗi loại có chức năng khác nhau"
+    ],
+    "options_zh": [
+      "①暫存器是CPU 暫 存資料的地方",
+      "② CPU 對暫存器的存取速度比主記憶體慢",
+      "③暫存器的容 量是無限的",
+      "④CPU內有多種暫存器,各有其不同的功能。"
+    ],
+    "answer_indices": [
+      0,
+      3
+    ],
+    "explanation_vi": "(1) Thanh ghi là bộ nhớ nhỏ, tốc độ cao bên trong CPU để lưu dữ liệu đang được xử lý. (4) Có nhiều loại thanh ghi như PC (Program Counter), IR (Instruction Register), thanh ghi đa dụng, v.v. (2) Thanh ghi là bộ nhớ nhanh nhất, nhanh hơn RAM rất nhiều. (3) Dung lượng thanh ghi rất nhỏ (ví dụ: 64 bit).",
+    "explanation_zh": "(1) 暫存器是 CPU 內部的高速小容量記憶體，用於儲存正在處理的資料。(4) CPU 內有多種類型的暫存器，如程式計數器 (PC)、指令暫存器 (IR)、通用暫存器等。(2) 暫存器是速度最快的記憶體，遠快於主記憶體 (RAM)。(3) 暫存器的容量非常小（例如 64 位元）。"
+  },
+  {
+    "id": "01_304",
+    "section": 1,
+    "question_vi": "Loại nào sau đây là bus (hệ thống) được máy tính sử dụng?",
+    "question_zh": "下列哪些是電腦使用的匯流排?",
+    "options_vi": [
+      "Bus tính toán (Arithmetic Bus)",
+      "Bus dữ liệu (Data Bus)",
+      "Bus địa chỉ (Address Bus)",
+      "Bus điều khiển (Control Bus)"
+    ],
+    "options_zh": [
+      "①運算匯流排",
+      "②資料匯流排",
+      "③位址匯 流排",
+      "④控制匯流排。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Hệ thống bus của máy tính thường bao gồm ba thành phần chính: (2) Bus dữ liệu (mang dữ liệu), (3) Bus địa chỉ (mang địa chỉ bộ nhớ/I-O) và (4) Bus điều khiển (mang tín hiệu điều khiển và thời gian). Không có khái niệm 'Bus tính toán'.",
+    "explanation_zh": "電腦系統匯流排通常包含三個主要部分：(2) 資料匯流排（傳送資料）、(3) 位址匯流排（傳送記憶體/I-O 位址）和 (4) 控制匯流排（傳送控制和時序訊號）。沒有「運算匯流排」這個概念。"
+  },
+  {
+    "id": "01_305",
+    "section": 1,
+    "question_vi": "Thiết bị nào sau đây thuộc thiết bị đầu ra (output) của máy tính?",
+    "question_zh": "下列哪些是屬於電腦的輸出設備?",
+    "options_vi": [
+      "Máy quét (Scanner)",
+      "Màn hình (Monitor)",
+      "Máy in (Printer)",
+      "Bút quang (Light Pen)"
+    ],
+    "options_zh": [
+      "①掃描器",
+      "②螢幕",
+      "③印表機",
+      "④光筆"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "(2) Màn hình và (3) Máy in là các thiết bị đầu ra, dùng để hiển thị hoặc in kết quả. (1) Máy quét và (4) Bút quang là các thiết bị đầu vào, dùng để đưa dữ liệu vào máy tính.",
+    "explanation_zh": "(2) 螢幕和 (3) 印表機是輸出設備，用於顯示或列印結果。(1) 掃描器和 (4) 光筆是輸入設備，用於將資料輸入電腦。"
+  },
+  {
+    "id": "01_306",
+    "section": 1,
+    "question_vi": "Kết quả chuyển đổi nào sau đây từ thập phân sang nhị phân là đúng?",
+    "question_zh": "下列哪些十進位轉二進位的結果為正確?",
+    "options_vi": [
+      "(48.625)10 = (110000.101)2",
+      "(6.75)10 = (110.11)2",
+      "(7.5)10 = (1110.010)2",
+      "(5.75)10 = (101.011)2"
+    ],
+    "options_zh": [
+      "①(48.625)10 (110000.101)2",
+      "② (6.75)10=(110.11) 2",
+      "③(7.5)10 =(1110.010)2",
+      "④(5.75)10=(101.011)2"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "(1) 48 = 32+16 = 110000. 0.625 = 0.5 + 0.125 = .101. (Đúng) (2) 6 = 4+2 = 110. 0.75 = 0.5 + 0.25 = .11. (Đúng) (3) 7.5 = 7 + 0.5 = 111 + .1 = (111.1)2. (Sai) (4) 5.75 = 5 + 0.75 = 101 + .11 = (101.11)2. (Sai)",
+    "explanation_zh": "(1) 48 = 32+16 = 110000. 0.625 = 0.5 + 0.125 = .101. (正確) (2) 6 = 4+2 = 110. 0.75 = 0.5 + 0.25 = .11. (正確) (3) 7.5 = 7 + 0.5 = 111 + .1 = (111.1)2. (錯誤) (4) 5.75 = 5 + 0.75 = 101 + .11 = (101.11)2. (錯誤)"
+  },
+  {
+    "id": "01_307",
+    "section": 1,
+    "question_vi": "Phương tiện nào sau đây thuộc về truyền dẫn không dây (wireless)?",
+    "question_zh": "下列哪些屬於無線傳輸?",
+    "options_vi": [
+      "Hồng ngoại (Infrared)",
+      "Cáp quang (Fiber Optic)",
+      "Vi sóng (Microwave)",
+      "Cáp xoắn đôi (Twisted Pair)"
+    ],
+    "options_zh": [
+      "①紅外線",
+      "②光纖",
+      "③微波",
+      "④雙絞線。"
+    ],
+    "answer_indices": [
+      0,
+      2
+    ],
+    "explanation_vi": "(1) Hồng ngoại và (3) Vi sóng là các hình thức truyền thông không dây, sử dụng sóng điện từ. (2) Cáp quang và (4) Cáp xoắn đôi là các phương tiện truyền dẫn có dây (hữu tuyến).",
+    "explanation_zh": "(1) 紅外線和 (3) 微波是使用電磁波的無線通訊形式。(2) 光纖和 (4) 雙絞線是有線（導向）傳輸介質。"
+  },
+  {
+    "id": "01_308",
+    "section": 1,
+    "question_vi": "Đơn vị xử lý trung tâm (CPU) bao gồm các thành phần nào sau đây?",
+    "question_zh": "中央處理單元(CPU)中包含下列哪些項目?",
+    "options_vi": [
+      "Thanh ghi (Register)",
+      "Đơn vị điều khiển (Control Unit)",
+      "Đơn vị logic số học (ALU)",
+      "Bộ nhớ đệm (Cache Memory)"
+    ],
+    "options_zh": [
+      "①暫存器",
+      "②控制單元",
+      "③算 術邏輯單元",
+      "④快取記憶體。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Một CPU hiện đại bao gồm: (2) Đơn vị điều khiển (CU) để điều phối, (3) Đơn vị logic số học (ALU) để tính toán, (1) các thanh ghi để lưu trữ tạm thời, và (4) bộ nhớ đệm (Cache L1, L2, L3) để tăng tốc độ truy cập dữ liệu.",
+    "explanation_zh": "現代 CPU 包含：(2) 控制單元 (CU) 負責協調，(3) 算術邏輯單元 (ALU) 負責運算，(1) 暫存器用於暫時儲存，以及 (4) 快取記憶體（L1, L2, L3）以加速資料存取。"
+  },
+  {
+    "id": "01_309",
+    "section": 1,
+    "question_vi": "Về dung lượng lưu trữ của ổ cứng, các giá trị nào sau đây là bằng nhau?",
+    "question_zh": "有關硬碟的儲存容量大小,下列哪些相同?",
+    "options_vi": [
+      "0.5 TB",
+      "512 PB",
+      "512 GB",
+      "512 * 1024 * 1024 KB"
+    ],
+    "options_zh": [
+      "①0.5TB",
+      "②512PB",
+      "③512G B",
+      "④512×1024×1024KB。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "1 TB = 1024 GB. Vậy 0.5 TB = 512 GB. (1) = (3). 1 GB = 1024 MB. 1 MB = 1024 KB. Vậy 512 GB = 512 * 1024 MB = 512 * 1024 * 1024 KB. (3) = (4). 512 PB (Petabyte) là một giá trị lớn hơn rất nhiều.",
+    "explanation_zh": "1 TB = 1024 GB。所以 0.5 TB = 512 GB。(1) = (3)。 1 GB = 1024 MB。1 MB = 1024 KB。所以 512 GB = 512 * 1024 MB = 512 * 1024 * 1024 KB。(3) = (4)。 512 PB (Petabyte) 是一個大得多的值。"
+  },
+  {
+    "id": "01_310",
+    "section": 1,
+    "question_vi": "Về chức năng của Modem, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關Modem的功能敘述,下列哪些正確?",
+    "options_vi": [
+      "Nó là một bộ điều chế - giải điều chế",
+      "Có thể chuyển đổi tín hiệu số (digital) sang tín hiệu tương tự (analog)",
+      "Có thể chuyển đổi tín hiệu tương tự (analog) sang tín hiệu số (digital)",
+      "Có thể truyền dữ liệu song song qua mạng đến máy tính ở xa"
+    ],
+    "options_zh": [
+      "①它是調變解調器",
+      "②可將 數位信號轉為類比信號",
+      "③可將類比信號轉為數位信號",
+      "④可透過網路平 行式傳送資料到遠端的電腦。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Tên 'Modem' là viết tắt của (1) MOdulator-DEModulator (Điều chế - Giải điều chế). (2) Chức năng điều chế (Modulate) là chuyển tín hiệu số từ máy tính thành tín hiệu tương tự để truyền qua đường dây điện thoại. (3) Chức năng giải điều chế (Demodulate) là làm ngược lại. (4) Modem truyền dữ liệu nối tiếp (serial), không phải song song (parallel).",
+    "explanation_zh": "「Modem」這個名字是 (1) MOdulator-DEModulator（調變器-解調器）的縮寫。(2) 調變功能是將電腦的數位訊號轉換為類比訊號，以便在電話線等介質上傳輸。(3) 解調功能則相反。 (4) Modem 傳輸的是串列資料，而非並列資料。"
+  },
+  {
+    "id": "01_311",
+    "section": 1,
+    "question_vi": "Thời gian truy cập (Access Time) của ổ cứng bao gồm những thành phần nào sau đây?",
+    "question_zh": "硬碟的存取時間(Access Time)包含下列哪些?",
+    "options_vi": [
+      "Thời gian đọc (Read Time)",
+      "Thời gian trễ quay (Rotation Time/Latency)",
+      "Thời gian truyền dữ liệu (Data Transfer Time)",
+      "Thời gian tìm kiếm (Seek Time)"
+    ],
+    "options_zh": [
+      "① 讀取時間(Read Tim e)",
+      "②旋轉時間(Rotation Time)",
+      "③ 資料傳輸時間(Data Transfer Tim e)",
+      "④搜尋時間(Seek Time)。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Thời gian truy cập ổ cứng (HDD) là tổng của: (4) Seek Time (thời gian đầu đọc di chuyển đến đúng rãnh - track), (2) Rotational Latency (thời gian đĩa quay đến đúng cung - sector), và (3) Transfer Time (thời gian dữ liệu thực sự được đọc/ghi). 'Read Time' không phải là một thuật ngữ kỹ thuật riêng biệt trong bối cảnh này.",
+    "explanation_zh": "硬碟 (HDD) 的存取時間總共包括：(4) 尋道時間 (Seek Time)（讀寫頭移動到正確磁軌的時間），(2) 旋轉延遲 (Rotational Latency)（碟片旋轉到正確磁區的時間），以及 (3) 資料傳輸時間 (Transfer Time)（資料實際被讀/寫的時間）。「讀取時間」在此上下文中並非一個獨立的技術術語。"
+  },
+  {
+    "id": "01_312",
+    "section": 1,
+    "question_vi": "Về ổ cứng, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關硬碟的敘述,下列哪些正確?",
+    "options_vi": [
+      "Rãnh (track) là đơn vị lưu trữ dữ liệu nhỏ nhất của ổ cứng",
+      "Mỗi đĩa (platter) chỉ có một bề mặt (surface)",
+      "Ổ cứng đọc dữ liệu trên đĩa thông qua đầu đọc/ghi (read/write head)",
+      "Ổ cứng giao diện SATA có tốc độ truyền nhanh hơn ổ cứng giao diện IDE"
+    ],
+    "options_zh": [
+      "①磁軌是硬碟儲存資料的最小單位",
+      "②每個磁碟只有一個磁面",
+      "③硬碟是透過讀寫頭來讀取磁碟上的資料",
+      "④ SATA介面硬碟較IDE介面硬碟的傳輸速度快。"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": "(3) Đầu đọc/ghi di chuyển trên bề mặt đĩa để đọc và ghi dữ liệu từ tính. (4) Giao diện SATA (Serial ATA) có thông lượng cao hơn đáng kể so với IDE (PATA - Parallel ATA). (1) Đơn vị lưu trữ nhỏ nhất là cung (sector). (2) Mỗi đĩa (platter) có hai bề mặt (trên và dưới).",
+    "explanation_zh": "(3) 讀寫頭在碟片表面上移動，以讀取和寫入磁性資料。(4) SATA（串行 ATA）介面的傳輸速率明顯高於 IDE（PATA - 並行 ATA）。(1) 最小的儲存單位是磁區 (sector)。(2) 每個碟片 (platter) 有兩個磁面（上和下）。"
+  },
+  {
+    "id": "01_313",
+    "section": 1,
+    "question_vi": "Bo mạch chủ máy tính không cắm thêm bất kỳ card giao diện nào vẫn có thể duyệt web và phát nhạc, là do bo mạch chủ đã tích hợp sẵn các card giao diện nào?",
+    "question_zh": "電腦主機板沒有安插任何介面卡就能瀏覽網頁及播放音樂,是因為主機 板已內建下列哪些介面卡?",
+    "options_vi": [
+      "Card mạng (Network Card)",
+      "Card âm thanh (Sound Card)",
+      "Card TV (TV Tuner Card)",
+      "Card đồ họa (Display Card)"
+    ],
+    "options_zh": [
+      "①網路卡",
+      "②音效卡",
+      "③電視卡",
+      "④顯示卡。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "Hầu hết các bo mạch chủ hiện đại đều tích hợp sẵn (onboard) (1) card mạng (để duyệt web), (2) card âm thanh (để phát nhạc), và (4) card đồ họa/GPU (để hiển thị hình ảnh). Card TV (3) là một thành phần chuyên dụng và hiếm khi được tích hợp sẵn.",
+    "explanation_zh": "現今大多數的主機板都內建 (1) 網路卡（用於瀏覽網頁）、(2) 音效卡（用於播放音樂）和 (4) 顯示卡/GPU（用於顯示影像）。(3) 電視卡是一種特殊元件，很少會內建。"
+  },
+  {
+    "id": "01_314",
+    "section": 1,
+    "question_vi": "Cổng kết nối USB trên máy tính cá nhân có thể kết nối với các thiết bị ngoại vi nào sau đây?",
+    "question_zh": "個人電腦中的USB 連接埠,可以連接下列哪些週邊設備?",
+    "options_vi": [
+      "Ổ đĩa flash USB (USB Flash Drive)",
+      "Bàn phím (Keyboard)",
+      "Chuột (Mouse)",
+      "Máy ảnh kỹ thuật số (Digital Camera)"
+    ],
+    "options_zh": [
+      "①隨身碟",
+      "② 鍵盤",
+      "③滑鼠",
+      "④數位相機。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "USB (Universal Serial Bus) là một chuẩn kết nối đa năng. Tất cả bốn thiết bị được liệt kê (USB, bàn phím, chuột, máy ảnh) đều có thể kết nối qua cổng USB.",
+    "explanation_zh": "USB (通用序列匯流排) 是一種多功能連接標準。所列出的所有四種裝置（隨身碟、鍵盤、滑鼠、數位相機）都可以透過 USB 埠連接。"
+  },
+  {
+    "id": "01_315",
+    "section": 1,
+    "question_vi": "Về dung lượng lưu trữ của ổ cứng, các giá trị nào sau đây là bằng nhau?",
+    "question_zh": "有關硬碟的儲存容量大小,下列哪些相同?",
+    "options_vi": [
+      "122880 TB",
+      "120 * 1024 * 1024 GB",
+      "120 * 2^50 Bytes",
+      "0.1 EB"
+    ],
+    "options_zh": [
+      "① 122880 TB",
+      "②120×1024x 1024 GB",
+      "③120×250 Bytes",
+      "④0.1 EB。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "1 EB = 1024 PB; 1 PB = 1024 TB; 1 TB = 1024 GB. (1) 122880 TB = 120 * 1024 TB = 120 PB. (2) 120 * 1024 * 1024 GB = 120 * 1024 TB = 120 PB. (3) 1 PB = 2^50 Bytes. Vậy 120 PB = 120 * 2^50 Bytes. (4) 0.1 EB = 0.1 * 1024 PB = 102.4 PB. Do đó (1), (2), (3) là bằng nhau (120 PB).",
+    "explanation_zh": "1 EB = 1024 PB; 1 PB = 1024 TB; 1 TB = 1024 GB。(1) 122880 TB = 120 * 1024 TB = 120 PB。(2) 120 * 1024 * 1024 GB = 120 * 1024 TB = 120 PB。(3) 1 PB = 2^50 Bytes。所以 120 PB = 120 * 2^50 Bytes。(4) 0.1 EB = 0.1 * 1024 PB = 102.4 PB。因此 (1)、(2)、(3) 相等（均為 120 PB）。"
+  },
+  {
+    "id": "01_316",
+    "section": 1,
+    "question_vi": "Một máy tính có bus dữ liệu 24 đường, bus địa chỉ 30 đường. Hỏi không gian bộ nhớ mà CPU này có thể định vị là bao nhiêu?",
+    "question_zh": "某台電腦的資料匯流排有24條排線,位址匯流排有30條排線,請問此 台電腦之 CPU的定址記憶體空間為何?",
+    "options_vi": [
+      "2^24 bits",
+      "2^30 Bytes",
+      "256 MB",
+      "1 GB"
+    ],
+    "options_zh": [
+      "① 224 bits",
+      "②230 Bytes",
+      "③256M B",
+      "④1GB."
+    ],
+    "answer_indices": [
+      1,
+      3
+    ],
+    "explanation_vi": "Không gian địa chỉ được quyết định bởi số đường của bus địa chỉ. Với 30 đường, CPU có thể định vị 2^30 địa chỉ. Mỗi địa chỉ thường trỏ đến 1 Byte. Do đó, không gian là 2^30 Bytes. Ta có: 2^30 Bytes = (2^10 * 2^20) Bytes = 1024 * 1 MB = 1024 MB = 1 GB. Vậy (2) và (4) là tương đương và đều đúng.",
+    "explanation_zh": "可定址空間由位址匯流排的線數決定。有 30 條線，CPU 可以定址 2^30 個位址。每個位址通常指向 1 個位元組 (Byte)。因此，定址空間為 2^30 Bytes。我們知道：2^30 Bytes = (2^10 * 2^20) Bytes = 1024 * 1 MB = 1024 MB = 1 GB。所以 (2) 和 (4) 是相等的，都是正確的。"
+  },
+  {
+    "id": "01_317",
+    "section": 1,
+    "question_vi": "So sánh giữa độ lớn của mã ASCII cho các chữ và số sau, điều nào là đúng?",
+    "question_zh": "下列文數字的ASCII Code 大小之比較,哪些正確?",
+    "options_vi": [
+      "'a' > '1' > 'A'",
+      "'c' > 'b' > 'a'",
+      "'3' > '2' > '1'",
+      "'1' > 'g' > 'p'"
+    ],
+    "options_zh": [
+      "①a>1>A",
+      "②c>b >a",
+      "③3>2>1",
+      "④1>g>p。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "Trong bảng mã ASCII, thứ tự độ lớn là: Số ('0'-'9') < Chữ hoa ('A'-'Z') < Chữ thường ('a'-'z'). (2) và (3) đúng vì chúng tuân theo thứ tự trong bảng chữ cái và chữ số. (1) sai vì '1' < 'A'. (4) sai vì '1' < 'g' < 'p'.",
+    "explanation_zh": "在 ASCII 碼表中，大小順序為：數字 ('0'-'9') < 大寫字母 ('A'-'Z') < 小寫字母 ('a'-'z')。(2) 和 (3) 是正確的，因為它們遵循字母表和數字的順序。(1) 是錯誤的，因為 '1' < 'A'。(4) 是錯誤的，因為 '1' < 'g' < 'p'。"
+  },
+  {
+    "id": "01_318",
+    "section": 1,
+    "question_vi": "Về giải thích đơn vị băng thông, điều nào sau đây là đúng?",
+    "question_zh": "有關頻寬單位的說明,下列哪些正確?",
+    "options_vi": [
+      "bps là 1 bit được truyền mỗi giây",
+      "Kbps là 1024 bit được truyền mỗi giây",
+      "Mbps là 100 bit được truyền mỗi giây",
+      "Gbps là 2^20 bit được truyền mỗi giây"
+    ],
+    "options_zh": [
+      "①bps為每秒傳輸1個位元",
+      "②K bps 為每秒傳輸1024個位元",
+      "③ Mbps 為每秒傳輸100個位元",
+      "④Gbps為 每秒傳輸220個位元。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "(1) bps (bits per second) là đơn vị cơ bản. (2) Trong bối cảnh máy tính, Kilo (K) thường là 1024 (2^10). (3) Mega (M) là 1024 K (2^20), không phải 100. (4) Giga (G) là 1024 M (2^30), không phải 2^20.",
+    "explanation_zh": "(1) bps (bits per second) 是基本單位。(2) 在電腦科學中，Kilo (K) 通常指 1024 (2^10)。(3) Mega (M) 是 1024 K (2^20)，不是 100。(4) Giga (G) 是 1024 M (2^30)，不是 2^20。"
+  },
+  {
+    "id": "01_319",
+    "section": 1,
+    "question_vi": "Thiết bị nào sau đây là bộ nhớ phụ (auxiliary memory) được sử dụng trong máy tính cá nhân?",
+    "question_zh": "下列哪些是個人電腦使用的輔助記憶體?",
+    "options_vi": [
+      "Bộ nhớ đệm (Cache Memory)",
+      "Ổ đĩa cứng (Hard Disk Drive)",
+      "Ổ đĩa mềm (Floppy Disk Drive)",
+      "Ổ đĩa quang (Optical Disk Drive)"
+    ],
+    "options_zh": [
+      "①快取記憶體",
+      "②硬碟機",
+      "③軟 碟機",
+      "④光碟機。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Bộ nhớ phụ (hay bộ nhớ thứ cấp) là bộ nhớ bất biến (non-volatile) dùng để lưu trữ dữ liệu lâu dài. (2) Ổ cứng, (3) Ổ mềm, và (4) Ổ quang (CD/DVD) đều là bộ nhớ phụ. (1) Cache là bộ nhớ chính (primary memory), có tính khả biến (volatile) và nằm gần CPU.",
+    "explanation_zh": "輔助記憶體（或稱次級儲存）是用於長期儲存資料的非揮發性記憶體。(2) 硬碟、(3) 軟碟和 (4) 光碟都是輔助記憶體。(1) 快取記憶體是主記憶體 (primary memory) 的一部分，是揮發性的，且靠近 CPU。"
+  },
+  {
+    "id": "01_320",
+    "section": 1,
+    "question_vi": "Các thành phần nào sau đây được tích hợp trực tiếp trên bo mạch chủ (mainboard)?",
+    "question_zh": "下列哪些元件直接內建於主機板上?",
+    "options_vi": [
+      "Ổ đĩa quang (Optical Disk Drive)",
+      "Chipset (Bộ vi mạch cầu bắc/nam)",
+      "BIOS ROM",
+      "Khe cắm mở rộng (Expansion Slot)"
+    ],
+    "options_zh": [
+      "①光碟機",
+      "②晶片組",
+      "③ BIOS ROM",
+      "④擴充槽。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "(2) Chipset, (3) chip BIOS ROM, và (4) các khe cắm mở rộng (như PCIe) đều được hàn/gắn cố định trên bo mạch chủ. (1) Ổ đĩa quang là một thiết bị ngoại vi được kết nối vào bo mạch chủ qua cáp.",
+    "explanation_zh": "(2) 晶片組、(3) BIOS ROM 晶片和 (4) 擴充槽（如 PCIe）都是焊接/固定在主機板上的。(1) 光碟機是透過傳輸線連接到主機板的周邊裝置。"
+  },
+  {
+    "id": "01_321",
+    "section": 1,
+    "question_vi": "Trong 4 thông số kỹ thuật của máy tính xách tay mà nhân viên bán hàng giới thiệu, thông số nào mô tả CPU của nó?",
+    "question_zh": "銷售員介紹筆記型電腦的4項規格中,下列哪些規格是描述其CPU?",
+    "options_vi": [
+      "8GB DDRIII",
+      "Lõi kép (Dual Core)",
+      "8MB Cache",
+      "Bộ xử lý là Intel Core i5"
+    ],
+    "options_zh": [
+      "①8GB DDRIII",
+      "② 雙核心",
+      "③8MB 快取記憶體",
+      "④處理器為Intel的Core i 5。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "(2) Lõi kép, (3) 8MB Cache (thường là L3 Cache), và (4) Intel Core i5 đều là các thông số kỹ thuật mô tả CPU. (1) 8GB DDRIII là thông số của RAM (bộ nhớ chính).",
+    "explanation_zh": "(2) 雙核心、(3) 8MB 快取記憶體（通常指 L3 快取）和 (4) Intel Core i5 都是描述 CPU 的規格。(1) 8GB DDRIII 是 RAM（主記憶體）的規格。"
+  },
+  {
+    "id": "01_322",
+    "section": 1,
+    "question_vi": "Về BIOS của máy tính cá nhân, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關個人電腦 BIOS的敘述,下列哪些正確?",
+    "options_vi": [
+      "Tên đầy đủ của BIOS là Basic Input Output System (Hệ thống xuất nhập cơ bản)",
+      "BIOS là một loại phần sụn (Firmware)",
+      "BIOS được làm bằng RAM nên có tính khả biến (volatile)",
+      "Khi máy tính khởi động, BIOS sẽ kiểm tra xem các thiết bị liên quan của máy tính có chính xác không"
+    ],
+    "options_zh": [
+      "① BIOS的全名為Basic I nput Output System",
+      "② BIOS 是一種韌體(Firmware)",
+      "③ BIOS 是使用RA M製造,具有揮發性",
+      "④當電腦開機時,BIOS會檢查電腦的相關設備是 否正確。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "(1) BIOS là viết tắt của Basic Input Output System. (2) Nó là một phần sụn (firmware) - phần mềm được nhúng vào phần cứng. (4) Quá trình này gọi là POST (Power-On Self-Test). (3) BIOS được lưu trữ trong ROM (hoặc Flash ROM), là bộ nhớ bất biến, không phải RAM.",
+    "explanation_zh": "(1) BIOS 是 Basic Input Output System 的縮寫。(2) 它是一種韌體 (firmware)——嵌入在硬體中的軟體。(4) 這個過程稱為 POST (Power-On Self-Test)。(3) BIOS 儲存在 ROM（或 Flash ROM）中，這是一種非揮發性記憶體，而不是 RAM。"
+  },
+  {
+    "id": "01_323",
+    "section": 1,
+    "question_vi": "Về bộ nhớ, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關記憶體的敘述,下列哪些正確?",
+    "options_vi": [
+      "SRAM có thể được đọc dữ liệu và cũng có thể được ghi dữ liệu vào",
+      "Tốc độ của DRAM chậm hơn ổ đĩa cứng",
+      "Khi máy tính tắt nguồn, dữ liệu DRAM sẽ không biến mất",
+      "Tốc độ của SRAM nhanh hơn ổ đĩa cứng"
+    ],
+    "options_zh": [
+      "①SRAM 可被讀取資料,也能寫 入資料",
+      "②DRAM的速度比硬式磁碟慢",
+      "③當電腦關機後,DRAM 料不會消失",
+      "④SRAM的速度比硬式磁碟快。"
+    ],
+    "answer_indices": [
+      0,
+      3
+    ],
+    "explanation_vi": "(1) SRAM (Static RAM) là bộ nhớ Đọc-Ghi (Read-Write). (4) SRAM (dùng làm cache) nhanh hơn ổ cứng rất nhiều. (2) DRAM (RAM chính) nhanh hơn ổ cứng rất nhiều. (3) DRAM là bộ nhớ khả biến (volatile), dữ liệu sẽ mất khi tắt nguồn.",
+    "explanation_zh": "(1) SRAM (靜態 RAM) 是一種讀寫記憶體。(4) SRAM（用作快取）比硬碟快得多。(2) DRAM（主記憶體）比硬碟快得多。(3) DRAM 是揮發性記憶體，關機後資料會遺失。"
+  },
+  {
+    "id": "01_324",
+    "section": 1,
+    "question_vi": "Thiết bị nào sau đây là thiết bị đầu vào (input) của máy tính?",
+    "question_zh": "下列哪些是電腦的輸入設備?",
+    "options_vi": [
+      "Máy ảnh kỹ thuật số (Digital Camera)",
+      "Bút quang (Light Pen)",
+      "Máy vẽ (Plotter)",
+      "Máy quét (Scanner)"
+    ],
+    "options_zh": [
+      "①數位相機",
+      "②光筆",
+      "③繪圖機",
+      "④掃描器"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "(1) Máy ảnh, (2) Bút quang, và (4) Máy quét đều dùng để nhập dữ liệu (hình ảnh, vị trí, văn bản) vào máy tính. (3) Máy vẽ (Plotter) là một thiết bị đầu ra, tương tự như máy in nhưng chuyên dùng cho bản vẽ kỹ thuật.",
+    "explanation_zh": "(1) 數位相機、(2) 光筆和 (4) 掃描器都用於將資料（影像、位置、文字）輸入電腦。(3) 繪圖機 (Plotter) 是一種輸出設備，類似於印表機，但專門用於工程圖紙。"
+  },
+  {
+    "id": "01_325",
+    "section": 1,
+    "question_vi": "Các loại bus nào sau đây thuộc loại truyền một chiều (unidirectional)?",
+    "question_zh": "下列哪些是屬於單向傳輸的匯流排類型?",
+    "options_vi": [
+      "Bus bộ nhớ (Memory Bus)",
+      "Bus địa chỉ (Address Bus)",
+      "Bus điều khiển (Control Bus)",
+      "Bus dữ liệu (Data Bus)"
+    ],
+    "options_zh": [
+      "①記憶匯流排(Memory Bu s)",
+      "②位址匯流排(Address Bus)",
+      "③ 控制匯流排(Control Bus)",
+      "④ 資 料匯流排(Data Bus)。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "(2) Bus địa chỉ thường là một chiều, từ CPU đến bộ nhớ/thiết bị I/O. (3) Bus điều khiển cũng thường là một chiều (từ CPU ra). (4) Bus dữ liệu phải là hai chiều (bidirectional) để CPU có thể vừa đọc (nhận) vừa ghi (gửi) dữ liệu. (1) 'Bus bộ nhớ' là một thuật ngữ chung, bao gồm cả 3 loại bus trên.",
+    "explanation_zh": "(2) 位址匯流排通常是單向的，從 CPU 到記憶體/I-O 裝置。(3) 控制匯流排也通常是單向的（從 CPU 發出）。(4) 資料匯流排必須是雙向的，以便 CPU 可以讀取（接收）和寫入（傳送）資料。(1) 「記憶體匯流排」是一個通用術語，包含了上述三種類型的匯流排。"
+  },
+  {
+    "id": "01_326",
+    "section": 1,
+    "question_vi": "So sánh giữa cáp đồng trục và cáp quang, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關同軸電纜及光纖傳輸媒介之比較,下列哪些正確?",
+    "options_vi": [
+      "Cáp quang truyền tín hiệu dưới dạng xung ánh sáng",
+      "Khoảng cách truyền của cáp quang là ngắn nhất",
+      "Khả năng chống nhiễu của cáp quang tốt hơn cáp đồng trục",
+      "Băng thông của cáp quang là rộng nhất"
+    ],
+    "options_zh": [
+      "①光纖是以光 脈衝信號的形式傳輸訊號",
+      "②光纖的傳輸距離最短",
+      "③光纖抗雜訊力較同 軸電纜為佳",
+      "④光纖的頻寬最寬。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "(1) Cáp quang truyền dữ liệu bằng ánh sáng. (3) Vì truyền bằng ánh sáng và làm bằng thủy tinh, nó miễn nhiễm với nhiễu điện từ (EMI), tốt hơn cáp đồng (đồng trục). (4) Cáp quang cung cấp băng thông lớn nhất trong các loại cáp. (2) Cáp quang có khoảng cách truyền xa nhất (nhiều km), xa hơn cáp đồng trục.",
+    "explanation_zh": "(1) 光纖使用光脈衝傳輸資料。(3) 由於它使用光並由玻璃製成，因此不受電磁干擾 (EMI)，優於銅纜（同軸電纜）。(4) 光纖在所有電纜類型中提供最高的頻寬。(2) 光纖的傳輸距離最遠（可達數公里），遠超過同軸電纜。"
+  },
+  {
+    "id": "01_327",
+    "section": 1,
+    "question_vi": "Kế hoạch phát triển Năng suất 4.0 của Hành chính Viện (Đài Loan) bao gồm những lĩnh vực nào?",
+    "question_zh": "我國行政院生產力4.0發展方案涵蓋了哪些生產力4.0?",
+    "options_vi": [
+      "Năng suất 4.0 ngành sản xuất chế tạo",
+      "Năng suất 4.0 ngành nông nghiệp",
+      "Năng suất 4.0 ngành dịch vụ thương mại",
+      "Năng suất 4.0 ngành giáo dục"
+    ],
+    "options_zh": [
+      "①製造業生產力 4.0",
+      "②農業生產力4.0",
+      "③商業服務業生產力4.0",
+      "④教育事業生產力4.0"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Kế hoạch Năng suất 4.0 của Đài Loan tập trung vào ba lĩnh vực chính: (1) Sản xuất chế tạo (lấy cảm hứng từ Công nghiệp 4.0 của Đức), (2) Nông nghiệp (Nông nghiệp 4.0), và (3) Dịch vụ thương mại (ví dụ: bán lẻ thông minh).",
+    "explanation_zh": "台灣的生產力 4.0 計畫主要聚焦於三大領域：(1) 製造業（受德國工業 4.0 啟發）、(2) 農業（農業 4.0）以及 (3) 商業服務業（例如智慧零售）。"
+  },
+  {
+    "id": "02_133",
+    "section": 2,
+    "question_vi": "Phần mềm ứng dụng nào sau đây thuộc loại phần mềm xử lý văn bản?",
+    "question_zh": "下列應用軟體哪些屬於文書處理軟體?",
+    "options_vi": [
+      "Writer (LibreOffice/OpenOffice)",
+      "Pages (Apple)",
+      "Microsoft Word",
+      "Dropbox"
+    ],
+    "options_zh": [
+      "① Writer",
+      "② Pages",
+      "③ Microsoft Word",
+      "④ Dropbox."
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Writer, Pages và Microsoft Word đều là các phần mềm chuyên dụng để soạn thảo và xử lý văn bản. Dropbox là một dịch vụ lưu trữ đám mây, không phải phần mềm xử lý văn bản.",
+    "explanation_zh": "Writer、Pages 和 Microsoft Word 都是專門用於撰寫和處理文件的文書處理軟體。Dropbox 是一種雲端儲存服務，而非文書處理軟體。"
+  },
+  {
+    "id": "02_134",
+    "section": 2,
+    "question_vi": "Phần mềm ứng dụng nào sau đây thuộc loại phần mềm bảng tính?",
+    "question_zh": "下列應用軟體哪些屬於試算表軟體?",
+    "options_vi": [
+      "Calc (LibreOffice/OpenOffice)",
+      "Numbers (Apple)",
+      "Microsoft Excel",
+      "Pages (Apple)"
+    ],
+    "options_zh": [
+      "① Calc",
+      "② Numbers",
+      "③ Microsoft E xcel",
+      "④ Pages。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Calc, Numbers và Microsoft Excel là các phần mềm bảng tính, dùng để làm việc với dữ liệu số, công thức và biểu đồ. Pages là phần mềm xử lý văn bản.",
+    "explanation_zh": "Calc、Numbers 和 Microsoft Excel 都是試算表軟體，用於處理數值資料、公式和圖表。Pages 是文書處理軟體。"
+  },
+  {
+    "id": "02_135",
+    "section": 2,
+    "question_vi": "Phần mềm ứng dụng nào sau đây thuộc loại phần mềm trình chiếu?",
+    "question_zh": "下列應用軟體哪些屬於簡報軟體?",
+    "options_vi": [
+      "Keynote (Apple)",
+      "Google Chrome",
+      "Microsoft PowerPoint",
+      "Impress (LibreOffice/OpenOffice)"
+    ],
+    "options_zh": [
+      "① Keynote",
+      "② Google Chrome",
+      "③ Micr osoft PowerPoint",
+      "④ Impress"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Keynote, Microsoft PowerPoint và Impress là các phần mềm chuyên dùng để tạo và trình bày các bài thuyết trình (slideshows). Google Chrome là một trình duyệt web.",
+    "explanation_zh": "Keynote、Microsoft PowerPoint 和 Impress 都是專門用於建立和展示簡報（投影片）的軟體。Google Chrome 是一個網頁瀏覽器。"
+  },
+  {
+    "id": "02_136",
+    "section": 2,
+    "question_vi": "Phần mềm ứng dụng nào sau đây có thể hoạt động trên hệ điều hành Mac?",
+    "question_zh": "下列哪些應用軟體可以運作在Mac 作業系統?",
+    "options_vi": [
+      "Office 365 (Microsoft)",
+      "IE 10 (Internet Explorer 10)",
+      "Numbers (Apple)",
+      "Impress (LibreOffice/OpenOffice)"
+    ],
+    "options_zh": [
+      "① Office 365",
+      "②IE 10",
+      "③Numbers",
+      "④ Impress."
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Microsoft cung cấp phiên bản Office 365 cho Mac. Numbers là phần mềm của Apple, chạy nguyên bản trên Mac. LibreOffice (bao gồm Impress) cũng có phiên bản cho Mac. Internet Explorer (IE) là trình duyệt của Microsoft và không còn được phát triển cho Mac (phiên bản cuối cùng là IE 5.2.3 cho Mac OS X).",
+    "explanation_zh": "Microsoft 提供 Mac 版本的 Office 365。Numbers 是 Apple 的軟體，原生執行於 Mac。LibreOffice（包含 Impress）也有 Mac 版本。Internet Explorer (IE) 是 Microsoft 的瀏覽器，已不再為 Mac 開發（最後版本是 IE 5.2.3 for Mac OS X）。"
+  },
+  {
+    "id": "02_137",
+    "section": 2,
+    "question_vi": "Phần mềm ứng dụng nào sau đây có thể hỗ trợ tệp tài liệu định dạng XML?",
+    "question_zh": "下列哪些應用軟體可以支援XML格式的文件檔?",
+    "options_vi": [
+      "Microsoft Word 2016",
+      "Microsoft Excel 2016",
+      "Mac Pages 10.1",
+      "Apache OpenOffice 4.1.7 Writer"
+    ],
+    "options_zh": [
+      "① Microsoft Word 2 016",
+      "② Microsoft Excel 2016",
+      "③ Mac Pages10.1",
+      "④ Apache OpenOffice4.1. 7 Writer."
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Tất cả các phần mềm văn phòng hiện đại như Word (.docx), Excel (.xlsx), Pages và Writer (.odt) đều sử dụng các định dạng tệp dựa trên XML (ví dụ: Office Open XML, OpenDocument). Chúng cũng thường có khả năng nhập/xuất hoặc làm việc trực tiếp với các tệp XML cơ bản.",
+    "explanation_zh": "所有現代的辦公室軟體，如 Word (.docx)、Excel (.xlsx)、Pages 和 Writer (.odt)，都使用基於 XML 的檔案格式（例如 Office Open XML、OpenDocument）。它們通常也能夠匯入/匯出或直接處理基本的 XML 檔案。"
+  },
+  {
+    "id": "02_138",
+    "section": 2,
+    "question_vi": "Về giải thích khoảng cách bố cục trong Microsoft Word, điều nào sau đây là *không* chính xác?",
+    "question_zh": "關於 Microsoft Word 的排版間距說明,下列哪些不正確?",
+    "options_vi": [
+      "Khoảng cách trống giữa hai dòng trong đoạn = Giãn dòng (Line spacing) - Chiều cao chữ (Font height)",
+      "Khoảng cách trống giữa các đoạn = Khoảng cách sau đoạn (Space after) + Khoảng cách trống giữa hai dòng trong đoạn",
+      "Giãn dòng (Line spacing) là khoảng cách từ đáy của một dòng văn bản đến đỉnh của dòng tiếp theo",
+      "Nhấn đồng thời Shift+Enter và nhấn Enter đều có thể thêm khoảng cách trống giữa các đoạn"
+    ],
+    "options_zh": [
+      "①段落內兩 行空白間隔=行距-字高",
+      "②段落間空白間隔=與下段距離+段落內兩行 空白間隔",
+      "③行距是指一行文字底端到下一行文字的頂端",
+      "④同時按下Sh ift+Enter 鍵與按下Enter 鍵一樣都可以加入段落間空白間隔。"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": "(3) Giãn dòng (Line spacing) là khoảng cách từ đường cơ sở (baseline) của một dòng đến đường cơ sở của dòng tiếp theo. (4) Nhấn Enter tạo một đoạn mới và áp dụng khoảng cách đoạn (Space before/after). Nhấn Shift+Enter chỉ tạo một ngắt dòng (line break) mềm bên trong cùng một đoạn, không áp dụng khoảng cách đoạn. (1) và (2) là các mô tả phức tạp và không hoàn toàn chính xác về cách Word tính toán.",
+    "explanation_zh": "(3) 行距是指一行文字的基線到下一行文字基線之間的距離。(4) 按 Enter 會建立一個新段落並套用段落間距（段前/段後）。按 Shift+Enter 只會在同一段落內建立一個軟換行符，不會套用段落間距。(1) 和 (2) 是關於 Word 如何計算間距的複雜且不完全準確的描述。"
+  },
+  {
+    "id": "02_139",
+    "section": 2,
+    "question_vi": "Về giá trị mặc định chuẩn của các ký tự tránh ở đầu/cuối dòng trong Microsoft Word, ký tự nào sau đây không thể đặt ở đầu dòng?",
+    "question_zh": "關於 Microsoft Word 避頭尾字元的標準預設值,下列哪些字元不能置 於行首?",
+    "options_vi": [
+      "Dấu ngoặc trái (ví dụ: ( )",
+      "Dấu chấm hỏi (?)",
+      "Dấu nháy kép trái (ví dụ: “ ”)",
+      "Dấu hai chấm (:)"
+    ],
+    "options_zh": [
+      "①左括號",
+      "②問號",
+      "③左引號",
+      "④冒號。"
+    ],
+    "answer_indices": [
+      1,
+      3
+    ],
+    "explanation_vi": "Theo quy tắc trình bày văn bản tiếng Trung (áp dụng tương tự cho một số ngôn ngữ), các dấu câu như dấu chấm hỏi (?), dấu hai chấm (:), dấu chấm (.), dấu phẩy (,) v.v. không nên đứng ở đầu dòng. Dấu ngoặc mở (() hoặc dấu nháy kép mở (“) thì có thể đứng ở đầu dòng.",
+    "explanation_zh": "根據中文排版規則（類似規則也適用於某些其他語言），標點符號如問號 (?)、冒號 (:)、句號 (.)、逗號 (,) 等不應出現在行首。開括號 (() 或開引號 (“) 可以位於行首。"
+  },
+  {
+    "id": "02_140",
+    "section": 2,
+    "question_vi": "Trong Microsoft Word, muốn tạo một biểu đồ đường thống kê, phương pháp nào sau đây *không* thể hoàn thành?",
+    "question_zh": "在 Microsoft Word 中要製作一個統計折線圖,下列哪些作法無法完 成?",
+    "options_vi": [
+      "Sử dụng công cụ vẽ (Drawing tools)",
+      "Chèn biểu đồ (Insert Chart)",
+      "Sao chép biểu đồ đã tạo trong Microsoft Excel",
+      "Sử dụng hình vẽ nhanh (Quick Shapes/AutoShapes)"
+    ],
+    "options_zh": [
+      "①使用繪圖工具",
+      "②插入圖表",
+      "③複製 Microsoft Excel 製作之圖表",
+      "④利用快取圖案。"
+    ],
+    "answer_indices": [
+      0,
+      3
+    ],
+    "explanation_vi": "Để tạo biểu đồ thống kê chính xác, bạn nên (2) sử dụng chức năng 'Insert Chart' của Word hoặc (3) tạo biểu đồ trong Excel rồi sao chép qua. (1) Công cụ vẽ và (4) Quick Shapes chỉ dùng để vẽ các hình học cơ bản, không thể tự động tạo biểu đồ từ dữ liệu.",
+    "explanation_zh": "要建立準確的統計圖表，您應該 (2) 使用 Word 的「插入圖表」功能，或 (3) 在 Excel 中建立圖表然後複製過來。(1) 繪圖工具和 (4) 快取圖案（圖形）僅用於繪製基本幾何形狀，無法根據資料自動生成圖表。"
+  },
+  {
+    "id": "02_141",
+    "section": 2,
+    "question_vi": "Trong Microsoft Word, thao tác nào sau đây có thể buộc ngắt trang?",
+    "question_zh": "在 Microsoft Word中,下列哪些可以強迫換頁?",
+    "options_vi": [
+      "Nhấn phím Shift",
+      "Chèn ngắt phần (Section Break) với tùy chọn trang tiếp theo (Next Page)",
+      "Chèn ngắt trang (Page Break)",
+      "Nhấn Ctrl+Enter"
+    ],
+    "options_zh": [
+      "①按下Shift 鍵",
+      "②插 入分節符號的下一頁選項",
+      "③插入分頁符號",
+      "④按下Ctrl+Enter 鍵。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "(2) Ngắt phần 'Next Page', (3) Ngắt trang, và (4) phím tắt Ctrl+Enter đều có chức năng bắt đầu nội dung tiếp theo trên một trang mới. Nhấn Shift không có chức năng ngắt trang.",
+    "explanation_zh": "(2) 分節符號的「下一頁」選項、(3) 分頁符號和 (4) 快速鍵 Ctrl+Enter 都具有強制內容從新頁面開始的功能。按 Shift 鍵沒有分頁功能。"
+  },
+  {
+    "id": "02_142",
+    "section": 2,
+    "question_vi": "Ưu điểm nào sau đây là của việc sử dụng chế độ Outline và các kiểu Heading trong Microsoft Word để chỉnh sửa báo cáo dài?",
+    "question_zh": "下列哪些是 Microsoft Word 使用大綱模式與標題樣式來編輯長篇報告 的好處?",
+    "options_vi": [
+      "Có thể sử dụng thanh công cụ Outline để điều chỉnh, thay đổi thứ tự các chương, mục",
+      "Có thể sử dụng chế độ Outline để xem các cấp độ tiêu đề được chỉ định",
+      "Có thể hoàn thành việc tạo, cập nhật mục lục",
+      "Có thể tích hợp với Microsoft PowerPoint để tạo bản trình bày cho báo cáo"
+    ],
+    "options_zh": [
+      "①可以使用大綱工具列調整、調換章節順序所在處",
+      "②可以使 用大綱模式檢視指定的標題階層",
+      "③可以完成目次製作、更改",
+      "④能與M icrosoft PowerPoint 整合,製作報告的簡報。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Sử dụng chế độ Outline và kiểu Heading mang lại nhiều lợi ích: (1) Dễ dàng sắp xếp lại cấu trúc tài liệu. (2) Xem tổng quan tài liệu theo các cấp độ. (3) Tự động tạo và cập nhật mục lục dựa trên các Heading. (4) Dễ dàng chuyển đổi cấu trúc sang slide PowerPoint.",
+    "explanation_zh": "使用大綱模式和標題樣式帶來許多好處：(1) 輕鬆重新組織文件結構。(2) 依不同層級檢視文件概觀。(3) 根據標題自動生成和更新目錄。(4) 輕鬆將文件結構匯入 PowerPoint 投影片。"
+  },
+  {
+    "id": "02_143",
+    "section": 2,
+    "question_vi": "Thời điểm kích hoạt (trigger) hoạt ảnh (animation) cho đối tượng trong slide Microsoft PowerPoint là những thời điểm nào sau đây?",
+    "question_zh": "下列哪些是 Microsoft PowerPoint 投影片內物件的動畫觸發時機?",
+    "options_vi": [
+      "Khi nhấp chuột (On Click)",
+      "Sau hoạt ảnh trước đó 1 giây (After Previous, with delay)",
+      "Cùng lúc với hoạt ảnh trước đó (With Previous)",
+      "Tiếp sau hoạt ảnh trước đó (After Previous)"
+    ],
+    "options_zh": [
+      "① 按一下",
+      "②設定前動畫完成後1秒",
+      "③與前動畫同時",
+      "④接續前動畫。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "PowerPoint cung cấp các tùy chọn thời điểm bắt đầu hoạt ảnh: (1) Bắt đầu khi nhấp chuột. (3) Bắt đầu cùng lúc với hoạt ảnh trước đó. (4) Bắt đầu ngay sau khi hoạt ảnh trước đó kết thúc. (2) Là một trường hợp của (4) nhưng có thêm độ trễ (delay).",
+    "explanation_zh": "PowerPoint 提供多種動畫開始選項：(1) 按一下時開始。(3) 與前動畫同時開始。(4) 接續前動畫完成後開始。(2) 是 (4) 的一個特例，增加了延遲時間。"
+  },
+  {
+    "id": "02_144",
+    "section": 2,
+    "question_vi": "Chức năng nào sau đây là chức năng chung của cả Microsoft Word và Mac Pages?",
+    "question_zh": "下列哪些是 Microsoft Word 與Mac Pages 共同具有的功能?",
+    "options_vi": [
+      "Định nghĩa đường viền trang (Page Border)",
+      "Hình mờ (Watermark)",
+      "Chèn chú thích cuối trang (Footnote)",
+      "Chèn công thức toán học (Equation)"
+    ],
+    "options_zh": [
+      "①定義頁 面邊框",
+      "②浮水印",
+      "③插入註腳",
+      "④插入數學公式。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "Cả Word và Pages đều hỗ trợ (2) chèn hình mờ và (3) chèn chú thích cuối trang/cuối văn bản. (1) Word có chức năng Page Border, Pages không có chức năng tương đương trực tiếp (có thể làm giả bằng cách khác). (4) Word có trình soạn thảo công thức mạnh mẽ, Pages cũng có nhưng có thể hạn chế hơn.",
+    "explanation_zh": "Word 和 Pages 都支援 (2) 插入浮水印和 (3) 插入註腳/章節附註。(1) Word 有頁面框線功能，Pages 沒有直接對應的功能（可用其他方式模擬）。(4) Word 有強大的方程式編輯器，Pages 也有，但功能可能較有限。"
+  },
+  {
+    "id": "02_145",
+    "section": 2,
+    "question_vi": "Trong Microsoft Word, tổ hợp phím nào là phím tắt để mở cửa sổ 'Đánh dấu Mục nhập Chỉ mục' (Mark Index Entry)?",
+    "question_zh": "在 Microsoft Word中,哪些鍵的組合是開啟「索引項目標記」視窗的 快速鍵?",
+    "options_vi": [
+      "Phím Shift",
+      "Phím Ctrl",
+      "Phím Alt",
+      "Phím X"
+    ],
+    "options_zh": [
+      "①Shift 鍵",
+      "② Ctrl鍵",
+      "③ Alt鍵",
+      "④X鍵。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Phím tắt để mở cửa sổ 'Mark Index Entry' trong Microsoft Word là Alt + Shift + X.",
+    "explanation_zh": "在 Microsoft Word 中開啟「標記索引項目」視窗的快速鍵是 Alt + Shift + X。"
+  },
+  {
+    "id": "02_146",
+    "section": 2,
+    "question_vi": "Chức năng nào sau đây là chức năng chung của cả Microsoft Word và Apache OpenOffice Writer?",
+    "question_zh": "下列哪些是 Microsoft Word 與 Apache OpenOffice 共同具有的功能?",
+    "options_vi": [
+      "Trộn thư (Mail Merge)",
+      "Định nghĩa đường viền trang (Page Border)",
+      "Chèn chú thích cuối trang (Footnote)",
+      "Chèn công thức toán học (Equation/Formula)"
+    ],
+    "options_zh": [
+      "①合併列印",
+      "②定義頁面邊框",
+      "③插入註腳",
+      "④插入數學公式。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Cả Microsoft Word và Apache OpenOffice Writer đều cung cấp các chức năng cốt lõi này: (1) Trộn thư, (2) Đường viền trang, (3) Chú thích cuối trang, và (4) Chèn công thức toán học (Word dùng Equation Editor, Writer dùng Math component).",
+    "explanation_zh": "Microsoft Word 和 Apache OpenOffice Writer 都提供這些核心功能：(1) 合併列印、(2) 頁面框線、(3) 註腳，以及 (4) 插入數學公式（Word 使用 Equation Editor，Writer 使用 Math 元件）。"
+  },
+  {
+    "id": "02_147",
+    "section": 2,
+    "question_vi": "Microsoft Word có thể tự định nghĩa bookmark, cũng có các bookmark mặc định. Vị trí bookmark mặc định được chia thành vị trí tương đối và vị trí tuyệt đối. Loại nào sau đây là vị trí tuyệt đối?",
+    "question_zh": "Microsoft Word 可以自訂書籤,也有預設書籤,其中預設書籤的位置分 為相對位置與絕對位置,下列哪些是絕對位置?",
+    "options_vi": [
+      "\\StartOfDoc (Đầu tài liệu)",
+      "\\StartOfSel (Đầu vùng chọn)",
+      "\\EndOfDoc (Cuối tài liệu)",
+      "\\Page (Trang hiện tại)"
+    ],
+    "options_zh": [
+      "① \\StartOfDoc",
+      "②\\Start OfSel",
+      "③\\EndOfDoc",
+      "④\\Page"
+    ],
+    "answer_indices": [
+      0,
+      2
+    ],
+    "explanation_vi": "Các bookmark mặc định như \\StartOfDoc và \\EndOfDoc tham chiếu đến các vị trí cố định, tuyệt đối trong tài liệu. Các bookmark như \\StartOfSel, \\EndOfSel, \\Line, \\Page, \\Cell tham chiếu đến các vị trí tương đối, phụ thuộc vào vị trí con trỏ hoặc vùng chọn hiện tại.",
+    "explanation_zh": "預設書籤如 \\StartOfDoc 和 \\EndOfDoc 指的是文件中固定的、絕對的位置。而像 \\StartOfSel、\\EndOfSel、\\Line、\\Page、\\Cell 這樣的書籤則指的是相對位置，取決於目前的游標位置或選取範圍。"
+  },
+  {
+    "id": "02_148",
+    "section": 2,
+    "question_vi": "Microsoft Word có thể tự định nghĩa bookmark, cũng có các bookmark mặc định. Vị trí bookmark mặc định được chia thành vị trí tương đối và vị trí tuyệt đối. Loại nào sau đây là vị trí tương đối?",
+    "question_zh": "Microsoft Word可以自訂書籤,也有預設書籤,其中預設書籤的位置分 為相對位置與絕對位置,下列哪些是相對位置?",
+    "options_vi": [
+      "\\StartOfDoc (Đầu tài liệu)",
+      "\\StartOfSel (Đầu vùng chọn)",
+      "\\Cell (Ô hiện tại)",
+      "\\Page (Trang hiện tại)"
+    ],
+    "options_zh": [
+      "① \\StartOfDoc",
+      "②\\Start OfSel",
+      "③\\Cell",
+      "④\\Page"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Các bookmark như \\StartOfSel (bắt đầu vùng chọn), \\Cell (ô hiện tại trong bảng), \\Page (số trang hiện tại) là các vị trí tương đối vì chúng thay đổi tùy thuộc vào ngữ cảnh hiện tại của người dùng. \\StartOfDoc là vị trí tuyệt đối (luôn là đầu tài liệu).",
+    "explanation_zh": "像 \\StartOfSel（選取範圍的開頭）、\\Cell（表格中的目前儲存格）、\\Page（目前的頁碼）這樣的書籤是相對位置，因為它們會根據使用者目前的上下文而改變。\\StartOfDoc 是絕對位置（永遠是文件的開頭）。"
+  },
+  {
+    "id": "02_149",
+    "section": 2,
+    "question_vi": "Chức năng AutoText của Microsoft Word có thể được thay thế bằng các trường (Field Code) nào sau đây?",
+    "question_zh": "Microsoft Word 的自動圖文集功能,可以改用下列哪些功能變數來套 用?",
+    "options_vi": [
+      "AutoNumOut",
+      "AutoText",
+      "AutoTextList",
+      "Compare"
+    ],
+    "options_zh": [
+      "① AutoNumOut",
+      "② AutoText",
+      "③ AutoTextList",
+      "④ Compare."
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "Trường { AUTOTEXT \"tên mục\" } dùng để chèn một mục AutoText cụ thể. Trường { AUTOTEXTLIST \"văn bản hiển thị\" \\s \"kiểu\" \\t \"Tip\" } tạo ra một danh sách thả xuống chứa các mục AutoText thuộc một kiểu nhất định. AutoNumOut liên quan đến đánh số Outline. Compare dùng để so sánh giá trị.",
+    "explanation_zh": "{ AUTOTEXT \"項目名稱\" } 功能變數碼用於插入特定的自動圖文集項目。{ AUTOTEXTLIST \"顯示文字\" \\s \"樣式\" \\t \"提示\" } 功能變數碼會建立一個下拉清單，其中包含屬於特定樣式的自動圖文集項目。AutoNumOut 與大綱編號相關。Compare 用於比較數值。"
+  },
+  {
+    "id": "02_150",
+    "section": 2,
+    "question_vi": "Trường SEQ được sử dụng trong cài đặt đánh số thứ tự (Caption) của Microsoft Word, phù hợp nhất để đánh dấu các đối tượng nào trong báo cáo, bài viết?",
+    "question_zh": "Microsoft Word 標號設定所使用的功能變數是SEQ,最適用於文章報 告中哪些物件的標示?",
+    "options_vi": [
+      "Phương trình (Equation)",
+      "Bảng (Table)",
+      "Hình ảnh (Figure)",
+      "Tài liệu tham khảo (Reference)"
+    ],
+    "options_zh": [
+      "①方程式",
+      "②表格",
+      "③圖形",
+      "④參考文獻。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Trường { SEQ identifier } được sử dụng để tạo chuỗi số thứ tự tăng dần. Chức năng 'Insert Caption' (Chèn Chú thích) của Word sử dụng trường này để tự động đánh số cho các đối tượng như Phương trình, Bảng, Hình ảnh. Tài liệu tham khảo thường được quản lý bằng các công cụ quản lý trích dẫn riêng.",
+    "explanation_zh": "{ SEQ 識別碼 } 功能變數碼用於建立遞增的編號序列。Word 的「插入標號」功能使用此功能變數碼自動為方程式、表格、圖形等物件編號。參考文獻通常使用專門的引用管理工具來管理。"
+  },
+  {
+    "id": "02_151",
+    "section": 2,
+    "question_vi": "Thống kê mô tả (Descriptive Statistics) trong phân tích dữ liệu của Microsoft Excel bao gồm các giá trị nào sau đây?",
+    "question_zh": "Microsoft Excel 資料分析中的敘述統計包含下列哪些數值?",
+    "options_vi": [
+      "Giá trị trung bình (Mean)",
+      "Độ lệch chuẩn (Standard Deviation)",
+      "Phương sai (Variance)",
+      "Độ tin cậy trung bình (Confidence Level for Mean)"
+    ],
+    "options_zh": [
+      "①平均值",
+      "②標準差",
+      "③變異數",
+      "④平均信賴度。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Công cụ 'Descriptive Statistics' trong Analysis ToolPak của Excel cung cấp một loạt các giá trị thống kê mô tả, bao gồm cả bốn giá trị được liệt kê: Trung bình, Độ lệch chuẩn, Phương sai, và Khoảng tin cậy cho giá trị trung bình.",
+    "explanation_zh": "Excel 分析工具箱中的「描述統計」工具提供一系列的描述性統計數值，包括所列出的全部四個值：平均值、標準差、變異數和平均值的信賴區間。"
+  },
+  {
+    "id": "02_152",
+    "section": 2,
+    "question_vi": "Trong các hàm của Microsoft Excel, hàm nào sau đây thuộc loại phân phối chuẩn (Normal Distribution)?",
+    "question_zh": "在 Microsoft Excel的函數中,下列哪些是常態分布類型的函數?",
+    "options_vi": [
+      "NORMDIST",
+      "NOMINAL",
+      "NORMSDIST",
+      "NORMSINV"
+    ],
+    "options_zh": [
+      "①N ORMDIST",
+      "② NOMINAL",
+      "③ NORMSDIST",
+      "④ NORMSINV。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "NORMDIST trả về phân phối chuẩn cho trung bình và độ lệch chuẩn đã cho. NORMSDIST trả về hàm phân phối tích lũy chuẩn hóa (trung bình=0, độ lệch chuẩn=1). NORMSINV trả về nghịch đảo của hàm phân phối tích lũy chuẩn hóa. NOMINAL là hàm tài chính, tính lãi suất danh nghĩa.",
+    "explanation_zh": "NORMDIST 傳回給定平均值和標準差的常態分布。NORMSDIST 傳回標準常態累積分佈函數（平均值=0，標準差=1）。NORMSINV 傳回標準常態累積分佈函數的反函數。NOMINAL 是一個財務函數，用於計算名目利率。"
+  },
+  {
+    "id": "02_153",
+    "section": 2,
+    "question_vi": "Trình duyệt nào sau đây hỗ trợ HTML5 và CSS3?",
+    "question_zh": "下列哪些瀏覽器支援HTML5與CSS3?",
+    "options_vi": [
+      "Opera 19",
+      "IE 9",
+      "Firefox 27.0",
+      "Google Chrome 32.0"
+    ],
+    "options_zh": [
+      "① Opera 19",
+      "② IE 9",
+      "③ Firefox 27.0",
+      "④ Google Chrome 32.0。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Các phiên bản trình duyệt hiện đại như Opera (từ 15+), Firefox (từ 4+), Chrome (từ 4+) đều hỗ trợ tốt HTML5 và CSS3. IE 9 có hỗ trợ một phần, nhưng kém hơn đáng kể so với các trình duyệt còn lại, đặc biệt là về CSS3.",
+    "explanation_zh": "現代瀏覽器版本，如 Opera (15+ 版本起)、Firefox (4+ 版本起)、Chrome (4+ 版本起) 都對 HTML5 和 CSS3 提供了良好的支援。IE 9 提供了部分支援，但支援程度明顯不如其他瀏覽器，尤其是在 CSS3 方面。"
+  },
+  {
+    "id": "02_154",
+    "section": 2,
+    "question_vi": "Trình duyệt nào sau đây có mã nguồn mở?",
+    "question_zh": "下列哪些瀏覽器有開放原始碼?",
+    "options_vi": [
+      "Opera",
+      "Safari",
+      "Firefox",
+      "Chromium"
+    ],
+    "options_zh": [
+      "① Opera",
+      "② Safari",
+      "③ Firefox",
+      "④ Chromiu m"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "(3) Firefox được phát triển bởi Mozilla Foundation, là phần mềm mã nguồn mở. (4) Chromium là dự án mã nguồn mở do Google khởi xướng, làm nền tảng cho Google Chrome. (1) Opera hiện tại dựa trên Chromium, nên phần lõi là mã nguồn mở. (2) Safari của Apple không phải là mã nguồn mở (mặc dù engine WebKit của nó có nguồn gốc từ dự án mã nguồn mở KHTML).",
+    "explanation_zh": "(3) Firefox 由 Mozilla 基金會開發，是開源軟體。(4) Chromium 是 Google 發起的開源專案，是 Google Chrome 的基礎。(1) 目前的 Opera 基於 Chromium，因此其核心引擎是開源的。(2) Apple 的 Safari 不是開源軟體（儘管其 WebKit 引擎源自開源專案 KHTML）。"
+  },
+  {
+    "id": "02_155",
+    "section": 2,
+    "question_vi": "Trình duyệt nào sau đây có thể chạy trên cả hai nền tảng Microsoft Windows và Mac?",
+    "question_zh": "下列哪些瀏覽器可以在 Microsoft Windows 與Mac 作業系統兩平台上 執行?",
+    "options_vi": [
+      "Opera",
+      "Edge",
+      "Firefox",
+      "Google Chrome"
+    ],
+    "options_zh": [
+      "① Opera",
+      "② Edge",
+      "③ Firefox",
+      "④ Google Chrome"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Cả Opera, Microsoft Edge (phiên bản mới dựa trên Chromium), Firefox và Google Chrome đều có phiên bản chính thức chạy được trên cả Windows và macOS.",
+    "explanation_zh": "Opera、Microsoft Edge（基於 Chromium 的新版本）、Firefox 和 Google Chrome 都有官方版本可以在 Windows 和 macOS 上執行。"
+  },
+  {
+    "id": "02_156",
+    "section": 2,
+    "question_vi": "Trong các phần mềm ứng dụng sau, phần mềm nào thuộc loại phần mềm cơ sở dữ liệu?",
+    "question_zh": "下列應用軟體中,何者屬於資料庫軟體?",
+    "options_vi": [
+      "Pages",
+      "Oracle",
+      "Microsoft SQL Server",
+      "MySQL"
+    ],
+    "options_zh": [
+      "① Pages",
+      "② Oracle",
+      "③ Microsof t SQL Server",
+      "④ MySQL。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Oracle, Microsoft SQL Server và MySQL là các hệ quản trị cơ sở dữ liệu (DBMS) mạnh mẽ, được sử dụng rộng rãi. Pages là phần mềm xử lý văn bản của Apple.",
+    "explanation_zh": "Oracle、Microsoft SQL Server 和 MySQL 都是功能強大且廣泛使用的資料庫管理系統 (DBMS)。Pages 是 Apple 的文書處理軟體。"
+  },
+  {
+    "id": "02_157",
+    "section": 2,
+    "question_vi": "Trong các phần mềm ứng dụng sau, phần mềm nào thuộc loại phần mềm xử lý hình ảnh?",
+    "question_zh": "下列應用軟體中,何者屬於影像處理軟體?",
+    "options_vi": [
+      "Photoshop",
+      "Illustrator",
+      "Painter",
+      "Access"
+    ],
+    "options_zh": [
+      "① Photoshop",
+      "② Illustrator",
+      "③Painter",
+      "④ Access。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Photoshop (chỉnh sửa ảnh raster), Illustrator (đồ họa vector) và Painter (giả lập vẽ tranh) đều là các phần mềm chuyên dụng cho việc tạo và chỉnh sửa hình ảnh/đồ họa. Access là phần mềm quản lý cơ sở dữ liệu của Microsoft.",
+    "explanation_zh": "Photoshop（點陣圖編輯）、Illustrator（向量圖形）和 Painter（數位繪畫）都是用於建立和編輯圖像/圖形的專業軟體。Access 是 Microsoft 的資料庫管理軟體。"
+  },
+  {
+    "id": "02_158",
+    "section": 2,
+    "question_vi": "Trong hệ thống cơ sở dữ liệu quan hệ, câu lệnh SELECT FROM là lệnh tìm kiếm dữ liệu chính. Các mệnh đề nào sau đây có thể được sử dụng trong câu lệnh SELECT?",
+    "question_zh": "在關聯式資料庫系統中,SELECT FROM 句型是主要的資料搜尋指 令,下列哪些子句是可以使用在SELECT 句型中的語法?",
+    "options_vi": [
+      "SET",
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY"
+    ],
+    "options_zh": [
+      "①SET",
+      "②W HERE",
+      "③ORDER BY",
+      "④ GROUP BY。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "WHERE dùng để lọc bản ghi. ORDER BY dùng để sắp xếp kết quả. GROUP BY dùng để nhóm các bản ghi có cùng giá trị. Mệnh đề SET được sử dụng trong câu lệnh UPDATE để cập nhật giá trị, không dùng trong SELECT.",
+    "explanation_zh": "WHERE 用於篩選記錄。ORDER BY 用於排序結果。GROUP BY 用於將具有相同值的記錄分組。SET 子句用於 UPDATE 語句中以更新數值，不用於 SELECT 語句。"
+  },
+  {
+    "id": "02_159",
+    "section": 2,
+    "question_vi": "Khi gửi email, có thể thiết lập mã hóa. Nếu không có khóa riêng (private key) của người nhận để giải mã, nội dung sẽ không thể xem được. Phần nào sau đây được bảo vệ bởi mã hóa email?",
+    "question_zh": "在電子郵件寄送時,可以進行加密設定,沒有收件者的私鑰來進行解密 將無法看到內容,下列何者是被郵件加密所保護的內容?",
+    "options_vi": [
+      "Tài khoản người nhận",
+      "Tiêu đề (Subject)",
+      "Tệp đính kèm (Attachment)",
+      "Nội dung email (Body)"
+    ],
+    "options_zh": [
+      "①收件者帳 號",
+      "②主旨",
+      "③附加檔案",
+      "④郵件內容。"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": "Các tiêu chuẩn mã hóa email phổ biến như PGP hay S/MIME chủ yếu mã hóa (3) tệp đính kèm và (4) nội dung chính của email. Thông tin tiêu đề như (1) người nhận và (2) tiêu đề thường không được mã hóa để các máy chủ mail có thể định tuyến thư.",
+    "explanation_zh": "常見的電子郵件加密標準（如 PGP 或 S/MIME）主要加密 (3) 附加檔案和 (4) 郵件正文。(1) 收件者和 (2) 主旨等標頭資訊通常不加密，以便郵件伺服器可以路由郵件。"
+  },
+  {
+    "id": "02_160",
+    "section": 2,
+    "question_vi": "Tiểu Minh nhận được một email được gửi dưới dạng BCC (Bản sao ẩn). Vậy Tiểu Minh có thể nhìn thấy những người nhận nào của email này?",
+    "question_zh": "小明收到一封被列為密件副本的電子郵件,則小明可以看到這份郵件的 哪些收件者?",
+    "options_vi": [
+      "Người nhận chính (To)",
+      "Người nhận bản sao (CC)",
+      "Địa chỉ email của chính Tiểu Minh",
+      "Những người nhận BCC khác"
+    ],
+    "options_zh": [
+      "①正本收件者",
+      "②副本收件者",
+      "③小明自己的郵件地址",
+      "④ 其他密件副本的收件者。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "Người nhận trong trường BCC sẽ thấy được danh sách người nhận trong trường To và CC, nhưng không thấy được những người khác trong trường BCC (bao gồm cả chính mình nếu người gửi không cấu hình đặc biệt).",
+    "explanation_zh": "密件副本 (BCC) 欄位中的收件者可以看到正本 (To) 和副本 (CC) 欄位中的收件者列表，但看不到 BCC 欄位中的其他收件者（除非寄件者有特殊設定，否則通常也看不到自己的位址）。"
+  },
+  {
+    "id": "02_161",
+    "section": 2,
+    "question_vi": "Trong hệ thống cơ sở dữ liệu quan hệ, ngôn ngữ SQL bao gồm những loại nào?",
+    "question_zh": "在關聯式資料庫系統中,SQL 語言包含哪些類型?",
+    "options_vi": [
+      "DDL (Ngôn ngữ định nghĩa dữ liệu)",
+      "DML (Ngôn ngữ thao tác dữ liệu)",
+      "DHL",
+      "DCL (Ngôn ngữ điều khiển dữ liệu)"
+    ],
+    "options_zh": [
+      "①DDL",
+      "②DML",
+      "③D HL",
+      "④DCL"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "SQL thường được chia thành các nhóm lệnh chính: DDL (CREATE, ALTER, DROP - định nghĩa cấu trúc), DML (SELECT, INSERT, UPDATE, DELETE - thao tác dữ liệu), và DCL (GRANT, REVOKE - quản lý quyền truy cập). DHL không phải là một loại ngôn ngữ SQL.",
+    "explanation_zh": "SQL 通常分為幾個主要的命令群組：DDL（CREATE, ALTER, DROP - 定義結構）、DML（SELECT, INSERT, UPDATE, DELETE - 操作資料）和 DCL（GRANT, REVOKE - 管理存取權限）。DHL 不是 SQL 語言的一個類型。"
+  },
+  {
+    "id": "02_162",
+    "section": 2,
+    "question_vi": "Trong hệ thống cơ sở dữ liệu quan hệ, khóa chính (Primary Key) của bảng dữ liệu nên có những đặc tính nào?",
+    "question_zh": "在關聯式資料庫系統中,資料表的主鍵(Primary Key)應具備哪些特性?",
+    "options_vi": [
+      "Tính duy nhất để nhận dạng bản ghi",
+      "Không được rỗng (Not Null)",
+      "Phải là kiểu số",
+      "Không được lặp lại (Unique)"
+    ],
+    "options_zh": [
+      "①識別記錄的唯一性",
+      "②非空值(Not Null)",
+      "③必須是數值",
+      "④不可以重複"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "Khóa chính phải đảm bảo (1) & (4) tính duy nhất (Unique) để phân biệt các bản ghi và (2) không được chứa giá trị NULL. (3) Khóa chính không nhất thiết phải là kiểu số, có thể là kiểu chuỗi hoặc kết hợp nhiều cột.",
+    "explanation_zh": "主鍵必須保證 (1) & (4) 唯一性 (Unique) 以區分記錄，並且 (2) 不得包含 NULL 值。(3) 主鍵不一定必須是數值類型，也可以是字串類型或多個欄位的組合。"
+  },
+  {
+    "id": "02_163",
+    "section": 2,
+    "question_vi": "Trong hệ thống cơ sở dữ liệu quan hệ, lệnh nào sau đây sẽ gây ra việc xóa bản ghi của bảng?",
+    "question_zh": "在關聯式資料庫系統中,哪些指令會造成資料表紀錄的刪除?",
+    "options_vi": [
+      "DELETE FROM TABLE",
+      "DROP TABLE",
+      "TRUNCATE TABLE",
+      "ERASE TABLE"
+    ],
+    "options_zh": [
+      "①DELE TE TABLE",
+      "② DROP TABLE",
+      "③ TRUNCATE TABLE",
+      "④ ERASE TABLE"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "DELETE FROM xóa các bản ghi dựa trên điều kiện WHERE (hoặc tất cả nếu không có WHERE). TRUNCATE TABLE xóa tất cả bản ghi nhanh hơn DELETE nhưng không thể rollback. DROP TABLE xóa toàn bộ cấu trúc bảng và dữ liệu. ERASE TABLE không phải là lệnh SQL chuẩn.",
+    "explanation_zh": "DELETE FROM 根據 WHERE 條件刪除記錄（如果沒有 WHERE 則刪除全部）。TRUNCATE TABLE 刪除所有記錄，通常比 DELETE 快但無法回滾。DROP TABLE 刪除整個資料表結構和資料。ERASE TABLE 不是標準的 SQL 命令。"
+  },
+  {
+    "id": "02_164",
+    "section": 2,
+    "question_vi": "Đối với View (khung nhìn) trong cơ sở dữ liệu quan hệ, phát biểu nào sau đây là đúng?",
+    "question_zh": "對於關聯式資料庫中的視界(View),下列哪些敘述是正確的?",
+    "options_vi": [
+      "Có thể kết hợp nhiều bảng thành một View",
+      "Có thể chọn sử dụng các cột khác nhau từ các bảng khác nhau để tạo thành View",
+      "View chỉ có thể lấy dữ liệu từ bảng",
+      "View có thể ẩn thông tin cột của bảng nguồn"
+    ],
+    "options_zh": [
+      "①可以 合併多個資料表成為一個視界",
+      "②可以選擇使用不同資料表中的不同欄 位組成視界",
+      "③視界只能從資料表中取得資料",
+      "④視界可以隱藏來源資料 表的欄位資訊。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "View là một bảng ảo dựa trên kết quả của một câu lệnh SQL. (1) Nó có thể kết hợp dữ liệu từ nhiều bảng (JOIN). (2) Nó cho phép chọn lọc các cột cụ thể. (4) Nó có thể dùng để che giấu cấu trúc hoặc dữ liệu phức tạp của các bảng cơ sở. (3) View có thể được xây dựng dựa trên các View khác, không chỉ từ bảng.",
+    "explanation_zh": "視界 (View) 是一個基於 SQL 查詢結果的虛擬資料表。(1) 它可以合併來自多個資料表的資料 (JOIN)。(2) 它允許選擇特定的欄位。(4) 它可以用來隱藏基礎資料表的複雜結構或資料。(3) 視界可以建立在其他視界的基礎上，不僅僅是資料表。"
+  },
+  {
+    "id": "02_165",
+    "section": 2,
+    "question_vi": "Trong Microsoft Word 2016, ô (cell) không thể tô màu nền (shading) bằng các loại nào sau đây?",
+    "question_zh": "Microsoft Word 2016中,儲存格無法填入下列哪些網底?",
+    "options_vi": [
+      "Hình ảnh (Picture)",
+      "Gradient (Màu chuyển sắc)",
+      "Texture (Vân bề mặt)",
+      "Màu chủ đề (Theme Color)"
+    ],
+    "options_zh": [
+      "①圖片",
+      "②漸 層",
+      "③材質",
+      "④佈景主題色彩。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Trong Word, màu nền cho ô của bảng (Table Cell Shading) chỉ hỗ trợ màu đơn sắc (bao gồm màu chủ đề và màu chuẩn) hoặc các mẫu pattern đơn giản. Không thể trực tiếp tô nền ô bằng hình ảnh, gradient hay texture như trong PowerPoint hoặc các đối tượng Shape.",
+    "explanation_zh": "在 Word 中，表格儲存格的網底僅支援單色（包括佈景主題色彩和標準色彩）或簡單的圖樣。無法像在 PowerPoint 或圖案物件中那樣直接使用圖片、漸層或材質填滿儲存格背景。"
+  },
+  {
+    "id": "02_166",
+    "section": 2,
+    "question_vi": "Đặc tính nào sau đây là của hệ quản trị cơ sở dữ liệu hướng đối tượng (OODBMS)?",
+    "question_zh": "下列何者是物件導向資料庫管理系統的特性?",
+    "options_vi": [
+      "Tính độc lập dữ liệu (Data Independence)",
+      "Chuẩn hóa dữ liệu (Data Normalization)",
+      "Định nghĩa thuộc tính lớp (Class Attribute Definition)",
+      "Tính đóng gói (Encapsulation)"
+    ],
+    "options_zh": [
+      "①資料獨立性",
+      "②資料正 規化",
+      "③定義類別屬性",
+      "④封裝。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "OODBMS kế thừa các khái niệm của lập trình hướng đối tượng, bao gồm (3) lớp (class) và thuộc tính, (4) tính đóng gói (kết hợp dữ liệu và phương thức), tính kế thừa, tính đa hình. (1) Tính độc lập dữ liệu là một đặc tính chung của các DBMS. (2) Chuẩn hóa dữ liệu là khái niệm chủ yếu của CSDL quan hệ.",
+    "explanation_zh": "OODBMS 繼承了物件導向程式設計的概念，包括 (3) 類別和屬性、(4) 封裝（將資料和方法結合）、繼承和多型。(1) 資料獨立性是大多數 DBMS 的共同特性。(2) 資料正規化主要是關聯式資料庫的概念。"
+  },
+  {
+    "id": "02_167",
+    "section": 2,
+    "question_vi": "Trong Photoshop, khi chọn một vùng nội dung, công cụ nào sau đây *không* sử dụng phương pháp dựa trên sự tương đồng về màu sắc để phân biệt?",
+    "question_zh": "在Photoshop中,在選取內容範圍時,哪些工具不會使用顏色接近方法 來做判別?",
+    "options_vi": [
+      "Công cụ Đũa phép (Magic Wand Tool)",
+      "Công cụ Lasso",
+      "Công cụ Chọn hình chữ nhật (Rectangular Marquee Tool)",
+      "Công cụ Cọ vẽ (Brush Tool)"
+    ],
+    "options_zh": [
+      "①魔術棒工具",
+      "②套索工具",
+      "③矩形工具",
+      "④筆刷工具。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "(1) Magic Wand chọn các pixel có màu tương tự. (2) Lasso Tool cho phép vẽ vùng chọn tự do bằng tay. (3) Rectangular Marquee Tool tạo vùng chọn hình chữ nhật. (4) Brush Tool dùng để vẽ, không phải để tạo vùng chọn ban đầu (mặc dù có thể dùng trong Quick Mask mode). Do đó, Lasso, Rectangular Marquee và Brush không dựa vào màu sắc để tạo vùng chọn.",
+    "explanation_zh": "(1) 魔術棒工具根據顏色相似性選取像素。(2) 套索工具允許手繪自由選取範圍。(3) 矩形選取畫面工具建立矩形選取範圍。(4) 筆刷工具用於繪畫，而不是建立初始選取範圍（儘管可以在快速遮色片模式中使用）。因此，套索、矩形選取畫面和筆刷工具在建立選取範圍時不依賴顏色判斷。"
+  },
+  {
+    "id": "02_168",
+    "section": 2,
+    "question_vi": "Trong các phần mềm xử lý hình ảnh thông thường, có những thuộc tính màu sắc nào?",
+    "question_zh": "在一般的影像處理軟體中,有哪些色彩屬性?",
+    "options_vi": [
+      "Tông màu (Hue)",
+      "Độ bão hòa (Saturation)",
+      "Độ sáng (Lightness/Brightness/Value)",
+      "Độ phân giải (Resolution)"
+    ],
+    "options_zh": [
+      "①色相(Hue)",
+      "②飽和度(S aturation)",
+      "③ 亮度(Lightness)",
+      "④解析度(Resolution)。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Các mô hình màu như HSL (Hue, Saturation, Lightness) hay HSV (Hue, Saturation, Value) mô tả màu sắc dựa trên ba thuộc tính: (1) Tông màu (màu gốc), (2) Độ bão hòa (độ tinh khiết/đậm nhạt của màu), và (3) Độ sáng. Độ phân giải (4) là một thuộc tính của hình ảnh (số pixel), không phải thuộc tính của màu sắc.",
+    "explanation_zh": "色彩模型如 HSL（色相、飽和度、亮度）或 HSV（色相、飽和度、明度）基於三個屬性描述顏色：(1) 色相（基本顏色）、(2) 飽和度（顏色的純度/強度）和 (3) 亮度。解析度 (4) 是影像的屬性（像素數量），而不是顏色的屬性。"
+  },
+  {
+    "id": "02_169",
+    "section": 2,
+    "question_vi": "Về việc xử lý và sử dụng hình ảnh, mô tả nào về chế độ xử lý hình ảnh là đúng?",
+    "question_zh": "對於影像的處理及使用,哪些影像處理模式的描述為正確?",
+    "options_vi": [
+      "Photoshop chủ yếu là ảnh raster (bitmap), bổ sung là ảnh vector",
+      "Illustrator chủ yếu là ảnh vector, bổ sung là ảnh raster",
+      "Photoshop chủ yếu là ảnh vector, bổ sung là ảnh raster",
+      "Illustrator chủ yếu là ảnh raster, bổ sung là ảnh vector"
+    ],
+    "options_zh": [
+      "①Photosh op 是點陣影像為主,向量影像為輔",
+      "② Illustrator 是向量影像為主,點 陣影像為輔",
+      "③ Photoshop 是向量影像為主,點陣影像為輔",
+      "④ Illustrator 是點陣影像為主,向量影像為輔。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "(1) Photoshop được thiết kế chủ yếu để làm việc với ảnh raster (ảnh cấu tạo từ pixel), mặc dù nó có một số công cụ vector cơ bản. (2) Illustrator là phần mềm chuyên dụng cho đồ họa vector (ảnh cấu tạo từ đường nét và hình khối toán học), nhưng cũng có thể nhập và xử lý ảnh raster ở mức độ nhất định.",
+    "explanation_zh": "(1) Photoshop 主要設計用於處理點陣圖（由像素組成），儘管它也提供一些基本的向量工具。(2) Illustrator 是專門用於向量圖形（由數學線條和形狀組成）的軟體，但也可以匯入和有限度地處理點陣圖。"
+  },
+  {
+    "id": "02_170",
+    "section": 2,
+    "question_vi": "Phần mềm nào sau đây là phần mềm tải xuống P2P (Peer-to-Peer)?",
+    "question_zh": "下列何者是P2P下載軟體?",
+    "options_vi": [
+      "FTP",
+      "eMule",
+      "BitTorrent",
+      "FOXY"
+    ],
+    "options_zh": [
+      "① FTP",
+      "② eMule",
+      "③ Bit Torrent",
+      "④ FOXY。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "eMule, BitTorrent (và các client như uTorrent, qBittorrent) và FOXY là các phần mềm/giao thức chia sẻ tệp ngang hàng (P2P). FTP (File Transfer Protocol) là một giao thức client-server truyền thống.",
+    "explanation_zh": "eMule、BitTorrent（及其客戶端如 uTorrent、qBittorrent）和 FOXY 都是點對點 (P2P) 檔案分享軟體/協定。FTP（檔案傳輸協定）是一種傳統的主從式協定。"
+  },
+  {
+    "id": "02_171",
+    "section": 2,
+    "question_vi": "Khi người dùng kết nối Internet, mở trình duyệt và thấy quảng cáo nước ngoài liên tục xuất hiện, nguyên nhân nào sau đây *không* phải là nguyên nhân có thể gây ra hiện tượng này?",
+    "question_zh": "當使用者連上網路後,打開瀏覽器時,發現不斷跳出國外廣告內容,下 列何者非造成這個現象的可能原因?",
+    "options_vi": [
+      "Không đủ dung lượng trống trên ổ cứng",
+      "Trang chủ bị chiếm quyền điều khiển (Homepage Hijacking)",
+      "Băng thông mạng không đủ",
+      "Phần mềm giám sát mạng (Network Guardian/Parental Control)"
+    ],
+    "options_zh": [
+      "①硬碟剩餘空間不足",
+      "②首頁綁架",
+      "③網路頻寬不足",
+      "④網路守門員。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "(2) Homepage Hijacking (thường do adware hoặc malware) là nguyên nhân phổ biến nhất gây ra việc tự động mở các trang quảng cáo. (1) Dung lượng ổ cứng, (3) Băng thông mạng, và (4) Phần mềm giám sát thường không trực tiếp gây ra việc tự động nhảy quảng cáo khi mở trình duyệt.",
+    "explanation_zh": "(2) 首頁綁架（通常由廣告軟體或惡意軟體引起）是導致自動彈出廣告頁面的最常見原因。(1) 硬碟空間不足、(3) 網路頻寬不足和 (4) 網路監控軟體通常不會直接導致開啟瀏覽器時自動彈出廣告。"
+  },
+  {
+    "id": "02_172",
+    "section": 2,
+    "question_vi": "Đuôi tệp nào sau đây là của các tệp mà Microsoft Word có thể chỉnh sửa?",
+    "question_zh": "下列哪些是 Microsoft Word 可以編修檔案的副檔名?",
+    "options_vi": [
+      ".docs",
+      ".docx",
+      ".doc",
+      ".rtf"
+    ],
+    "options_zh": [
+      "① docs",
+      "②docx",
+      "③doc",
+      "④rtf。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": ".docx là định dạng mặc định của Word hiện đại. .doc là định dạng cũ hơn. .rtf (Rich Text Format) là định dạng văn bản có định dạng phổ biến mà Word cũng có thể mở và chỉnh sửa. .docs không phải là đuôi tệp chuẩn.",
+    "explanation_zh": ".docx 是現代 Word 的預設格式。.doc 是較舊的格式。.rtf (RTF 格式) 是一種通用的帶格式文本格式，Word 也可以開啟和編輯。".docs" 不是標準的副檔名。"
+  },
+  {
+    "id": "02_173",
+    "section": 2,
+    "question_vi": "Trang web trên mạng có thể chứa các mục nào sau đây?",
+    "question_zh": "網站上的網頁可以包含下列哪些項目?",
+    "options_vi": [
+      "Javascript",
+      "Tệp đồ họa vector (Vector Graphics File)",
+      "Siêu liên kết (Hyper Links)",
+      "CSS (Cascading Style Sheets)"
+    ],
+    "options_zh": [
+      "① Javascript",
+      "② 向量圖檔",
+      "③超 連結(Hyper Links)",
+      "④CSS。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Trang web hiện đại thường bao gồm HTML (cấu trúc), (4) CSS (định dạng), và (1) JavaScript (tương tác). (3) Siêu liên kết là thành phần cơ bản của web. (2) Đồ họa vector (như SVG) cũng có thể được nhúng vào trang web, nhưng không phải là thành phần cốt lõi như HTML/CSS/JS.",
+    "explanation_zh": "現代網頁通常包含 HTML（結構）、(4) CSS（樣式）和 (1) JavaScript（互動）。(3) 超連結是網頁的基本組成部分。(2) 向量圖形（如 SVG）也可以嵌入網頁，但不像 HTML/CSS/JS 那樣是核心組成部分。"
+  },
+  {
+    "id": "02_174",
+    "section": 2,
+    "question_vi": "Về thiết kế biểu mẫu (Form) trong Microsoft Access, phát biểu nào sau đây là đúng?",
+    "question_zh": "關於 Microsoft Access 表單設計的敘述,下列哪些正確?",
+    "options_vi": [
+      "Chuyển sang Chế độ xem bố cục (Layout View) có thể sửa đổi biểu mẫu",
+      "Nhấp vào tên cột trong bảng dữ liệu để sửa đổi tên của nó",
+      "Có thể tự do thay đổi kích thước cột",
+      "Có thể áp dụng chủ đề (Theme) để thay đổi kiểu dáng"
+    ],
+    "options_zh": [
+      "①切換至版 面配置檢視可以修改表單",
+      "②在資料表欄位名稱按一下即可修改其名稱",
+      "③可以自由變更欄位大小",
+      "④可以套用佈景主題以變更樣式。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "(1) Chế độ xem bố cục cho phép chỉnh sửa cấu trúc và giao diện form trong khi xem dữ liệu. (3) Kích thước các control (bao gồm các cột dữ liệu được liên kết) có thể được thay đổi. (4) Access hỗ trợ áp dụng Themes để thay đổi giao diện chung. (2) Tên cột (Field Name) phải được sửa đổi trong chế độ Design View của bảng (Table), không phải trực tiếp trên form.",
+    "explanation_zh": "(1) 版面配置檢視允許在查看資料的同時修改表單的結構和外觀。(3) 控制項（包括連結的資料欄位）的大小可以更改。(4) Access 支援套用佈景主題來更改整體外觀。(2) 欄位名稱必須在資料表的「設計檢視」中修改，而不是直接在表單上修改。"
+  },
+  {
+    "id": "02_175",
+    "section": 2,
+    "question_vi": "Về công nghệ Bluetooth, phát biểu nào sau đây là đúng?",
+    "question_zh": "有關藍芽(Bluetooth)技術的敘述,下列哪些正確?",
+    "options_vi": [
+      "Chủ yếu sử dụng tia cực tím (ultraviolet) để truyền",
+      "Thường được ứng dụng trong điện thoại di động hoặc máy tính xách tay",
+      "Có thể dùng làm phương tiện truyền không dây tầm ngắn",
+      "Bị giới hạn bởi góc truyền"
+    ],
+    "options_zh": [
+      "①主要使用紫外線 傳輸",
+      "②常應用於手機或筆記型電腦",
+      "③可作為短距離無線傳輸媒介",
+      "④具 有傳輸夾角的限制。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "(2) Bluetooth rất phổ biến trên điện thoại và laptop. (3) Nó được thiết kế cho kết nối không dây tầm ngắn (thường dưới 10m). (1) Bluetooth sử dụng sóng radio (khoảng 2.4 GHz), không phải tia cực tím. (4) Sóng radio của Bluetooth là đa hướng, không bị giới hạn góc như hồng ngoại.",
+    "explanation_zh": "(2) 藍牙在手機和筆記型電腦上非常普遍。(3) 它設計用於短距離無線連接（通常在 10 公尺以下）。(1) 藍牙使用無線電波（約 2.4 GHz），而非紫外線。(4) 藍牙的無線電波是全向的，不像紅外線那樣有角度限制。"
+  },
+  {
+    "id": "02_176",
+    "section": 2,
+    "question_vi": "Thuộc tính ACID được đề cập trong quản lý giao dịch cơ sở dữ liệu bao gồm các mục nào sau đây?",
+    "question_zh": "資料庫交易管理所提之ACID 包含下列哪些項目?",
+    "options_vi": [
+      "Tự động (Automatic)",
+      "Nhất quán (Consistency)",
+      "Bền vững (Durability)",
+      "Cô lập (Isolation)"
+    ],
+    "options_zh": [
+      "① Automatic",
+      "② Con sistency",
+      "③Durability",
+      "④ Isolation。"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "ACID là viết tắt của Atomicity (Nguyên tử), Consistency (Nhất quán), Isolation (Cô lập), và Durability (Bền vững). Đây là các thuộc tính đảm bảo tính toàn vẹn của giao dịch cơ sở dữ liệu. 'Automatic' không phải là một phần của ACID.",
+    "explanation_zh": "ACID 代表 Atomicity（原子性）、Consistency（一致性）、Isolation（隔離性）和 Durability（持久性）。這些是確保資料庫交易完整性的屬性。「Automatic」（自動）不是 ACID 的一部分。"
+  },
+  {
+    "id": "02_177",
+    "section": 2,
+    "question_vi": "Mô hình nào sau đây *không* phải là mô hình dữ liệu khái niệm (conceptual data model)?",
+    "question_zh": "下列哪些不是概念資料模型?",
+    "options_vi": [
+      "Mô hình cơ sở dữ liệu mạng (Network Database Model)",
+      "Mô hình cơ sở dữ liệu phân cấp (Hierarchical Database Model)",
+      "Mô hình cơ sở dữ liệu quan hệ (Relational Database Model)",
+      "Mô hình thực thể-liên kết (Entity-Relationship Model)"
+    ],
+    "options_zh": [
+      "①網路式資料庫模型",
+      "②階層式資料庫模 型",
+      "③關聯式資料庫模型",
+      "④實體關聯模型。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Mô hình Mạng, Phân cấp và Quan hệ là các mô hình dữ liệu logic hoặc vật lý, mô tả cách dữ liệu được lưu trữ và tổ chức cụ thể. Mô hình Thực thể-Liên kết (ERM) là một mô hình dữ liệu khái niệm, dùng để mô tả cấu trúc dữ liệu ở mức độ trừu tượng cao, độc lập với hệ quản trị CSDL cụ thể.",
+    "explanation_zh": "網路模型、階層模型和關聯模型是邏輯或實體資料模型，描述資料的具體儲存和組織方式。實體關聯模型 (ERM) 是一種概念資料模型，用於在高抽象層次上描述資料結構，獨立於特定的 DBMS。"
+  },
+  {
+    "id": "02_178",
+    "section": 2,
+    "question_vi": "Các yếu tố cấu thành nào sau đây là của cơ sở dữ liệu quan hệ?",
+    "question_zh": "下列哪些是關聯式資料庫的組成要素?",
+    "options_vi": [
+      "Bảng dữ liệu (Table)",
+      "Siêu dữ liệu (Meta Data)",
+      "Chỉ mục (Index)",
+      "Phần mềm quản lý (Management Software)"
+    ],
+    "options_zh": [
+      "①資料表",
+      "② Meta Data",
+      "③ 索引",
+      "④管理軟體。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "(1) Bảng (quan hệ) là cấu trúc lưu trữ dữ liệu cơ bản. (2) Siêu dữ liệu (lược đồ, định nghĩa bảng, ràng buộc) mô tả cấu trúc của cơ sở dữ liệu. (3) Chỉ mục giúp tăng tốc độ truy vấn. (4) Phần mềm quản lý (DBMS) là hệ thống để tạo và quản lý CSDL, không phải là thành phần *của* CSDL.",
+    "explanation_zh": "(1) 資料表（關聯）是基本的資料儲存結構。(2) 中繼資料（結構描述、資料表定義、約束）描述資料庫的結構。(3) 索引有助於加快查詢速度。(4) 管理軟體 (DBMS) 是用於建立和管理資料庫的系統，而非資料庫本身的組成要素。"
+  },
+  {
+    "id": "02_179",
+    "section": 2,
+    "question_vi": "Mục đích nào sau đây là của chuẩn hóa cơ sở dữ liệu (Database Normalization)?",
+    "question_zh": "下列哪些是資料庫正規化的目的?",
+    "options_vi": [
+      "Loại bỏ dữ liệu dư thừa (Redundant Data)",
+      "Tập trung dữ liệu không phân loại để xử lý",
+      "Lưu trữ dữ liệu trong nhiều bảng không trùng lặp",
+      "Đảm bảo mối quan hệ phụ thuộc dữ liệu (Data Dependency)"
+    ],
+    "options_zh": [
+      "①除去重複性資料",
+      "②資料不分類別 集中在一起處理",
+      "③以數個不重複的資料表儲存資料",
+      "④確保資料的相依 關係。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Chuẩn hóa nhằm (1) giảm thiểu sự dư thừa dữ liệu, (3) chia dữ liệu thành các bảng nhỏ hơn, logic hơn, và (4) đảm bảo rằng dữ liệu phụ thuộc được lưu trữ một cách hợp lý (ví dụ: loại bỏ các phụ thuộc bắc cầu), từ đó giảm thiểu các bất thường khi cập nhật, thêm, xóa dữ liệu. (2) là ngược lại với mục đích của chuẩn hóa.",
+    "explanation_zh": "正規化的目的是 (1) 最小化資料冗餘，(3) 將資料分解成更小、更合乎邏輯的資料表，以及 (4) 確保資料相依關係被合理地儲存（例如，消除傳遞相依），從而減少更新、插入和刪除資料時的異常情況。(2) 與正規化的目的相反。"
+  },
+  {
+    "id": "02_180",
+    "section": 2,
+    "question_vi": "Công nghệ nào sau đây là công nghệ phát triển Web Page?",
+    "question_zh": "下列哪些是 Web Page 的開發技術?",
+    "options_vi": [
+      "ASP.Net",
+      "JavaScript",
+      "PHP",
+      "ISP (Internet Service Provider)"
+    ],
+    "options_zh": [
+      "① ASP.Net",
+      "② JavaScript",
+      "③ PHP",
+      "④ ISP。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "ASP.Net và PHP là các công nghệ/ngôn ngữ kịch bản phía máy chủ (server-side). JavaScript là ngôn ngữ kịch bản phía máy khách (client-side). Cả ba đều được sử dụng rộng rãi trong phát triển web. ISP là Nhà cung cấp dịch vụ Internet, không phải công nghệ phát triển web.",
+    "explanation_zh": "ASP.Net 和 PHP 是伺服器端腳本技術/語言。JavaScript 是用戶端腳本語言。這三者都廣泛用於網頁開發。ISP 是網際網路服務供應商，不是網頁開發技術。"
+  },
+  {
+    "id": "02_181",
+    "section": 2,
+    "question_vi": "Trong Microsoft Word, trường hợp nào sau đây có thể thực hiện gộp hai bảng?",
+    "question_zh": "Microsoft Word中,下列哪些情況可以進行兩表格合併?",
+    "options_vi": [
+      "Chiều rộng bảng không nhất quán",
+      "Số cột bảng không nhất quán",
+      "Bảng có chế độ bao quanh văn bản (Text Wrapping)",
+      "Chiều rộng cột bảng không nhất quán"
+    ],
+    "options_zh": [
+      "①表格寬度 不一致",
+      "②表格欄數不一致",
+      "③文繞圖的表格",
+      "④表格欄寬不一致。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "Để gộp hai bảng trong Word, chúng phải nằm liền kề nhau và không có văn bản hoặc đối tượng nào ở giữa. Word không yêu cầu hai bảng phải có cùng chiều rộng, số cột hay chiều rộng cột. Tuy nhiên, (3) nếu bảng được đặt với chế độ Text Wrapping (ví dụ: Square, Tight), nó sẽ trở thành một đối tượng nổi và không thể gộp trực tiếp với bảng khác theo cách thông thường (xóa dòng trống giữa chúng).",
+    "explanation_zh": "要在 Word 中合併兩個表格，它們必須相鄰且中間沒有任何文字或物件。Word 不要求兩個表格必須具有相同的寬度、欄數或欄寬。但是，(3) 如果表格設定了文繞圖（例如，方形、緊密），它會變成一個浮動物件，無法透過常規方式（刪除它們之間空行）直接與另一個表格合併。"
+  },
+  {
+    "id": "02_182",
+    "section": 2,
+    "question_vi": "Định dạng tệp hình ảnh nào sau đây có thể được ứng dụng trên trang web?",
+    "question_zh": "下列哪些圖檔格式可應用於網站?",
+    "options_vi": [
+      "GIF",
+      "PSD",
+      "JPEG",
+      "PNG"
+    ],
+    "options_zh": [
+      "① GIF",
+      "② PSD",
+      "③ JPEG",
+      "④PNG。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "GIF, JPEG (hoặc JPG) và PNG là các định dạng ảnh raster phổ biến được hỗ trợ rộng rãi bởi các trình duyệt web. PSD là định dạng tệp gốc của Adobe Photoshop, chứa thông tin layer và không phù hợp để hiển thị trực tiếp trên web.",
+    "explanation_zh": "GIF、JPEG（或 JPG）和 PNG 是網頁瀏覽器廣泛支援的常見點陣圖格式。PSD 是 Adobe Photoshop 的原生檔案格式，包含圖層資訊，不適合直接在網路上顯示。"
+  },
+  {
+    "id": "02_183",
+    "section": 2,
+    "question_vi": "Ứng dụng nào sau đây là của khai phá dữ liệu (Data Mining)?",
+    "question_zh": "下列哪些是資料探勘(Data Mining)的應用?",
+    "options_vi": [
+      "Dự đoán giá trị tương lai của thuộc tính dựa trên các quan sát thuộc tính trong quá khứ",
+      "Phân loại và thiết lập các nhóm dựa trên thuộc tính",
+      "Sử dụng các phương pháp phân tích thống kê để tìm các đặc trưng và mối liên hệ hữu ích trong dữ liệu",
+      "Hỗ trợ tìm kiếm dữ liệu lịch sử bị thiếu"
+    ],
+    "options_zh": [
+      "①根據過去屬性觀察值來 預測該屬性之未來值",
+      "②按照屬性分門別類建立類組",
+      "③使用統計分析方 法尋找資料中有用的特徵及關連性",
+      "④協助尋找遺漏的歷史資料。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Khai phá dữ liệu bao gồm các nhiệm vụ như (1) dự đoán (Prediction), (2) phân lớp/phân cụm (Classification/Clustering), và (3) tìm kiếm luật kết hợp (Association Rule Mining) hoặc khám phá mẫu (Pattern Discovery). (4) Tìm kiếm dữ liệu bị thiếu là một vấn đề về quản lý dữ liệu, không phải mục tiêu chính của khai phá dữ liệu.",
+    "explanation_zh": "資料探勘包括諸如 (1) 預測、(2) 分類/分群和 (3) 關聯規則探勘或模式探索等任務。(4) 尋找遺失的歷史資料是一個資料管理問題，而非資料探勘的主要目標。"
+  },
+  {
+    "id": "02_184",
+    "section": 2,
+    "question_vi": "Trong Microsoft Excel, hành động nào sau đây có thể thực hiện hoàn tác (Undo)?",
+    "question_zh": "在 Microsoft Excel中,下列哪些是可以執行復原的動作?",
+    "options_vi": [
+      "Xóa đối tượng (Object)",
+      "Thiết lập định dạng ô (Cell Format)",
+      "Xóa ô (Cell)",
+      "Lưu dưới tên mới (Save As)"
+    ],
+    "options_zh": [
+      "①刪除物件",
+      "②設定儲存格格式",
+      "③刪除儲存格",
+      "④另存新檔。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Hầu hết các hành động chỉnh sửa trong Excel, bao gồm (1) xóa đối tượng (hình vẽ, biểu đồ), (2) thay đổi định dạng ô, (3) xóa nội dung/ô, đều có thể hoàn tác bằng Ctrl+Z. Ngay cả hành động (4) 'Save As' cũng có thể được hoàn tác (Excel sẽ quay lại trạng thái trước khi lưu và đóng tệp mới tạo nếu có).",
+    "explanation_zh": "Excel 中的大多數編輯操作，包括 (1) 刪除物件（圖形、圖表）、(2) 設定儲存格格式、(3) 刪除儲存格內容/儲存格，都可以使用 Ctrl+Z 復原。甚至 (4)「另存新檔」操作也可以復原（Excel 會回復到儲存前的狀態，並在可能的情況下關閉新建立的檔案）。"
+  },
+  {
+    "id": "03_168",
+    "section": 3,
+    "question_vi": "Trong hệ điều hành Windows 10, về 'Mạng cục bộ' (LAN), phát biểu nào sau đây là đúng?",
+    "question_zh": "在Windows10 作業系統中,關於「區域網路」的敘述,下列何者正確?",
+    "options_vi": [
+      "Hệ điều hành của mỗi máy tính phải là Windows 10",
+      "Có thể chia sẻ tệp và máy in với nhau",
+      "Dung lượng bộ nhớ của mỗi máy tính phải giống nhau",
+      "Thư mục Công cộng (Public folder) là một thư mục chia sẻ mặc định"
+    ],
+    "options_zh": [
+      "①每部電腦的作業系統必須是 Windows 10",
+      "②可彼此分享檔案及印表機 等資源",
+      "③每台電腦的記憶體容量必須相同",
+      "④公用資料夾是一個預設的 分享資料夾。"
+    ],
+    "answer_indices": [
+      1,
+      3
+    ],
+    "explanation_vi": "(2) Mục đích chính của mạng LAN là chia sẻ tài nguyên như tệp và máy in. (4) Windows tạo sẵn các thư mục Công cộng để dễ dàng chia sẻ giữa những người dùng trên mạng. (1) Mạng LAN có thể bao gồm các máy tính chạy các hệ điều hành khác nhau (Windows phiên bản khác, macOS, Linux). (3) Không có yêu cầu về dung lượng bộ nhớ giống nhau.",
+    "explanation_zh": "(2) 區域網路的主要目的是共享檔案和印表機等資源。(4) Windows 預設會建立公用資料夾，以便網路上的使用者輕鬆共享。(1) 區域網路可以包含執行不同作業系統（不同版本的 Windows、macOS、Linux）的電腦。(3) 對於記憶體容量沒有相同要求。"
+  },
+  {
+    "id": "03_169",
+    "section": 3,
+    "question_vi": "Trong hệ điều hành Windows 10, Tường lửa Windows với Bảo mật Nâng cao có các cấu hình (profile) nào sau đây?",
+    "question_zh": "在Windows 10 作業系統中,具有進階安全性的Windows 防火牆有下列 哪些設定檔?",
+    "options_vi": [
+      "Miền (Domain)",
+      "Khu vực (Regional)",
+      "Riêng tư (Private)",
+      "Công cộng (Public)"
+    ],
+    "options_zh": [
+      "①網域",
+      "②區域",
+      "③私人",
+      "④公用。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Tường lửa Windows xác định các quy tắc dựa trên loại mạng mà máy tính đang kết nối: Miền (khi tham gia miền Active Directory), Riêng tư (mạng nhà riêng hoặc công ty tin cậy), và Công cộng (mạng công cộng như Wi-Fi ở quán cà phê). 'Khu vực' không phải là một cấu hình tường lửa.",
+    "explanation_zh": "Windows 防火牆根據電腦連接的網路類型定義規則：網域（加入 Active Directory 網域時）、私人（受信任的家庭或公司網路）和公用（例如咖啡店的 Wi-Fi）。「區域」不是防火牆設定檔。"
+  },
+  {
+    "id": "03_170",
+    "section": 3,
+    "question_vi": "Trong hệ điều hành Windows 10, mục nào sau đây có thể được thiết lập trong 'Chính sách Bảo mật Cục bộ' (Local Security Policy)?",
+    "question_zh": "在Windows 10 作業系統中,在「本機安全性原則」中可以設定哪些安 全性項目?",
+    "options_vi": [
+      "Chính sách khóa công khai (Public Key Policies)",
+      "Chính sách hạn chế phần mềm (Software Restriction Policies)",
+      "Chính sách trình quản lý danh sách mạng (Network List Manager Policies)",
+      "Chính sách tương thích phần cứng (Hardware Compatibility Policies)"
+    ],
+    "options_zh": [
+      "①公開金鑰原則",
+      "②軟體限制原則",
+      "③網路清單管理員原則",
+      "④ 硬體相容原則。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Công cụ Local Security Policy (secpol.msc) cho phép quản trị viên cấu hình nhiều cài đặt bảo mật, bao gồm (1) quản lý chứng chỉ khóa công khai, (2) kiểm soát phần mềm nào được phép chạy, và (3) quản lý cách máy tính xác định và phân loại mạng. Không có chính sách nào gọi là 'Tương thích phần cứng' trong công cụ này.",
+    "explanation_zh": "本機安全性原則工具 (secpol.msc) 允許管理員設定許多安全性設定，包括 (1) 管理公開金鑰憑證、(2) 控制允許執行的軟體，以及 (3) 管理電腦如何識別和分類網路。此工具中沒有稱為「硬體相容原則」的原則。"
+  },
+  {
+    "id": "03_171",
+    "section": 3,
+    "question_vi": "Trình duyệt WWW nào sau đây?",
+    "question_zh": "下列何者為WWW 瀏覽器?",
+    "options_vi": [
+      "Writer (LibreOffice/OpenOffice)",
+      "Google Chrome",
+      "Firefox",
+      "Safari"
+    ],
+    "options_zh": [
+      "① Writer",
+      "② Google Chrome",
+      "③ Firefox",
+      "④ Saf ari"
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Google Chrome, Firefox, và Safari là các trình duyệt web phổ biến dùng để truy cập World Wide Web. Writer là một phần mềm xử lý văn bản.",
+    "explanation_zh": "Google Chrome、Firefox 和 Safari 都是用於存取全球資訊網的常用網頁瀏覽器。Writer 是一款文書處理軟體。"
+  },
+  {
+    "id": "03_172",
+    "section": 3,
+    "question_vi": "Giao thức nào sau đây là giao thức nhận email đến (incoming)?",
+    "question_zh": "下列何者是內送電子郵件的通訊協定?",
+    "options_vi": [
+      "SMTP (Giao thức truyền thư đơn giản)",
+      "IMAP (Giao thức truy cập thư Internet)",
+      "POP3 (Giao thức bưu điện phiên bản 3)",
+      "SSL (Lớp cổng bảo mật)"
+    ],
+    "options_zh": [
+      "① SMTP",
+      "② IMAP",
+      "③POP3",
+      "④SSL"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "IMAP và POP3 là hai giao thức chính được các ứng dụng email (client) sử dụng để tải thư từ máy chủ email về. SMTP được sử dụng để gửi thư đi. SSL (và TLS) là các giao thức mã hóa, có thể được sử dụng cùng với IMAP, POP3, SMTP để bảo mật kết nối.",
+    "explanation_zh": "IMAP 和 POP3 是電子郵件客戶端用來從郵件伺服器下載郵件的兩種主要協定。SMTP 用於傳送外寄郵件。SSL（及其後繼者 TLS）是加密協定，可以與 IMAP、POP3、SMTP 結合使用以保護連線安全。"
+  },
+  {
+    "id": "03_173",
+    "section": 3,
+    "question_vi": "Về 'Mã QR' (QR Code), phát biểu nào sau đây là đúng?",
+    "question_zh": "關於「QR Code」的敘述,下列何者正確?",
+    "options_vi": [
+      "Mã vạch không gian hai chiều (2D)",
+      "Luôn là hai màu đen trắng",
+      "Ở 4 góc, có in các hình vuông giống chữ 'Hồi' (回)",
+      "Có thể dùng cho quản lý hàng tồn kho"
+    ],
+    "options_zh": [
+      "①二維空間條碼",
+      "②均為黑白 兩色",
+      "③在4個角落,印有像「回」字的正方圖案",
+      "④可用於存貨管理。"
+    ],
+    "answer_indices": [
+      0,
+      3
+    ],
+    "explanation_vi": "(1) Mã QR là một loại mã vạch 2D. (4) Nó có nhiều ứng dụng, bao gồm cả quản lý hàng tồn kho, liên kết web, thông tin liên hệ, v.v. (2) Mã QR có thể có màu sắc khác nhau, không chỉ đen trắng. (3) Mã QR chỉ có 3 hình vuông định vị ở 3 góc (position detection patterns), không phải 4.",
+    "explanation_zh": "(1) QR 碼是一種二維條碼。(4) 它有許多應用，包括庫存管理、網頁連結、聯絡資訊等。(2) QR 碼可以有不同的顏色，不限於黑白。(3) QR 碼只有 3 個角落有定位圖案（類似「回」字），不是 4 個。"
+  },
+  {
+    "id": "03_174",
+    "section": 3,
+    "question_vi": "Giao thức nào sau đây thuộc tầng Ứng dụng (Application Layer) của mô hình OSI?",
+    "question_zh": "下列何者屬於OSI 模型中應用層的通訊協定?",
+    "options_vi": [
+      "HTTP (Giao thức truyền siêu văn bản)",
+      "FTP (Giao thức truyền tệp)",
+      "TCP/IP (Bộ giao thức Internet)",
+      "ARP (Giao thức phân giải địa chỉ)"
+    ],
+    "options_zh": [
+      "①HTTP",
+      "② FTP",
+      "③TCP/IP",
+      "④ARP."
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "HTTP và FTP là các giao thức tầng ứng dụng, cung cấp dịch vụ trực tiếp (duyệt web, truyền tệp). TCP/IP là một bộ giao thức bao gồm nhiều tầng, với TCP ở tầng Giao vận và IP ở tầng Mạng. ARP hoạt động ở tầng Liên kết Dữ liệu (hoặc giữa tầng 2 và 3).",
+    "explanation_zh": "HTTP 和 FTP 是應用層協定，提供直接服務（網頁瀏覽、檔案傳輸）。TCP/IP 是一個包含多個層次的協定套件，其中 TCP 在傳輸層，IP 在網路層。ARP 在資料連結層（或介於第 2 層和第 3 層之間）運作。"
+  },
+  {
+    "id": "03_175",
+    "section": 3,
+    "question_vi": "TCP và IP tương ứng với các tầng nào trong mô hình OSI?",
+    "question_zh": "TCP和IP分別對應到 和IP分別對應到OSI 模型中的哪些層?",
+    "options_vi": [
+      "Tầng Giao vận (Transport Layer)",
+      "Tầng Mạng (Network Layer)",
+      "Tầng Ứng dụng (Application Layer)",
+      "Tầng Trình diễn (Presentation Layer)"
+    ],
+    "options_zh": [
+      "①傳輸層",
+      "②網路層",
+      "③應 用層",
+      "④表達層。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "Trong mô hình TCP/IP được ánh xạ sang OSI, TCP (Transmission Control Protocol) tương ứng với Tầng Giao vận (OSI Layer 4), chịu trách nhiệm truyền dữ liệu tin cậy. IP (Internet Protocol) tương ứng với Tầng Mạng (OSI Layer 3), chịu trách nhiệm định tuyến gói tin.",
+    "explanation_zh": "在 TCP/IP 模型映射到 OSI 模型時，TCP（傳輸控制協定）對應到傳輸層（OSI 第 4 層），負責可靠的資料傳輸。IP（網際網路協定）對應到網路層（OSI 第 3 層），負責封包路由。"
+  },
+  {
+    "id": "03_176",
+    "section": 3,
+    "question_vi": "Về 'IP', phát biểu nào sau đây là đúng?",
+    "question_zh": "關於「IP」的敘述,下列何者正確?",
+    "options_vi": [
+      "192.168.1.1 là một địa chỉ IP ảo (private/virtual)",
+      "IPv6 sử dụng 128 bit để biểu thị địa chỉ IP",
+      "192.168.1.256 là một địa chỉ IP có thể sử dụng",
+      "192.168.1.1 thuộc Lớp C (Class C)"
+    ],
+    "options_zh": [
+      "①192.168.1.1是一個虛擬IP",
+      "② IPv 6使用128位元來表示IP位址",
+      "③192.168.1.256是一個可用的IP",
+      "④192. 168.1.1 屬於Class C。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "(1) Dải 192.168.x.x là địa chỉ IP riêng (private), thường được gọi là ảo. (2) IPv6 có độ dài 128 bit. (4) Dải địa chỉ bắt đầu từ 192 đến 223 thuộc Lớp C. (3) Trong IPv4, mỗi octet (phần) chỉ có giá trị từ 0 đến 255, do đó 256 không hợp lệ.",
+    "explanation_zh": "(1) 192.168.x.x 範圍是私有 IP 位址，常被稱為虛擬 IP。(2) IPv6 使用 128 位元長度。(4) 以 192 到 223 開頭的位址範圍屬於 Class C。(3) 在 IPv4 中，每個八位元組（部分）的值只能從 0 到 255，因此 256 是無效的。"
+  },
+  {
+    "id": "03_177",
+    "section": 3,
+    "question_vi": "Địa chỉ IP nào sau đây thuộc Lớp C (Class C)?",
+    "question_zh": "下列哪些 IP位址屬於Class C?",
+    "options_vi": [
+      "181.23.45.67",
+      "193.17.17.17",
+      "201.255.255.2",
+      "239.255.12.15"
+    ],
+    "options_zh": [
+      "① 181.23.45.67",
+      "②193.17.17.17",
+      "③201.2 55.255.2",
+      "④239.255.12.15。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "Lớp C bao gồm các địa chỉ IP có octet đầu tiên nằm trong khoảng từ 192 đến 223. Do đó, 193.17.17.17 và 201.255.255.2 thuộc Lớp C. 181.23.45.67 thuộc Lớp B (128-191). 239.255.12.15 thuộc Lớp D (multicast, 224-239).",
+    "explanation_zh": "Class C 包含第一個八位元組在 192 到 223 範圍內的 IP 位址。因此，193.17.17.17 和 201.255.255.2 屬於 Class C。181.23.45.67 屬於 Class B (128-191)。239.255.12.15 屬於 Class D（多點傳播，224-239）。"
+  },
+  {
+    "id": "03_178",
+    "section": 3,
+    "question_vi": "Loại gói tin nào sau đây là của IPv6?",
+    "question_zh": "下列何者為IPv6的封包型式?",
+    "options_vi": [
+      "Unicast (Đơn hướng)",
+      "Broadcast (Quảng bá)",
+      "Multicast (Đa hướng)",
+      "Anycast"
+    ],
+    "options_zh": [
+      "① Unicast",
+      "② Broadcast",
+      "③ Multicast",
+      "④ An ycast"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "IPv6 hỗ trợ ba loại địa chỉ/gói tin chính: Unicast (1 gửi đến 1), Multicast (1 gửi đến nhiều người đăng ký), và Anycast (1 gửi đến thành viên gần nhất trong nhóm). IPv6 không còn sử dụng địa chỉ Broadcast như IPv4.",
+    "explanation_zh": "IPv6 支援三種主要的位址/封包類型：Unicast（一對一）、Multicast（一對多訂閱者）和 Anycast（一對最近群組）。IPv6 不再使用像 IPv4 那樣的 Broadcast 位址。"
+  },
+  {
+    "id": "03_179",
+    "section": 3,
+    "question_vi": "Cách biểu diễn địa chỉ IPv6 nào sau đây là đúng?",
+    "question_zh": "下列何者為IPv6正確的位址表示方式?",
+    "options_vi": [
+      "BCE9::5241",
+      "AB39::2",
+      "1A7E::257D:39AC::3456",
+      "5::25D:25::6"
+    ],
+    "options_zh": [
+      "① BCE9::5241",
+      "②AB39::2",
+      "③1A 7E::257D:39AC::3456",
+      "④5::25D:25::6。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "Địa chỉ IPv6 được viết bằng số hexa, chia thành 8 nhóm, mỗi nhóm 4 ký tự, ngăn cách bởi dấu hai chấm (:). Có thể rút gọn các số 0 đứng đầu trong mỗi nhóm. Một chuỗi các nhóm toàn số 0 liên tiếp có thể được thay thế bằng '::', nhưng chỉ được phép sử dụng '::' một lần duy nhất trong địa chỉ. (1) và (2) hợp lệ. (3) và (4) sử dụng '::' hai lần, không hợp lệ.",
+    "explanation_zh": "IPv6 位址以十六進制表示，分為 8 組，每組 4 個字元，以冒號 (:) 分隔。可以省略每組開頭的 0。一串連續的全零組可以用「::」取代，但每個位址中只能使用一次「::」。(1) 和 (2) 是有效的。(3) 和 (4) 使用了兩次「::」，是無效的。"
+  },
+  {
+    "id": "03_180",
+    "section": 3,
+    "question_vi": "Về 'IPv6', phát biểu nào sau đây là đúng?",
+    "question_zh": "關於「IPv6」的敘述,下列何者正確?",
+    "options_vi": [
+      "Có cơ chế tự động cấu hình (Autoconfiguration)",
+      "Tích hợp giao thức mã hóa IPSec",
+      "Độ dài tiêu đề (header) của gói tin cố định là 32 Bytes",
+      "Cung cấp 2^128 địa chỉ"
+    ],
+    "options_zh": [
+      "①具自動設定機制",
+      "②整合 IPSec 加密協定",
+      "③封包的表頭長度固定為32Bytes",
+      "④提供2的128次方的位址"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "(1) IPv6 hỗ trợ cấu hình tự động không trạng thái (SLAAC). (2) IPSec là một phần bắt buộc của kiến trúc IPv6 (mặc dù không phải lúc nào cũng được sử dụng). (4) Với 128 bit, không gian địa chỉ là 2^128. (3) Tiêu đề cơ bản của IPv6 có độ dài cố định là 40 Bytes, không phải 32.",
+    "explanation_zh": "(1) IPv6 支援無狀態位址自動設定 (SLAAC)。(2) IPSec 是 IPv6 架構的強制性部分（儘管不一定總是使用）。(4) 擁有 128 位元，位址空間為 2^128。(3) IPv6 的基本標頭長度固定為 40 位元組，不是 32。"
+  },
+  {
+    "id": "03_181",
+    "section": 3,
+    "question_vi": "Mối quan hệ tương ứng giữa ứng dụng và giao thức nào sau đây là đúng?",
+    "question_zh": "下列應用程式與通訊協定的對應關係,何者為正確?",
+    "options_vi": [
+      "Internet Explorer vs. HTTP",
+      "Filezilla vs. FTP",
+      "Ping vs. SMTP",
+      "Putty vs. SSH"
+    ],
+    "options_zh": [
+      "① Internet Explorer vs. HTTP",
+      "② Filezilla vs. FTP",
+      "③ Ping vs. SMTP",
+      "④ Putty vs. SSH。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "(1) Trình duyệt web như IE sử dụng HTTP (hoặc HTTPS). (2) Filezilla là một client FTP. (4) Putty là một client SSH (và Telnet). (3) Ping là một công cụ sử dụng giao thức ICMP để kiểm tra kết nối, không phải SMTP (giao thức gửi mail).",
+    "explanation_zh": "(1) 像 IE 這樣的網頁瀏覽器使用 HTTP（或 HTTPS）。(2) Filezilla 是一個 FTP 客戶端。(4) Putty 是一個 SSH（和 Telnet）客戶端。(3) Ping 是一個使用 ICMP 協定來檢查連線的工具，而不是 SMTP（郵件傳送協定）。"
+  },
+  {
+    "id": "03_182",
+    "section": 3,
+    "question_vi": "Theo quy định của IANA, sự kết hợp giữa giao thức và số cổng thường dùng (Well-Known Port Number) nào sau đây là đúng?",
+    "question_zh": "根據IANA的規定,下列通訊協定與常用埠號(Well-Known Port Numbe r)的組合,何者為正確?",
+    "options_vi": [
+      "FTP: 21",
+      "DNS: 53",
+      "HTTP: 80",
+      "DHCP: 76"
+    ],
+    "options_zh": [
+      "①FTP:21",
+      "②DNS:53",
+      "③ HTTP:80",
+      "④DHCP:76"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Các cổng chuẩn: FTP dùng cổng 21 (điều khiển) và 20 (dữ liệu). DNS dùng cổng 53 (TCP/UDP). HTTP dùng cổng 80. DHCP dùng cổng 67 (server) và 68 (client), không phải 76.",
+    "explanation_zh": "標準埠號：FTP 使用埠 21（控制）和 20（資料）。DNS 使用埠 53 (TCP/UDP)。HTTP 使用埠 80。DHCP 使用埠 67（伺服器）和 68（客戶端），不是 76。"
+  },
+  {
+    "id": "03_183",
+    "section": 3,
+    "question_vi": "Trong hệ điều hành Windows Server, về 'Bộ điều khiển Miền Chỉ đọc' (RODC), phát biểu nào sau đây là đúng?",
+    "question_zh": "在Windows Server 作業系統中,關於「唯讀網域控制站」(RODC)的敘 述,下列何者正確?",
+    "options_vi": [
+      "RODC chỉ có thể chấp nhận dữ liệu được sao chép đến",
+      "Nội dung cơ sở dữ liệu AD không bao gồm mật khẩu người dùng",
+      "Nội dung cơ sở dữ liệu AD có thuộc tính đọc-ghi",
+      "Có thể sử dụng danh tính quản trị viên hệ thống cục bộ để quản lý RODC"
+    ],
+    "options_zh": [
+      "①RODC只能接受複寫進來的資料",
+      "②AD資料庫的內 容不包含使用者的密碼",
+      "③AD資料庫的內容具有可讀寫屬性",
+      "④可用本 機系統管理員的身分管理RODC。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "(1) RODC giữ một bản sao chỉ đọc của cơ sở dữ liệu AD, nhận cập nhật từ DC ghi được. (2) Theo mặc định, RODC không lưu trữ mật khẩu người dùng (trừ những tài khoản được cho phép đặc biệt) để tăng cường bảo mật. (4) RODC có tài khoản quản trị viên cục bộ riêng biệt. (3) Cơ sở dữ liệu AD trên RODC là chỉ đọc, không phải đọc-ghi.",
+    "explanation_zh": "(1) RODC 持有 AD 資料庫的唯讀複本，從可寫入的 DC 接收更新。(2) 預設情況下，RODC 不儲存使用者密碼（除非特別允許的帳戶），以增強安全性。(4) RODC 有自己獨立的本機管理員帳戶。(3) RODC 上的 AD 資料庫是唯讀的，而非可讀寫。"
+  },
+  {
+    "id": "03_184",
+    "section": 3,
+    "question_vi": "Trong hệ điều hành Windows Server, về 'Bảo vệ Truy cập Mạng' (Network Access Protection - NAP), phát biểu nào sau đây là đúng?",
+    "question_zh": "在Windows Server 作業系統中,關於網路存取保護(Network Access Pro tect)的敘述,下列何者正確?",
+    "options_vi": [
+      "Xác nhận trạng thái sức khỏe (State of Health) của máy tính kết nối có tuân thủ chính sách sức khỏe không",
+      "Có thể sửa chữa (remediate) các máy tính 'không khỏe mạnh'",
+      "Tất cả các máy tính 'không khỏe mạnh' đều không thể nhận được bất kỳ dịch vụ nào",
+      "Mục đích là bảo vệ an ninh mạng và máy tính"
+    ],
+    "options_zh": [
+      "①確認連線電腦的健康狀態(State of Healt h)是否符合健康原則",
+      "②可對於「不健康」的電腦進行修正",
+      "③所有「不健 康」的電腦皆不能取得任何服務",
+      "④目的是保護網路和電腦安全。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "NAP là một công nghệ kiểm tra (1) 'sức khỏe' của máy client (ví dụ: cập nhật bản vá, bật tường lửa) trước khi cho phép truy cập đầy đủ vào mạng. (2) Nó có thể chuyển hướng các client không tuân thủ đến các máy chủ sửa chữa. (4) Mục tiêu là tăng cường an ninh. (3) Các client không khỏe mạnh có thể bị hạn chế truy cập (ví dụ: chỉ truy cập máy chủ sửa chữa) chứ không phải bị chặn hoàn toàn khỏi mọi dịch vụ.",
+    "explanation_zh": "NAP 是一種在允許完全網路存取之前檢查 (1) 客戶端電腦「健康」狀態（例如，修補程式更新、防火牆是否啟用）的技術。(2) 它可以將不符合規範的客戶端重新導向到修復伺服器。(4) 其目的是增強安全性。(3) 不健康的客戶端可能會被限制存取（例如，只能存取修復伺服器），而不是完全無法取得任何服務。"
+  },
+  {
+    "id": "03_185",
+    "section": 3,
+    "question_vi": "Trong hệ điều hành Windows Server, về công nghệ 'Hyper-V', phát biểu nào sau đây là đúng?",
+    "question_zh": "在Windows Server 作業系統中,關於「Hyper-V」技術的敘述,下列何 者正確?",
+    "options_vi": [
+      "CPU sử dụng công nghệ Intel VT hỗ trợ chức năng Hyper-V",
+      "CPU sử dụng công nghệ AMD-V hỗ trợ chức năng Hyper-V",
+      "Một máy tính chỉ có thể mô phỏng thành 1 máy ảo",
+      "Có thể linh hoạt thay đổi số lượng và cấu hình của máy ảo"
+    ],
+    "options_zh": [
+      "①採用 Intel VT 技術的CPU支援 Hyper-V功能",
+      "②採用 AMD VT 技術的CPU支援 Hyper-V 功能",
+      "③一部電腦僅能模擬成1部虛擬機 器",
+      "④能彈性改變虛擬機器的數量及配置。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "Hyper-V yêu cầu CPU hỗ trợ ảo hóa phần cứng, đó là (1) Intel VT (VT-x) hoặc (2) AMD-V. (4) Hyper-V cho phép tạo, quản lý và thay đổi cấu hình (RAM, CPU, ổ đĩa) của nhiều máy ảo trên một máy chủ vật lý. (3) Một máy chủ có thể chạy nhiều máy ảo đồng thời.",
+    "explanation_zh": "Hyper-V 需要 CPU 支援硬體虛擬化，即 (1) Intel VT (VT-x) 或 (2) AMD-V。(4) Hyper-V 允許在一台實體伺服器上建立、管理和更改多個虛擬機器的設定（RAM、CPU、磁碟）。(3) 一台伺服器可以同時執行多個虛擬機器。"
+  },
+  {
+    "id": "03_186",
+    "section": 3,
+    "question_vi": "Trong môi trường Linux, để tháo (unmount) hoặc đẩy (eject) ổ đĩa quang, có thể sử dụng lệnh nào sau đây?",
+    "question_zh": "在Linux環境中,要卸載或退出光碟機,可使用下列何者命令?",
+    "options_vi": [
+      "umount",
+      "unmount",
+      "reject",
+      "eject"
+    ],
+    "options_zh": [
+      "①umo unt",
+      "② unmount",
+      "③ reject",
+      "④ eject。"
+    ],
+    "answer_indices": [
+      0,
+      3
+    ],
+    "explanation_vi": "Lệnh 'umount' được sử dụng để tháo (unmount) một hệ thống tệp đã được gắn kết (mount), bao gồm cả CD/DVD. Lệnh 'eject' được sử dụng để đẩy khay đĩa quang ra. 'unmount' và 'reject' không phải là lệnh Linux chuẩn cho việc này.",
+    "explanation_zh": "「umount」命令用於卸載已掛載的檔案系統，包括 CD/DVD。「eject」命令用於彈出光碟機托盤。「unmount」和「reject」不是用於此目的的標準 Linux 命令。"
+  },
+  {
+    "id": "03_187",
+    "section": 3,
+    "question_vi": "Trong môi trường Linux, để khởi động lại máy, có thể sử dụng các lệnh nào sau đây?",
+    "question_zh": "在Linux環境中,要重新開機,可使用下列哪些指令?",
+    "options_vi": [
+      "reboot",
+      "shutdown -r",
+      "shutdown -h",
+      "init 6"
+    ],
+    "options_zh": [
+      "① reboot",
+      "② shut down-r",
+      "③shutdown-h",
+      "④init6。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "'reboot', 'shutdown -r now' (hoặc với thời gian trễ), và 'init 6' đều là các lệnh dùng để khởi động lại hệ thống Linux. 'shutdown -h now' dùng để tắt máy (halt).",
+    "explanation_zh": "「reboot」、「shutdown -r now」（或帶有延遲時間）和「init 6」都是用來重新啟動 Linux 系統的命令。「shutdown -h now」用於關機（halt）。"
+  },
+  {
+    "id": "03_188",
+    "section": 3,
+    "question_vi": "Trong môi trường Linux, để truy vấn tình trạng sử dụng ổ đĩa, có thể sử dụng các lệnh nào sau đây?",
+    "question_zh": "在Linux 環境中,要查詢磁碟使用狀況,可使用下列哪些指令?",
+    "options_vi": [
+      "df (disk free)",
+      "du (disk usage)",
+      "dl",
+      "freedisk"
+    ],
+    "options_zh": [
+      "①df",
+      "② du",
+      "③ dl",
+      "④ freedisk"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "Lệnh 'df' (disk free) hiển thị dung lượng trống và đã sử dụng của các hệ thống tệp đã gắn kết. Lệnh 'du' (disk usage) ước tính dung lượng mà các tệp hoặc thư mục đang chiếm dụng. 'dl' và 'freedisk' không phải là lệnh Linux chuẩn.",
+    "explanation_zh": "「df」(disk free) 命令顯示已掛載檔案系統的可用和已用空間。「du」(disk usage) 命令估算檔案或目錄佔用的空間。「dl」和「freedisk」不是標準的 Linux 命令。"
+  },
+  {
+    "id": "03_189",
+    "section": 3,
+    "question_vi": "Trong môi trường Linux, để sao lưu hệ thống Linux hoặc tệp tin, có thể sử dụng các lệnh nào sau đây?",
+    "question_zh": "在Linux環境中,要備份 Linux 系統本身或檔案,可使用下列哪些指 令?",
+    "options_vi": [
+      "tape",
+      "tar (tape archive)",
+      "dump",
+      "cpio (copy in and out)"
+    ],
+    "options_zh": [
+      "① tape",
+      "② tar",
+      "③ dump",
+      "④ cpio."
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "'tar' là công cụ phổ biến để tạo các tệp lưu trữ (archive). 'dump' là tiện ích sao lưu hệ thống tệp truyền thống của Unix/Linux. 'cpio' cũng là một tiện ích sao lưu và lưu trữ khác. 'tape' không phải là một lệnh sao lưu cụ thể.",
+    "explanation_zh": "「tar」是建立存檔檔案的常用工具。「dump」是傳統的 Unix/Linux 檔案系統備份工具。「cpio」是另一種備份和存檔工具。「tape」不是一個具體的備份命令。"
+  },
+  {
+    "id": "03_190",
+    "section": 3,
+    "question_vi": "Trong môi trường Linux, để hiển thị tình trạng sử dụng CPU, có thể sử dụng các lệnh nào sau đây?",
+    "question_zh": "在Linux 環境中,要顯示CPU使用狀況,可使用下列哪些指令?",
+    "options_vi": [
+      "free",
+      "top",
+      "sar (system activity reporter)",
+      "vmstat (virtual memory statistics)"
+    ],
+    "options_zh": [
+      "① fre e",
+      "② top",
+      "③sar",
+      "④ vmstat."
+    ],
+    "answer_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "'top' hiển thị thông tin động về các tiến trình và tài nguyên hệ thống, bao gồm cả CPU. 'sar' (từ gói sysstat) có thể báo cáo chi tiết về hoạt động CPU theo thời gian. 'vmstat' cũng hiển thị thông tin về CPU cùng với bộ nhớ ảo và I/O. Lệnh 'free' chỉ hiển thị thông tin về bộ nhớ (RAM và swap).",
+    "explanation_zh": "「top」動態顯示行程和系統資源資訊，包括 CPU。「sar」（來自 sysstat 套件）可以報告詳細的 CPU 活動歷史。「vmstat」也顯示 CPU 資訊以及虛擬記憶體和 I/O 統計。「free」命令僅顯示記憶體（RAM 和 swap）資訊。"
+  },
+  {
+    "id": "04_067",
+    "section": 4,
+    "question_vi": "Mục đích của an toàn thông tin là duy trì những đặc tính nào của thông tin?",
+    "question_zh": "資訊安全的目的在於維護資訊的哪些特性?",
+    "options_vi": [
+      "Tính bảo mật (Confidentiality)",
+      "Tính toàn vẹn (Integrity)",
+      "Tính sẵn sàng (Availability)",
+      "Tính dễ đọc (Readability)"
+    ],
+    "options_zh": [
+      "①保密性(Confidentiality)",
+      "②完整性(Intigrity)",
+      "③ 可用性(Availability)",
+      "④可讀性(Readability)。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Bộ ba CIA (Confidentiality, Integrity, Availability) là nền tảng của an toàn thông tin. Bảo mật đảm bảo chỉ người có quyền mới truy cập được. Toàn vẹn đảm bảo thông tin không bị thay đổi trái phép. Sẵn sàng đảm bảo thông tin và hệ thống luôn truy cập được khi cần. Tính dễ đọc không phải là mục tiêu cốt lõi của an toàn thông tin.",
+    "explanation_zh": "CIA 三要素（機密性、完整性、可用性）是資訊安全的基礎。機密性確保只有授權人員才能存取。完整性確保資訊不被未經授權修改。可用性確保在需要時可以存取資訊和系統。可讀性不是資訊安全的核心目標。"
+  },
+  {
+    "id": "04_068",
+    "section": 4,
+    "question_vi": "Các loại mối đe dọa an toàn thông tin rất đa dạng, nhưng mục đích tấn công của chúng có thể được phân thành những loại nào?",
+    "question_zh": "資訊安全威脅的種類繁多,但其攻擊目的可以歸類成哪幾種?",
+    "options_vi": [
+      "Với mục đích xâm nhập",
+      "Với mục đích sửa đổi hoặc từ chối (denial)",
+      "Với mục đích làm gián đoạn dịch vụ (DoS)",
+      "Với mục đích đạt được cảm giác thân thuộc"
+    ],
+    "options_zh": [
+      "①以侵入",
+      "②以竄改或否認為目的",
+      "③以阻斷服務為目的",
+      "④以獲得歸屬感為 目的。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Các cuộc tấn công mạng thường nhắm vào việc: (1) Xâm nhập hệ thống để đánh cắp thông tin hoặc kiểm soát; (2) Sửa đổi dữ liệu để gây hại hoặc từ chối trách nhiệm (non-repudiation attack); (3) Gây gián đoạn dịch vụ (Denial of Service) để ngăn người dùng hợp pháp truy cập. Mục đích (4) không liên quan đến an toàn thông tin.",
+    "explanation_zh": "網路攻擊通常旨在：(1) 侵入系統以竊取資訊或取得控制權；(2) 竄改資料以造成損害或進行否認攻擊（non-repudiation attack）；(3) 阻斷服務 (Denial of Service) 以阻止合法使用者存取。目的 (4) 與資訊安全無關。"
+  },
+  {
+    "id": "04_069",
+    "section": 4,
+    "question_vi": "Phương pháp nào sau đây là phương pháp phòng thủ chống lại tấn công SQL Injection?",
+    "question_zh": "下列何者為資料隱碼攻擊(SQL Injection)的防禦方法?",
+    "options_vi": [
+      "Lọc chuỗi ký tự và giới hạn độ dài",
+      "Tăng cường quản lý quyền hạn cơ sở dữ liệu, không kết nối bằng tài khoản quản trị hệ thống",
+      "Ẩn thông báo lỗi do hệ quản trị cơ sở dữ liệu trả về khỏi người dùng, tránh kẻ tấn công có được thông tin hữu ích",
+      "Không đánh dấu chú thích trong mã nguồn"
+    ],
+    "options_zh": [
+      "①對字串過濾並 限制長度",
+      "②加強資料庫權限管理,不以系統管理員帳號連結資料庫",
+      "③ 對使用者隱藏資料庫管理系統回傳的錯誤訊息,以免攻擊者獲得有用資 訊",
+      "④不要在程式碼中標示註解。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Để chống SQL Injection: (1) Cần kiểm tra và làm sạch (sanitize) đầu vào của người dùng, giới hạn độ dài hợp lý. (2) Sử dụng tài khoản CSDL có quyền hạn tối thiểu cần thiết (least privilege). (3) Không hiển thị thông báo lỗi chi tiết của CSDL cho người dùng cuối. (4) Chú thích mã nguồn không liên quan trực tiếp đến việc phòng chống SQL Injection.",
+    "explanation_zh": "防禦 SQL Injection 的方法包括：(1) 對使用者輸入進行驗證和清理（過濾），並限制合理長度。(2) 使用具備最低所需權限的資料庫帳戶（最小權限原則）。(3) 不向最終使用者顯示詳細的資料庫錯誤訊息。(4) 程式碼註解與防禦 SQL Injection 沒有直接關係。"
+  },
+  {
+    "id": "04_070",
+    "section": 4,
+    "question_vi": "Phương pháp nào sau đây là phương pháp bẻ khóa mật khẩu?",
+    "question_zh": "下列何者為通關密碼的破解方法?",
+    "options_vi": [
+      "Tấn công vét cạn (Brute-Force Attack)",
+      "Tấn công từ điển (Dictionary Attack)",
+      "Tấn công bảng cầu vồng (Rainbow Table Attack)",
+      "Tấn công RGB (RGB Attack)"
+    ],
+    "options_zh": [
+      "①窮舉攻擊(Brute-Force Attack)",
+      "②字 典攻擊(Dictionary Attack)",
+      "③彩虹表攻擊(Rainbow Table Attack)",
+      "④RGB 攻擊(RGB Attack)。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "(1) Brute-force thử tất cả các tổ hợp ký tự có thể. (2) Dictionary Attack thử các từ có trong từ điển và các biến thể phổ biến. (3) Rainbow Table sử dụng các bảng tra cứu được tính toán trước để đảo ngược hàm băm mật khẩu. RGB là mô hình màu, không phải phương pháp tấn công mật khẩu.",
+    "explanation_zh": "(1) 窮舉攻擊嘗試所有可能的字元組合。(2) 字典攻擊嘗試字典中的單字及其常見變體。(3) 彩虹表使用預先計算的查找表來反轉密碼雜湊函數。RGB 是一種色彩模型，不是密碼破解方法。"
+  },
+  {
+    "id": "04_071",
+    "section": 4,
+    "question_vi": "Dựa vào quy tắc lọc của tường lửa được hiển thị trong hình dưới đây, phát biểu nào sau đây là đúng?",
+    "question_zh": "依據下圖所示之防火牆過濾規則,下列何者為正確?",
+    "options_vi": [
+      "Từ chối tất cả các gói tin không nằm trong quy tắc",
+      "Cho phép bên ngoài kết nối với tường lửa",
+      "Cho phép truy cập Máy chủ HTTP",
+      "Từ chối truy cập Máy chủ SQL"
+    ],
+    "options_zh": [
+      "①拒絕所有規則之 外的封包",
+      "②允許外部與防火牆連結",
+      "③允許存取HTTP Server",
+      "④ 拒絕存 取 SQL Server。"
+    ],
+    "answer_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation_vi": "Quy tắc cuối cùng là 'Any Any Any Any Deny', nghĩa là (1) từ chối tất cả những gì không được cho phép rõ ràng ở trên. Quy tắc 1 cho phép truy cập HTTP server từ bất kỳ đâu. Quy tắc 3 từ chối kết nối từ bên ngoài đến địa chỉ của tường lửa. Không có quy tắc nào cho phép truy cập SQL Server, nên nó bị quy tắc cuối cùng từ chối (4).",
+    "explanation_zh": "最後一條規則是「任何 任何 任何 任何 拒絕」，表示 (1) 明確拒絕未被前面規則允許的所有封包。規則 1 允許從任何來源存取 HTTP 伺服器 (3)。規則 3 拒絕從外部來源到防火牆位址的連線 (2 錯誤)。沒有規則允許存取 SQL Server，因此它會被最後一條規則拒絕 (4)。"
+  },
+  {
+    "id": "04_072",
+    "section": 4,
+    "question_vi": "Khả năng bảo mật nào sau đây được cung cấp bởi Hệ thống phát hiện và ngăn chặn xâm nhập (IDPS)?",
+    "question_zh": "下列何者為入侵偵測與防禦系統(IDPS)提供之安全能力?",
+    "options_vi": [
+      "Nhận dạng các mối đe dọa bảo mật có thể xảy ra",
+      "Ghi lại thông tin liên quan đến mối đe dọa bảo mật",
+      "Phòng thủ chống lại các mối đe dọa bảo mật",
+      "Thông báo về mối đe dọa bảo mật cho nhân viên quản lý bảo mật"
+    ],
+    "options_zh": [
+      "①識別可能的 安全威脅",
+      "②記錄安全威脅相關資訊",
+      "③防禦安全威脅",
+      "④將安全威脅通報 予安全管理人員。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Một hệ thống IDPS toàn diện thực hiện tất cả các chức năng này: phát hiện (nhận dạng) các hoạt động đáng ngờ, ghi nhật ký (log) các sự kiện, cố gắng ngăn chặn (phòng thủ) các cuộc tấn công (đặc biệt là IPS), và thông báo cho quản trị viên.",
+    "explanation_zh": "一個完整的 IDPS 系統會執行所有這些功能：偵測（識別）可疑活動、記錄事件日誌、嘗試阻止（防禦）攻擊（特別是 IPS），並向管理員發出警報。"
+  },
+  {
+    "id": "04_073",
+    "section": 4,
+    "question_vi": "Loại mảng đĩa (RAID) nào sau đây có chức năng dự phòng (Redundancy)?",
+    "question_zh": "下列何種磁碟陣列(RAID)有冗餘(Redundancy)功能?",
+    "options_vi": [
+      "RAID chắc chắn sẽ có dự phòng",
+      "RAID 0",
+      "RAID 1",
+      "RAID 10"
+    ],
+    "options_zh": [
+      "① RAID一定會有 冗餘",
+      "② RAID 0",
+      "③ RAID 1",
+      "④ RAID 10。"
+    ],
+    "answer_indices": [
+      2,
+      3
+    ],
+    "explanation_vi": "RAID 1 (Mirroring - Phản chiếu) tạo bản sao dữ liệu giống hệt nhau trên hai hoặc nhiều đĩa. RAID 10 (kết hợp RAID 1 và RAID 0) cũng có tính dự phòng do thành phần RAID 1. RAID 0 (Striping - Phân luồng) không có dự phòng, tập trung vào tốc độ. Do đó, (1) là sai.",
+    "explanation_zh": "RAID 1（鏡像）在兩個或多個磁碟上建立完全相同的資料副本。RAID 10（RAID 1 和 RAID 0 的組合）由於其 RAID 1 組件也具有冗餘性。RAID 0（分段）沒有冗餘，主要著重於速度。因此，(1) 是錯誤的。"
+  },
+  {
+    "id": "04_074",
+    "section": 4,
+    "question_vi": "Phương pháp xác thực danh tính nào sau đây dựa trên 'Thứ bạn là' (Something You Are)?",
+    "question_zh": "下列哪些身分認證方法以「所具之形(Something You Are)」為基礎?",
+    "options_vi": [
+      "Thẻ thông minh (Smart Card)",
+      "Đối chiếu vân tay (Fingerprint Matching)",
+      "Đối chiếu võng mạc (Retina Matching)",
+      "Mật khẩu (Password)"
+    ],
+    "options_zh": [
+      "① 智慧卡",
+      "②指紋比對",
+      "③視網膜比對",
+      "④通關密碼。"
+    ],
+    "answer_indices": [
+      1,
+      2
+    ],
+    "explanation_vi": "Xác thực dựa trên 'Thứ bạn là' liên quan đến các đặc điểm sinh trắc học duy nhất của một người. (2) Vân tay và (3) Võng mạc là các ví dụ điển hình. (1) Thẻ thông minh là 'Thứ bạn có' (Something You Have). (4) Mật khẩu là 'Thứ bạn biết' (Something You Know).",
+    "explanation_zh": "基於「您是什麼」(Something You Are) 的身份驗證涉及個人的獨特生物特徵。(2) 指紋和 (3) 視網膜是典型的例子。(1) 智慧卡是「您擁有的東西」(Something You Have)。(4) 密碼是「您知道的東西」(Something You Know)。"
+  },
+  {
+    "id": "04_075",
+    "section": 4,
+    "question_vi": "Việc chia mạng LAN nội bộ của tổ chức thành nhiều Mạng LAN ảo (VLAN) có thể mang lại những lợi ích nào?",
+    "question_zh": "組織內部的區域網路切割為數段虛擬區域網路(VLAN),可得到哪些好 處?",
+    "options_vi": [
+      "Nâng cao hiệu suất mạng",
+      "Không cần dùng tường lửa",
+      "Tăng cường quản lý an toàn thông tin",
+      "Không cần dùng phần mềm chống vi-rút"
+    ],
+    "options_zh": [
+      "①提高網路效能",
+      "②免用防火牆",
+      "③強化資訊安全管理",
+      "④免用防毒軟 體。"
+    ],
+    "answer_indices": [
+      0,
+      2
+    ],
+    "explanation_vi": "VLAN phân chia một mạng vật lý thành nhiều mạng logic riêng biệt. (1) Điều này giúp giảm lưu lượng quảng bá (broadcast traffic) trong mỗi VLAN, từ đó cải thiện hiệu suất. (3) Nó cho phép áp dụng các chính sách bảo mật khác nhau cho từng nhóm người dùng/thiết bị, tăng cường an ninh. VLAN không thay thế được tường lửa (2) hay phần mềm chống vi-rút (4).",
+    "explanation_zh": "VLAN 將一個實體網路分割成多個獨立的邏輯網路。(1) 這有助於減少每個 VLAN 內的廣播流量，從而提高效能。(3) 它允許對不同的使用者/裝置群組應用不同的安全策略，增強安全性。VLAN 不能取代防火牆 (2) 或防毒軟體 (4)。"
+  },
+  {
+    "id": "04_076",
+    "section": 4,
+    "question_vi": "Quyền sở hữu trí tuệ bao gồm những mục nào?",
+    "question_zh": "智慧財產權包括哪些項目?",
+    "options_vi": [
+      "Quyền sử dụng thương hiệu độc quyền",
+      "Quyền sáng chế",
+      "Quyền tác giả",
+      "Quyền riêng tư"
+    ],
+    "options_zh": [
+      "①商標專用權",
+      "②專利權",
+      "③著作權",
+      "④隱私權"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Sở hữu trí tuệ bao gồm các quyền đối với các sáng tạo của trí tuệ, như (1) Thương hiệu (Trademark), (2) Sáng chế (Patent), và (3) Quyền tác giả (Copyright) đối với tác phẩm văn học, nghệ thuật. (4) Quyền riêng tư (Privacy) là một quyền dân sự cơ bản, không thuộc phạm trù sở hữu trí tuệ.",
+    "explanation_zh": "智慧財產權包括對智力創作成果的權利，例如 (1) 商標權、(2) 專利權和 (3) 文學藝術作品的著作權。(4) 隱私權是一項基本民權，不屬於智慧財產權的範疇。"
+  },
+  {
+    "id": "04_077",
+    "section": 4,
+    "question_vi": "Hình thức tấn công xen giữa (Man-in-the-Middle Attack - MitM) phổ biến nào sau đây?",
+    "question_zh": "下列何者為常見的中間人攻擊(Man-in-the-Middle Attack)型式?",
+    "options_vi": [
+      "Tấn công phát lại (Replay Attack)",
+      "Tấn công giả mạo (Spoofing Attack)",
+      "Tấn công cửa hậu (Backdoor Attack)",
+      "Tấn công từ điển (Dictionary Attack)"
+    ],
+    "options_zh": [
+      "①重放 攻擊(Replay Attack)",
+      "②欺騙攻擊(Spoofing Attack)",
+      "③後門攻擊(Backdoor Attack)",
+      "④字典攻擊(Dictionary Attack)。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "Tấn công MitM xảy ra khi kẻ tấn công bí mật chặn và có thể thay đổi giao tiếp giữa hai bên. (1) Replay Attack (ghi lại và gửi lại dữ liệu hợp lệ) và (2) Spoofing (giả mạo địa chỉ IP, ARP, DNS) là các kỹ thuật thường được sử dụng trong tấn công MitM. (3) Backdoor là lối vào bí mật. (4) Dictionary Attack là phương pháp bẻ khóa mật khẩu.",
+    "explanation_zh": "中間人攻擊發生在攻擊者秘密攔截並可能修改雙方通訊時。(1) 重放攻擊（記錄並重新傳送有效資料）和 (2) 欺騙攻擊（偽造 IP 位址、ARP、DNS）是中間人攻擊中常用的技術。(3) 後門是秘密入口。(4) 字典攻擊是一種密碼破解方法。"
+  },
+  {
+    "id": "04_078",
+    "section": 4,
+    "question_vi": "Con đường nào sau đây có thể tạo ra cửa hậu (backdoor) cần thiết cho tấn công cửa hậu (Backdoor Attack)?",
+    "question_zh": "下列何者為後門攻擊(Backdoor Attack)所需之後門的可能產生途徑?",
+    "options_vi": [
+      "Cửa hậu bảo trì (Maintenance Hook) mà nhà phát triển phần mềm quên xóa",
+      "Cửa hậu do kẻ tấn công cài cắm vào",
+      "Phần mềm điều khiển từ xa do quản trị viên cài đặt",
+      "Cửa sau phòng khách do nhà phát triển phần mềm mở"
+    ],
+    "options_zh": [
+      "① 軟體開發者忘記移除的維護後門(Maintenance Hook)",
+      "②攻擊者植入的後 門",
+      "③管理人員安裝的遠端控制軟體",
+      "④軟體開發者打開的客廳後門。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Cửa hậu có thể tồn tại do (1) lỗi hoặc cố ý của nhà phát triển, (2) bị kẻ tấn công cài đặt (thường thông qua malware), hoặc (3) là các công cụ quản trị từ xa hợp pháp nhưng bị lạm dụng. (4) là một lựa chọn không liên quan.",
+    "explanation_zh": "後門可能因為 (1) 開發人員的疏忽或有意為之而存在，(2) 被攻擊者植入（通常透過惡意軟體），或 (3) 是合法但被濫用的遠端管理工具。(4) 是一個無關的選項。"
+  },
+  {
+    "id": "04_079",
+    "section": 4,
+    "question_vi": "Hành động nào sau đây có thể làm giảm tỷ lệ thành công của tấn công đoán mật khẩu (Password Cracking)?",
+    "question_zh": "下列哪些作為可以降低通關密碼猜測攻擊(Password Cracking)的成功 率?",
+    "options_vi": [
+      "Đặt mật khẩu dài hơn",
+      "Chọn mật khẩu ít phổ biến",
+      "Mật khẩu bao gồm cả chữ và số",
+      "Thường xuyên thay đổi mật khẩu"
+    ],
+    "options_zh": [
+      "①設定較長之通關密碼",
+      "②選擇冷門的通關密碼",
+      "③通關密碼夾雜字 母與數字",
+      "④經常更換通關密碼。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Tất cả các biện pháp này đều giúp tăng độ phức tạp và giảm khả năng mật khẩu bị đoán hoặc bẻ khóa: (1) Mật khẩu dài hơn có nhiều tổ hợp hơn. (2) Tránh các mật khẩu phổ biến. (3) Sử dụng nhiều loại ký tự (chữ hoa, chữ thường, số, ký hiệu đặc biệt) làm tăng không gian tìm kiếm. (4) Thay đổi mật khẩu thường xuyên giới hạn thời gian kẻ tấn công có thể thử.",
+    "explanation_zh": "所有這些措施都有助於增加密碼的複雜性並降低被猜測或破解的可能性：(1) 更長的密碼有更多的組合。(2) 避免使用常見密碼。(3) 混合使用不同類型的字元（大寫、小寫、數字、特殊符號）會擴大搜索空間。(4) 定期更換密碼會限制攻擊者的嘗試時間。"
+  },
+  {
+    "id": "04_080",
+    "section": 4,
+    "question_vi": "Phương pháp nào sau đây là phương pháp phát hiện sự kiện bảo mật của Hệ thống phát hiện và ngăn chặn xâm nhập (IDPS)?",
+    "question_zh": "下列何者是入侵偵測與防禦系統(IDPS)的安全事件偵測方法?",
+    "options_vi": [
+      "Đối chiếu đặc điểm (signature) của các cuộc tấn công độc hại",
+      "Phân tích hoạt động mạng bất thường (anomaly)",
+      "Phát hiện trạng thái giao thức bất thường (protocol anomaly)",
+      "Xác nhận quyền hạn của người dùng"
+    ],
+    "options_zh": [
+      "①比對惡 意攻擊的特徵",
+      "②分析異常的網路活動",
+      "③偵測異常的通訊協定狀態",
+      "④確 認使用者的權限。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "IDPS thường sử dụng hai phương pháp chính: (1) Dựa trên dấu hiệu (Signature-based): so sánh lưu lượng mạng với cơ sở dữ liệu các mẫu tấn công đã biết. (2) & (3) Dựa trên sự bất thường (Anomaly-based): xây dựng mô hình hoạt động bình thường và cảnh báo khi có sự sai lệch đáng kể (về lưu lượng, giao thức). (4) Xác nhận quyền hạn là chức năng của hệ thống kiểm soát truy cập, không phải IDPS.",
+    "explanation_zh": "IDPS 通常使用兩種主要偵測方法：(1) 基於特徵碼：將網路流量與已知攻擊模式的資料庫進行比對。(2) & (3) 基於異常：建立正常活動的模型，並在出現顯著偏差（流量、協定狀態）時發出警報。(4) 確認使用者權限是存取控制系統的功能，而非 IDPS。"
+  },
+  {
+    "id": "04_081",
+    "section": 4,
+    "question_vi": "Nguồn gốc nào sau đây có thể gây ra lỗ hổng bảo mật mạng?",
+    "question_zh": "下列何者為網路安全漏洞的可能來源?",
+    "options_vi": [
+      "Lỗi (bug) của phần mềm",
+      "Hành vi không tốt của người dùng (ví dụ: mật khẩu yếu)",
+      "Vấn đề phát sinh do sự kết hợp của nhiều phần mềm/phần cứng",
+      "Khoảng cách giữa tường rào và phòng máy rất lớn"
+    ],
+    "options_zh": [
+      "①軟體的瑕疵",
+      "②使用者的不良",
+      "③多種軟/硬體結合而產生的問題",
+      "④圍牆與機房之間的距離很 大。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "Lỗ hổng bảo mật có thể xuất phát từ (1) lỗi lập trình trong phần mềm, (2) lỗi của con người (cấu hình sai, mật khẩu yếu, bị lừa đảo), hoặc (3) sự tương tác không lường trước giữa các thành phần khác nhau trong hệ thống. (4) Khoảng cách vật lý không trực tiếp tạo ra lỗ hổng bảo mật mạng (mặc dù có thể liên quan đến an ninh vật lý).",
+    "explanation_zh": "安全漏洞可能源自 (1) 軟體中的程式錯誤、(2) 人為疏失（設定錯誤、弱密碼、社交工程）或 (3) 系統中不同元件之間未預期的交互作用。(4) 實體距離本身不會直接產生網路安全漏洞（儘管它可能與實體安全有關）。"
+  },
+  {
+    "id": "04_082",
+    "section": 4,
+    "question_vi": "Biện pháp nào sau đây có thể tăng cường bảo mật cho máy chủ web?",
+    "question_zh": "下列何種作法可以強化網頁伺服器的安全?",
+    "options_vi": [
+      "Máy chủ chỉ cài đặt các mô-đun chức năng cần thiết",
+      "Chặn IP của người dùng không tốt",
+      "Sử dụng tường lửa để chỉ cho phép truy cập từ nội bộ tổ chức",
+      "Tất cả các máy tính của tổ chức đều sử dụng CPU AMD"
+    ],
+    "options_zh": [
+      "①伺服器只安裝必要的功能 模組",
+      "②封鎖不良使用者的IP",
+      "③使用防火牆使其只能於組織內部存取",
+      "④ 組織的所有電腦均使用AMD CPU。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "(1) Giảm bề mặt tấn công bằng cách chỉ cài đặt những gì cần thiết (hardening). (2) Chặn các IP độc hại đã biết. (3) Nếu máy chủ chỉ phục vụ nội bộ, việc giới hạn truy cập bằng tường lửa là một biện pháp bảo mật tốt. (4) Loại CPU không ảnh hưởng trực tiếp đến bảo mật máy chủ web.",
+    "explanation_zh": "(1) 僅安裝必要的功能模組以減少攻擊面（強化）。(2) 封鎖已知的惡意 IP 位址。(3) 如果伺服器僅供內部使用，使用防火牆限制存取是一種良好的安全措施。(4) CPU 類型與網頁伺服器的安全性沒有直接關係。"
+  },
+  {
+    "id": "04_083",
+    "section": 4,
+    "question_vi": "Về mô tả các biện pháp phòng thủ an ninh vật lý, phát biểu nào sau đây là đúng?",
+    "question_zh": "下列關於實體安全防禦措施的說明,何者正確?",
+    "options_vi": [
+      "Trước sự cố, biện pháp phòng thủ an ninh vật lý phải đạt được hiệu quả răn đe, khiến kẻ tấn công nản lòng",
+      "Trong khi sự cố xảy ra, biện pháp phòng thủ an ninh vật lý nên cố gắng trì hoãn hành động của kẻ xâm nhập càng nhiều càng tốt",
+      "Sau khi phát hiện sự kiện xâm nhập, biện pháp phòng thủ an ninh vật lý phải cố gắng ghi lại bằng chứng phạm tội càng nhiều càng tốt, làm cơ sở cho việc điều tra và truy tố sau này",
+      "Trong khi sự cố xảy ra, biện pháp phòng thủ an ninh vật lý phải đạt được hiệu quả răn đe, khiến kẻ tấn công nản lòng"
+    ],
+    "options_zh": [
+      "①在事前,實體安全防 禦措施要達到嚇阻效果,讓攻擊者知難而退",
+      "②在事件發生中,實體安全 防禦措施應能儘量拖延入侵者的行動",
+      "③在偵測到入侵事件後,實體安全 防禦措施須能儘量記錄犯罪證據,以為事後追查與起訴的憑據",
+      "④在事件 發生中,實體安全防禦措施要達到嚇阻效果,讓攻擊者知難而退。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation_vi": "An ninh vật lý bao gồm các lớp phòng thủ: (1) Răn đe (Deterrence) - ngăn chặn ý định ban đầu (ví dụ: hàng rào, biển báo). (2) Trì hoãn (Delay) - làm chậm kẻ xâm nhập (ví dụ: khóa cửa chắc chắn). (3) Phát hiện và Ghi lại (Detection & Recording) - phát hiện xâm nhập và thu thập bằng chứng (ví dụ: camera, cảm biến). (4) Lặp lại ý của (1) nhưng sai thời điểm.",
+    "explanation_zh": "實體安全包含多層防禦：(1) 嚇阻 - 阻止初始意圖（例如圍牆、警告標示）。(2) 延遲 - 減緩入侵者的行動（例如堅固的門鎖）。(3) 偵測與記錄 - 發現入侵並收集證據（例如攝影機、感測器）。(4) 重複了 (1) 的意思，但時間點錯誤。"
+  },
+  {
+    "id": "04_084",
+    "section": 4,
+    "question_vi": "Phương pháp nào sau đây là phương pháp xử lý rủi ro an toàn thông tin có thể xảy ra?",
+    "question_zh": "下列何者是資訊安全風險的可能處置方法?",
+    "options_vi": [
+      "Tránh né rủi ro (Risk Avoidance)",
+      "Giảm thiểu rủi ro (Risk Mitigation/Reduction)",
+      "Chuyển giao rủi ro (Risk Transfer)",
+      "Chấp nhận rủi ro (Risk Acceptance)"
+    ],
+    "options_zh": [
+      "①規避風險",
+      "②降低風險",
+      "③ 轉移風險",
+      "④接受風險。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation_vi": "Có bốn cách chính để xử lý rủi ro: (1) Tránh né (không thực hiện hoạt động gây rủi ro). (2) Giảm thiểu (áp dụng các biện pháp kiểm soát để giảm khả năng hoặc tác động). (3) Chuyển giao (chia sẻ rủi ro với bên thứ ba, ví dụ: bảo hiểm). (4) Chấp nhận (khi chi phí xử lý lớn hơn thiệt hại dự kiến).",
+    "explanation_zh": "處理風險主要有四種方式：(1) 風險規避（不執行導致風險的活動）。(2) 風險降低（採取控制措施以減少可能性或衝擊）。(3) 風險轉移（將風險分擔給第三方，例如保險）。(4) 風險接受（當處理成本大於預期損失時）。"
+  },
+  {
+    "id": "04_085",
+    "section": 4,
+    "question_vi": "Về mô tả tài liệu bốn cấp của ISO 27001 (Hệ thống quản lý an toàn thông tin), phát biểu nào sau đây là đúng?",
+    "question_zh": "關於ISO27001(資訊安全管理系統)之四階段文件的說明,下列何者為正 確?",
+    "options_vi": [
+      "Cấp một là Chính sách an toàn thông tin (Information Security Policy)",
+      "Cấp hai là Tài liệu quy trình (Process Documentation)",
+      "Cấp ba là Biểu mẫu hồ sơ (Record Sheet)",
+      "Cấp bốn là Hướng dẫn công việc (Work Instruction)"
+    ],
+    "options_zh": [
+      "①第一階是資訊安全政策(Information Security Policy)",
+      "②第二階是 程式文件(Process Documentation)",
+      "③第三階是紀錄表單(Record Sheet)",
+      "④ 第四階是作業說明(Work Instruction)。"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "Hệ thống tài liệu ISMS theo ISO 27001 thường có cấu trúc kim tự tháp: Cấp 1 (Policy - Chính sách), Cấp 2 (Procedures/Processes - Quy trình), Cấp 3 (Work Instructions/Guidelines - Hướng dẫn công việc/Chỉ dẫn), và Cấp 4 (Records/Forms - Hồ sơ/Biểu mẫu). Do đó, (1) và (2) đúng mô tả vị trí tương đối. (3) và (4) bị đảo ngược hoặc mô tả chưa chính xác cấp độ.",
+    "explanation_zh": "ISO 27001 的 ISMS 文件結構通常呈現金字塔型：第一階是政策 (Policy)，第二階是程序/流程 (Procedures/Processes)，第三階是工作指導書/指南 (Work Instructions/Guidelines)，第四階是記錄/表單 (Records/Forms)。因此，(1) 和 (2) 的相對位置描述是正確的。(3) 和 (4) 的順序顛倒或層級描述不準確。"
+  },
+  {
+    "id": "04_086",
+    "section": 4,
+    "question_vi": "Yếu tố nào sau đây nằm trong 3 chữ P mà quản lý an toàn thông tin nên cân nhắc?",
+    "question_zh": "下列何者包含於資訊安全管理應該兼顧的3個P之中?",
+    "options_vi": [
+      "People (Con người)",
+      "Process (Quy trình)",
+      "Price (Giá cả)",
+      "Place (Địa điểm)"
+    ],
+    "options_zh": [
+      "① People",
+      "② Proc ess",
+      "③ Price",
+      "④ Place"
+    ],
+    "answer_indices": [
+      0,
+      1
+    ],
+    "explanation_vi": "Mô hình an toàn thông tin thường đề cập đến 3 yếu tố chính cần quản lý cân bằng là People (Con người - nhận thức, đào tạo), Process (Quy trình - chính sách, thủ tục), và Technology (Công nghệ - phần cứng, phần mềm). Price và Place không phải là thành phần cốt lõi của mô hình này.",
+    "explanation_zh": "資訊安全管理模型通常提到需要平衡管理的三個關鍵要素是：人員 (People - 意識、培訓)、流程 (Process - 政策、程序) 和技術 (Technology - 硬體、軟體)。價格 (Price) 和地點 (Place) 不是此模型的核心組成部分。"
+  },
+  {
+    "id": "04_087",
+    "section": 4,
+    "question_vi": "Tường lửa của doanh nghiệp thường nên từ chối các gói tin nào sau đây?",
+    "question_zh": "企業的防火牆通常應該拒絕下列哪些封包?",
+    "options_vi": [
+      "Gói tin telnet đi vào từ bên ngoài",
+      "Gói tin đi vào từ bên ngoài nhưng địa chỉ nguồn được đánh dấu là từ nội bộ",
+      "Gói tin HTTP đi vào từ bên ngoài",
+      "Gói tin đi vào từ bên ngoài và có địa chỉ đích là tường lửa"
+    ],
+    "options_zh": [
+      "①外部進入的telnet 封包",
+      "② 外部進入但位址標示為內部的封包",
+      "③外部進入的HTTP 封包",
+      "④外部進 入且目的位址是防火牆的封包。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "(1) Telnet là giao thức không an toàn, nên chặn từ bên ngoài. (2) Gói tin có địa chỉ nguồn nội bộ nhưng đến từ bên ngoài là dấu hiệu của tấn công giả mạo (spoofing), cần chặn. (4) Truy cập trực tiếp vào tường lửa từ bên ngoài nên bị hạn chế tối đa. (3) Gói tin HTTP thường cần được cho phép để truy cập web server.",
+    "explanation_zh": "(1) Telnet 是不安全的協定，應從外部阻止。(2) 來自外部但來源位址標示為內部的封包是欺騙攻擊的跡象，應阻止。(4) 從外部直接存取防火牆本身應受到嚴格限制。(3) HTTP 封包通常需要允許才能存取網頁伺服器。"
+  },
+  {
+    "id": "04_088",
+    "section": 4,
+    "question_vi": "Nguyên nhân nào sau đây có thể gây ra rò rỉ bộ nhớ (Memory Leak) trong hệ thống máy tính?",
+    "question_zh": "下列哪些是發生電腦系統記憶體滲漏(Memory Leak)的可能肇因?",
+    "options_vi": [
+      "Hệ điều hành có lỗi",
+      "Ứng dụng có lỗi",
+      "Card mạng bị hỏng",
+      "Trình điều khiển (Driver) có lỗi"
+    ],
+    "options_zh": [
+      "①作 業系統有錯誤",
+      "②應用程式有錯誤",
+      "③網路卡故障",
+      "④驅動程式有錯誤。"
+    ],
+    "answer_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation_vi": "Rò rỉ bộ nhớ xảy ra khi một chương trình yêu cầu cấp phát bộ nhớ nhưng không giải phóng nó sau khi sử dụng xong. Lỗi này có thể nằm ở (1) hệ điều hành, (2) ứng dụng người dùng, hoặc (4) trình điều khiển thiết bị. (3) Lỗi phần cứng như card mạng hỏng thường gây ra các vấn đề khác, không trực tiếp gây rò rỉ bộ nhớ theo kiểu lập trình.",
+    "explanation_zh": "記憶體洩漏發生在程式請求分配記憶體但使用完畢後未能釋放時。這個錯誤可能存在於 (1) 作業系統、(2) 使用者應用程式或 (4) 裝置驅動程式中。(3) 硬體故障（如網路卡損壞）通常會導致其他問題，而非直接引起程式設計類型的記憶體洩漏。"
+  },
+  {
+    "id": "04_089",
+    "section": 4,
+    "question_vi": "Có những phương pháp nào để giảm thiểu tình trạng rò rỉ bộ nhớ (Memory Leak) trong hệ thống máy tính?",
+    "question_zh": "減少電腦系統發生記憶體滲漏(Memory Leak)情況的方法有哪些?",
+    "options_vi": [
+      "Sử dụng cơ chế thu gom rác (Garbage Collection)",
+      "Không sử dụng mạng không dây",
+      "Thiết kế chương trình cẩn thận hơn, giải phóng bộ nhớ không còn cần thiết",
+      "Sử dụng tường lửa lọc gói tin"
+    ],
+    "options_zh": [
+      "①使 用垃圾收集(Garbage Collection)機制",
+      "②不要使用無線網路",
+      "③更謹慎地設 計程式,釋放不再需要的記憶體",
+      "④使用封包過濾型防火牆。"
+    ],
+    "answer_indices": [
+      0,
+      2
+    ],
+    "explanation_vi": "(1) Các ngôn ngữ lập trình có Garbage Collection (như Java, C#) tự động quản lý việc giải phóng bộ nhớ, giúp giảm rò rỉ. (3) Trong các ngôn ngữ quản lý bộ nhớ thủ công (như C, C++), lập trình viên phải cẩn thận giải phóng bộ nhớ đã cấp phát. (2) Mạng không dây và (4) tường lửa không liên quan trực tiếp đến việc ngăn chặn rò rỉ bộ nhớ do lỗi lập trình.",
+    "explanation_zh": "(1) 具有垃圾收集機制的程式語言（如 Java, C#）會自動管理記憶體釋放，有助於減少洩漏。(3) 在手動管理記憶體的語言（如 C, C++）中，程式設計師必須仔細釋放已分配的記憶體。(2) 無線網路和 (4) 封包過濾防火牆與防止程式設計錯誤導致的記憶體洩漏沒有直接關係。"
+  }
+]

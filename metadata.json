@@ -1,0 +1,9 @@
+{
+  "name": "On Trac Nghiem",
+  "description": "An interactive quiz application to practice multiple-choice questions on various computer science topics, with detailed explanations for each answer.",
+  "requestFramePermissions": [],
+  "assets": [
+    "quizData.json"
+  ],
+  "majorCapabilities": []
+}
